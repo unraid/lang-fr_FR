@@ -585,13 +585,13 @@ Entrez la plage, à l'intérieur de chaque sous-réseau alloué qui est utilisé
 :docker_include_interface_vlan_ipv6_help:
 Inclure (par défaut) ou exclure les interfaces ou VLANs ci-dessus comme réseaux personnalisés pour Docker.
 
-Entrez la plage, à l'intérieur de chaque sous-réseau alloué qui est utilisé pour des attributions DHCPv6 par Docker. Par exemple. 2a02: ABCD: 9ef5: 100: 1 :: / 72
+Entrez la plage, à l'intérieur de chaque sous-réseau alloué qui est utilisé pour des attributions DHCPv6 par Docker. Par exemple. 2a02:ABCD:9ef5:100:1::/72
 :end
 
 :docker_exclude_interface_vlan_ipv6_help:
 Inclure (par défaut) ou exclure les interfaces ou VLANs ci-dessus comme réseaux personnalisés pour Docker.
 
-Entrez la plage, à l'intérieur de chaque sous-réseau alloué qui est utilisé pour des attributions DHCPv6 par Docker. Par exemple. 2a02: ABCD: 9ef5: 100: 1 :: / 72
+Entrez la plage, à l'intérieur de chaque sous-réseau alloué qui est utilisé pour des attributions DHCPv6 par Docker. Par exemple. 2a02:ABCD:9ef5:100:1::/72
 :end
 
 :docker_version_help:
