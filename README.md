@@ -1,4 +1,5 @@
 # lang-fr_FR
+
 ### READ THIS WHEN YOU WANT TO MAKE TRANSLATIONS TO ANOTHER LANGUAGE
 
 There are fourteen text files included in this repository, each with their own section of translations:
