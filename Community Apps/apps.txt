@@ -323,7 +323,7 @@ Installed Version=Version Installée
 ; Help Text
 This chooses how to sort the results=Cela choisit comment trier les résultats
 These icons respectively will Install or Edit an application=Ces icônes installeront ou modifieront une application
-Clicking these icons will take you to an application's GUI or settings=En cliquant sur ces icônes, vous accéderez à l'interface graphique ou aux paramètres d'une application
+Clicking these icons will take you to an applications GUI or settings=En cliquant sur ces icônes, vous accéderez à l'interface graphique ou aux paramètres d'une application
 This will update an application=Cela mettra à jour une application
 This will take you to the appropriate support thread for an application=Cela vous amènera au fil de support approprié pour une application
 This will immediately switch to the language=Cela passera immédiatement à la langue
