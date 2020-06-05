@@ -6,7 +6,7 @@ Cancel=Annuler
 Happy New Year=Bonne Année
 Happy Holidays from Andrew, Tracey, and family=Joyeuses Fêtes de la part de Andrew, Tracey, et toute la famille
 Please Enjoy Responsibly=S'il vous plaît utiliser de manière responsable
-Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=Popup Bloqué. AC nécessite que les popups soient activés dans certaines circonstances Vous devez lister votre serveur dans votre navigateur pour autoriser les popups
+Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=Popup Bloqué. CA nécessite que les popups soient activés dans certaines circonstances Vous devez lister votre serveur dans votre navigateur pour autoriser les popups
 Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=Service Docker Non-Activé - Seuls les plugins disponibles peuvent être installés ou gérés
 Community Applications works best when cookies are enabled in your browser Certain features may not be available=Les Applications Communautaires fonctionnent mieux lorsque les fichiers témoins (cookies) sont activés dans votre navigateur Certaines fonctionnalités peuvent ne pas être disponibles
 Backup Server Active Some icons may not appear, and plugin installations may be affected=Serveur de sauvegarde actif Certains icônes peuvent ne pas apparaître et les installations de plug-ins peuvent être affectées
@@ -23,13 +23,13 @@ Sort By Date Added=Trier Par Date Ajouté
 Disclaimer=Désistement
 All applications listed here are 3rd party additions to Unraid Neither the authors of Community Applications nor Limetech make any warranty as to the suitability of any application listed here=Toutes les applications répertoriées ici sont des ajouts de tierce-partie à unRaid. Ni les auteurs des applications communautaires ni Limetech ne donnent de garantie quant à la validité de toute application répertoriée ici.
 Every attempt is made to ensure that only safe and compatible applications are present=Tous les efforts sont faits pour s'assurer que seules des applications sûres et compatibles sont présentes
-Application Policy=Politique d'application
+Application Policy=Politique d'Application
 I Understand=Je Comprends
 Installations of apps disabled You must accept the warning to be able to install applications=Installations d'applications désactivées Vous devez accepter l'avertissement pour pouvoir installer des applications
-Click here=Cliquez Ici
+Click here=Cliquez ici
 
 ; Plugin Disclaimer
-Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=Les applications de communauté contiennent à la fois des conteneurs de docker et des applications de plugin. Les plugins sont conçus pour des améliorations du système d'exploitation, et s'exécutent avec des privilèges complets sur votre système et sont clairement identifiés dans AC
+Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=Les applications de communauté contiennent à la fois des conteneurs de docker et des applications de plugin. Les plugins sont conçus pour des améliorations du système d'exploitation, et s'exécutent avec des privilèges complets sur votre système et sont clairement identifiés dans CA
 Plugin Note=Note du Plugin
 
 ; Multi Install
@@ -39,14 +39,14 @@ Install Plugin Applications=Installer les Application de Plugins
 Search=Recherche
 Please enter search term=Veuillez entrer le terme de recherche
 Click Here To Get More Results From DockerHub=Cliquer Ici Pour Obtenir Plus De Résultats De Recherche De Dockerhub
-No Matching Applications Found On Docker Hub=Aucune Application correspondante trouvée sur DockerHub
-No Matching Applications Found=Aucune Application correspondante trouvée
+No Matching Applications Found On Docker Hub=Aucune Application Correspondante Trouvée sur DockerHub
+No Matching Applications Found=Aucune Application Correspondante Trouvée
 
 ; Install Plugin title of openbox
 Install Plugin=Installer Plugin
 
 ; Remove App from previously installed
-Delete Template=Supprimer le modèle
+Delete Template=Supprimer le Modèle
 Yes, delete it=Oui, supprimez la
 
 ; Uninstall popup
@@ -62,20 +62,20 @@ Click to pin this application=Cliquez pour épingler cette application
 Click to unpin this application=Cliquez pour désépingler cette application
 
 ; Branch installations
-Choose A Branch To Install=Choisir la branche a installer
+Choose A Branch To Install=Choisir la Branche a Installer
 
 ; Multiple application installs
 ; no apps selected
-Install Selected Applications=Installer les application épinglées
+Install Selected Applications=Installer les Applications Épinglées
 
 Yes, install it=Oui, Installez La
 
 ; Multi-install popup
 Yes, install them=Oui, Installez les
-Cookies not enabled Plugins must be separately installed from docker applications=Fichiers Témoins (Cookies) non activés Les plugins doivent être installés séparément des applications docker
+Cookies not enabled Plugins must be separately installed from docker applications=Fichiers Témoins (Cookies) non activés. Les Plugins doivent être installés séparément des applications docker
 Docker applications will be installed utilizing the most recently saved template with no user input on your part=Les applications Docker seront installées en utilisant le modèle le plus récemment sauvegardé, sans aucune intervention de votre part
-Updating Support Links=Mise à jour des liens de soutien
-Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=Installation terminée Si le bouton TERMINÉ n'apparaît pas, vous devez cliquer sur le X rouge dans le coin supérieur droit
+Updating Support Links=Mise à jour des Liens de Soutien
+Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=Installation Terminée. Si le bouton TERMINÉ n'apparaît pas, vous devez cliquer sur le X rouge dans le coin supérieur droit
 
 ; error messages
 No data was returned It is probable that another browser session has rebooted your server Reloading this browser tab will probably fix this error=Aucune donnée n'a été renvoyée. Il est probable qu'une autre session de navigateur ait redémarré votre serveur. Le rechargement de cet onglet du navigateur corrigera probablement cette erreur
@@ -119,9 +119,9 @@ Copyright=Droits D'Auteur
 Translation=Traduction
 
 ; Statistics page
-Deprecated Applications are able to still be installed if you have previously had them installed New installations of these applications are blocked unless you enable Display Deprecated Applications within CAs General Settings=Les applications obsolètes peuvent toujours être installées si vous les avez déjà installé. Les nouvelles installations de ces applications sont bloquées à moins que vous n'activiez l'affichage des applications obsolètes dans les paramètres généraux de l'AC
-The following applications are blacklisted CA will never allow you to install or reinstall these applications=Les applications suivantes sont sur la liste noire. AC ne vous permettra jamais d'installer ou de réinstaller ces applications
-While highly not recommended to do, incompatible applications can be installed by enabling Display Incompatible Applications within CAs General Settings=Bien qu'il soit fortement déconseillé de le faire, des applications incompatibles peuvent être installées en activant l'option Afficher les applications incompatibles dans les paramètres généraux des AC
+Deprecated Applications are able to still be installed if you have previously had them installed New installations of these applications are blocked unless you enable Display Deprecated Applications within CAs General Settings=Les Applications Obsolètes peuvent toujours être installées si vous les avez déjà installé. Les nouvelles installations de ces applications sont bloquées à moins que vous n'activiez l'Affichage des Applications Obsolètes dans les Paramètres Généraux du CA
+The following applications are blacklisted CA will never allow you to install or reinstall these applications=Les applications suivantes sont sur la liste noire. CA ne vous permettra jamais d'installer ou de réinstaller ces applications
+While highly not recommended to do, incompatible applications can be installed by enabling Display Incompatible Applications within CAs General Settings=Bien qu'il soit fortement déconseillé de le faire, des applications incompatibles peuvent être installées en activant l'option Afficher les Applications Incompatibles dans les Paramètres Généraux des CA
 This display is informational ONLY=Cet affichage est à titre d'information UNIQUEMENT
 unknown=inconnu
 Last Change To Application Feed=Dernier Changement au Feed d'Applications
@@ -143,18 +143,18 @@ Backup Server=Serveur de Sauvegarde
 Repository List=Liste des Dépots
 All Invalid Templates Found=Tous les Modèles Invalides Trouvés
 Template Errors=Erreurs de Modèle(s)
-All Moderation Entries=Toutes les entrées de Modération
+All Moderation Entries=Toutes les Entrées de Modération
 
 ; Statistics Popup
-No invalid templates found=Aucun Modèle Invalide Trouvé
+No invalid templates found=Aucun modèle invalide trouvé
 These templates are invalid and the application they are referring to is unknown=Ces modèles ne sont pas valides et l'application à laquelle ils font référence est inconnue
-No templates were automatically fixed=Aucun Modèle n'a été automatiquement réparé
-All of these errors found have been fixed automatically=Toutes ce erreurs trouvées ont été automatiquement réparées
+No templates were automatically fixed=Aucun modèle n'a été automatiquement réparé
+All of these errors found have been fixed automatically=Toutes ces erreurs trouvées ont été automatiquement réparées
 Note that many of these errors can be avoided by following the directions=Notez que plusieurs de ces erreurs peuvent être évitées en suivant les instructions
 HERE=ICI
 The following plugins have duplicated filenames and are not able to be installed simultaneously=Les plugins suivants ont des noms de fichiers dupliqués et ne peuvent pas être installés simultanément
 The following docker applications refer to the same docker repository but may have subtle changes in the template to warrant this=Les Applications docker suivantes se réfèrent au même dépôt de docker mais peuvent avoir des changements subtils dans le modèle pour justifier ceci
-If any of these entries are incorrect then contact the moderators of CA to discuss=Si l'une de ces entrées est incorrecte, contactez les modérateurs de l'AC pour discuter
+If any of these entries are incorrect then contact the moderators of CA to discuss=Si l'une de ces entrées est incorrecte, contactez les modérateurs du CA pour discuter
 Global Repository Comments=Commentaires Globaux sur le Dépot
 Applied to all applications=(Appliqué à toutes les Applications)
 Individual Application Moderation=Modération Individuelle des Applications
@@ -217,36 +217,36 @@ NetworkProxy=Réseau:Proxy
 NetworkVOIP=Réseau:VOIP
 NetworkVPN=Réseau:VPN
 NetworkWeb=Réseau:Web
-NetworkOther=Réseau:autre
+NetworkOther=Réseau:Autre
 ToolsSystem=Outils:Système
 ToolsThemes=Outils:Thêmes
 ToolsUtilities=Outils:Utilitaires
 Other=Autres
-OtherUncategorized=Autres:non-catégorisé
+OtherUncategorized=Autres:Non-catégorisé
 and %s more=Et %s de plus
 
 ; App Popup Related
-Donate To Author=Faire un don a l'Auteur
-Donate To Maintainer=Faire un don au mainteneur
+Donate To Author=Faire un Don a l'Auteur
+Donate To Maintainer=Faire un Don au Mainteneur
 Author=Auteur
-Maintainer=Mainteneur
+Maintainer=Responsable
 DockerHub=DockerHub
 Application Template=Modèle d'Application
 Base OS=SE de Base
-DockerHub Stars=Étoiles Dockerhub
-Added to CA=Ajouté a AC
+DockerHub Stars=Étoiles DockerHub
+Added to CA=Ajouté au CA
 Date Updated=Date de mise-à-jour
 Current Version=Version Actuelle
 Minimum OS=SE Minimal
 Max OS=SE Maximum
-Total Downloads=Nombre total de téléchargements
+Total Downloads=Nombre Total de Téléchargements
 Licence=Licence
 30 Day Trend=Tendance sur 30 jours
 Ranked #%s=Coté #%s
 ; as in Trending up or down arrow
 Trending %s=Tendance %s
 ; as in As of some date
-As of %s="(As of %s)"
+As of %s=(Depuis %s)
 This application template has been blacklisted=Cette application ou modèle a été mise sur la liste noire
 This application template has been deprecated=Cette application ou modèle a été dépréciée
 This application is not compatible with your version of unRaid=Cette application n'est pas comptible avec votre version de unRaid
@@ -266,7 +266,7 @@ Currently Installed Version=Version Installée
 Install The Update=Installer la Mise-à-jour
 ; as in you have the latest version already installed
 Latest Version=Dernière Version
-Multi Language Support=Prise en charge multilingue
+Multi Language Support=Prise en charge Multilingue
 ; as in more than 100000
 More than %s=Plus de %s
 
@@ -286,9 +286,9 @@ Docker Application Installation finished=Installation de l'Application Docker te
 Private dockerHub Conversion=Private (dockerHub Conversion)
 Go to the project page=Aller à la page du projet
 Go to the support thread=Aller au fil de soutien
-Uninstall Application=Désinstaller l'application
-Remove Private Application=Retirer l'apllication Privée
-Remove Application From List=Retirer l'application de la liste
+Uninstall Application=Désinstaller l'Application
+Remove Private Application=Retirer l'Apllication Privée
+Remove Application From List=Retirer l'Application de la liste
 Check off to select multiple reinstalls=Décocher pour sélectionner des réinstallations multiples
 Go to the plugin settings=Aller aux paramètres du plugin
 Click to reinstall the application using default values=Cliquez pour réinstaller l'application avec les valeurs par défaut
@@ -305,8 +305,8 @@ Search for more applications from %s=Rechercher pour plus d'applications à part
 Click for more information=Cliquez pour plus d'informations
 
 ; Dockerhub searches
-Search For Containers From %s=Rechercher des conteneurs à partir de %s
-Search for similar containers=Rechercher des conteneurs similaires
+Search For Containers From %s=Rechercher des Conteneurs à partir de %s
+Search for similar containers=Rechercher des Conteneurs similaires
 
 ;Page Navigation
 Displaying %s - %s of %s=Affichage %1$s - %2$s (de %3$s)
@@ -322,7 +322,7 @@ Installed Version=Version Installée
 
 ; Help Text
 This chooses how to sort the results=Cela choisit comment trier les résultats
-These icons respectively will Install or Edit an application=Ces icônes installeront ou modifieront une application
+These icons respectively will Install or Edit an application=Ces icônes Installeront ou Modifieront une application
 Clicking these icons will take you to an applications GUI or settings=En cliquant sur ces icônes, vous accéderez à l'interface graphique ou aux paramètres d'une application
 This will update an application=Cela mettra à jour une application
 This will take you to the appropriate support thread for an application=Cela vous amènera au fil de support approprié pour une application
