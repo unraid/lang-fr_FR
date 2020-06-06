@@ -38,7 +38,7 @@ Extend=Renouveler
 extended=Renouvelé(e)
 Get Trial Key=Obtenir une clé d'évaluation
 Hardware Profile=Profil matériel
-Hide Details=Masquer les détails 
+Hide Details=Masquer les détails
 If you do not receive an email, please check your spam or junk-email folder=Si vous n'avez pas reçu un e-mail, vérifiez votre dossier spam or junk
 Importance=Importance
 Important=Important
@@ -103,7 +103,7 @@ Time=Temps
 To install a registration key, paste the key file URL in the box below and click Install Key=Pour installer une clé d'enregistrement, collez l'URL dans le champ si dessous et cliquez **Installer une Clé**
 to select your language=pour sélectionner votre langue
 To support more storage devices as your server grows, click Upgrade Key below=Pour prendre en charge plus de périphériques de stockage alors que votre serveur s'agrandit, cliquez *Mettre la clé à niveau* si dessous
-Trial key expires on=Clé ***D'évaluation*** expire le 
+Trial key expires on=Clé ***D'évaluation*** expire le
 Trial=Évaluation
 Update OS=Mettre l'OS à jour
 Upgrade Key=Mettre la clé à niveau
@@ -173,7 +173,7 @@ Ceci aidera les autres à avoir un coup d'œil sur les informations de votre sys
 :diagnostics_3_plug:
 En cliquant sur **Télécharger**, nous commencerons la procédure de recueil et aviserons votre navigateur de sauvegarder le fichier zip localement
 
-*Aucune information personnelle telle que les noms d'utilisateurs, mots de passe, ou n'importe quel autre contenu des fichiers non mentionnées au dessus sont inclus par Unraid OS; 
+*Aucune information personnelle telle que les noms d'utilisateurs, mots de passe, ou n'importe quel autre contenu des fichiers non mentionnées au dessus sont inclus par Unraid OS;
 par contre, le nom de votre serveur, l'adresse IP, et les partages d'utilisateur* **seront** *inclus.*
 
 *Prenez note que certains plug-ins tiers **peuvent** conserver certaines informations personnelles dans des fichiers qui sont spécifiques au plug-in et/ou dans la sortie log du système.
@@ -198,7 +198,7 @@ Sélectionnez **TOUS LES DISQUES** lors de l'exécution de cette action unique.
 
 Cet outil est aussi utile pour aider dans la restauration des permissions/possessions par défaut des fichiers ou des répertoires durant la transition de retour d'une intégration Répertoire Actif à Répertoire non-Actif
 
-L'outil lance un processus d'arrière-plan qui passe par chaque disque de données, disque de cache, 
+L'outil lance un processus d'arrière-plan qui passe par chaque disque de données, disque de cache,
 partages d'utilisateur sélectionnés et change la possession de chaque fichier et répertoire à *nobody/users* (i.e., uid/gid to 99/100), et règle les permissions comme suit:
 :end
 
@@ -222,7 +222,7 @@ Prenez note que cet outil peut affecter vos conteneurs docker négativement si v
 :end
 
 :registration_1_plug:
-Votre serveur ne sera pas utilisable tant que vous n'avez pas acheté une clé d'enregistrement ou avez installé une clé *D'évaluation* gratuite de 30-Jours. 
+Votre serveur ne sera pas utilisable tant que vous n'avez pas acheté une clé d'enregistrement ou avez installé une clé *D'évaluation* gratuite de 30-Jours.
 Une clé *D'évaluation* donne accès à toutes les fonctionnalités d'une clé d'enregistrement *Pro*.
 
 
@@ -259,7 +259,7 @@ Pour plus d'informations, Veuillez [Contacter le support](https://lime-technolog
 :end
 
 :registration_6_plug:
-Il semble que votre fichier qui contient la Clé D'enregistrement est corrompue ou manquant. Le fichier de clé devrait être situé dans le répertoire 
+Il semble que votre fichier qui contient la Clé D'enregistrement est corrompue ou manquant. Le fichier de clé devrait être situé dans le répertoire
 [config](/Registration/Browse?dir&#61;/boot/config) sur votre périphérique de démarrage USB.
 
 Si vous n'avez pas une copie de sauvegarde de votre fichier de Clé d'enregistrement, [Contactez le Support](https://lime-technology.com/contact).
@@ -279,17 +279,17 @@ Veuillez copier le bon fichier de Clé d'enregistrement dans le répertoire [con
 sur votre périphérique de démarrage USB. Si vous n'avez pas une copie de sauvegarde de votre fichier de Clé d'enregistrement, [Contactez le Support](https://lime-technology.com/contact).
 
 
-Si vous voulez remplacer votre Clé d'enregistrement avec une nouvelle clé liée à cette mémoire flash USB, cliquez Remplacer La Clé si dessous. Une clé initiale peut être remplacée n'importe quand. 
+Si vous voulez remplacer votre Clé d'enregistrement avec une nouvelle clé liée à cette mémoire flash USB, cliquez Remplacer La Clé si dessous. Une clé initiale peut être remplacée n'importe quand.
 Par la suite, une clé de remplacement peut être remplacée seulement après un an suite au dernier remplacement. Si vous nécessitez une autre clé de remplacement plus tôt, [Contactez le Support](https://lime-technology.com/contact).
 
 **Note:** Le remplacement d'une clé d'enregistrement met le GUID de la mémoire flash USB précédente sur une *liste noir* permanente.
 :end
 
 :registration_9_plug:
-Ce périphérique de démarrage USB a été mis sur la *liste noire*. 
-Cela peut arriver suite à un transfère de votre Clé D'enregistrement à une mémoire flash USB de remplacement, et que vous êtes démarré sur l'ancienne mémoire flash USB. 
+Ce périphérique de démarrage USB a été mis sur la *liste noire*.
+Cela peut arriver suite à un transfère de votre Clé D'enregistrement à une mémoire flash USB de remplacement, et que vous êtes démarré sur l'ancienne mémoire flash USB.
 
-Une mémoire flash USB peut aussi être mise sur la *liste noire* s’il n'y a pas de numéro de série, 
+Une mémoire flash USB peut aussi être mise sur la *liste noire* s’il n'y a pas de numéro de série,
 ou si nous découvrons que le numéro de série n'est pas unique (ceci est commun avec les lecteurs de cartes)
 
 Pour plus d'informations, veuillez [Contacter le Support](https://lime-technology.com/contact).
