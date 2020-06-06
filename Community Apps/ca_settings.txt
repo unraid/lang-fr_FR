@@ -1,4 +1,4 @@
-Hide Deprecated Applications=Cacher les applications obsolètes 
+Hide Deprecated Applications=Cacher les applications obsolètes
 This setting hides deprecated applications from the list of available apps Deprecated apps will still however display within the installed and previous apps sections=Ce paramètre cache les applications obsolètes de la liste des applis disponibles. Cependant les applis obsolètes apparaîtront toujours dans les sections "Applis Installées" et "Applis Précédentes".
 Hide Incompatible Applications=Cacher les applications incompatibles
 This setting will hide applications that are listed as being incompatible with your version of Unraid=Ce paramètre cache les applications listées commme incompatibles avec votre version de Unraid
