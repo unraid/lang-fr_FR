@@ -545,12 +545,12 @@ Sélectionnez les destinations désirées et appuyez sur le bouton **Écrire** p
 :end
 
 :smb_export_help:
-Ce réglace détermine si un dossier partagé est visible et/ou accessible. Le réglage 'Oui (caché)' 
+Ce réglace détermine si un dossier partagé est visible et/ou accessible. Le réglage 'Oui (caché)'
 *cache* le dossier partagé lors de la *navigation* mais celui-ci demeure accessible si vous connaissez son nom.
 :end
 
 :smb_time_machine_volume_help:
-Ceci limite la taille rapportée du volume, empêchant que Time Machine n'utilise la totalité de l'espace disque pour sa 
+Ceci limite la taille rapportée du volume, empêchant que Time Machine n'utilise la totalité de l'espace disque pour sa
 sauvegarde.  Par exemple, sélectionner une valeur de "1024" limitera la taille rapportée du volume à 1Go.
 :end
 
@@ -576,43 +576,43 @@ Le paramètre **automatique** par défaut accepte les clients compatibles avec l
 :smb_security_modes_help:
 Résumé des modes de sécurité:
 
-**Public** Tout les utilisateurs incluant les invités ont un accès total en lecture/écriture.
+**Public** Tous les utilisateurs, incluant les invités, ont accès total en lecture/écriture.
 
-**Sécurisé** Tout les utilisateurs incluant les invités ont un accès en lecture, vous sélectionnez quel(s) utilisateur(s) ont
-un accès en écriture.
+**Sécurisé** Tous les utilisateurs, incluant les invités, ont accès en lecture. Vous sélectionnez les utilisateurs
+qui ont un accès en écriture.
 
-**Privé** Les invitiés n'ont aucun accès, vous sélectionnez quel(s) utilisateur(s) ont un accès total en lecture/écriture
-ou en lecteure seulement.
+**Privé** Les invités n'ont aucun accès, vous sélectionnez les utilisateurs qui ont un accès total en lecture/écriture
+ou en lecture seulement.
 :end
 
 :smb_secure_access_help:
-*Lire les réglages de* est utilisé pour pré-régler les accès SMB utilisateurs du partage sélectionné à partir des réglages d'un partage déjà existant.
+*Lire les réglages de* est utilisé pour configurer les réglages SMB pour l'accès des utilisateurs au dossier partagé sélectionné en se basant sur ceux d'un dossier partagé existant.
 
-Sélectionnez le nom de partage source et appuyez sur le bouton **Lire** pour copier les réglages d'accès SMB utilisateurs de ce partage source.
+Sélectionnez le nom du dossier partagé source et appuyez sur le bouton **Lire** pour copier les réglages SMB pour l'accès de celui-ci.
 
-*Écrire les réglages vers* est utiliser pour copier les réglages d'accès SMB utilisateurs de ce partage vers un ou plusieurs autre(s) partage(s) existant(s).
+*Écrire les paramètres vers* est utilisé pour copier les réglages d'accès SMB des utilisateurs au dossier partagé vers un ou plusieurs autres dossiers partagés.
 
-Sélectionnez la(les) destination(s) et appuyez sur le bouton **Écrire** pour copier les réglages d'accès SMB utilisateurs vers le(s) partage(s) sélectionné(s).
+Sélectionnez les destinations désirées et appuyez sur le bouton **Écrire** pour copier les réglages SMB vers les dossier partagés sélectionnés.
 :end
 
 :smb_private_access_help:
-*Lire les réglages de* est utilisé pour pré-régler les accès SMB utilisateurs du partage sélectionné à partir des réglages d'un partage déjà existant.
+*Lire les réglages de* est utilisé pour configurer les réglages SMB pour l'accès des utilisateurs au dossier partagé sélectionné en se basant sur ceux d'un dossier partagé existant.
 
-Sélectionnez le nom de partage source et appuyez sur le bouton **Lire** pour copier les réglages d'accès SMB utilisateurs de ce partage source.
+Sélectionnez le nom du dossier partagé source et appuyez sur le bouton **Lire** pour copier les réglages SMB pour l'accès de celui-ci.
 
-*Écrire les réglages vers* est utiliser pour copier les réglages d'accès SMB utilisateurs de ce partage vers un ou plusieurs autre(s) partage(s) existant(s).
+*Écrire les paramètres vers* est utilisé pour copier les réglages d'accès SMB des utilisateurs au dossier partagé vers un ou plusieurs autres dossiers partagés.
 
-Sélectionnez la(les) destination(s) et appuyez sur le bouton **Écrire** pour copier les réglages d'accès SMB utilisateurs vers le(s) partage(s) sélectionné(s).
+Sélectionnez les destinations désirées et appuyez sur le bouton **Écrire** pour copier les réglages SMB vers les dossier partagés sélectionnés.
 :end
 
 :nfs_security_help:
-*Lire les réglages de* est utilisé pour pré-régler les accès NFS utilisateurs du partage sélectionné à partir des réglages d'un partage déjà existant.
+*Lire les réglages de* est utilisé pour configurer les réglages de sécurité NFS du dossier partagé sélectionné en se basant sur ceux d'un dossier partagé existant.
 
-Sélectionnez le nom de partage source et appuyez sur le bouton **Lire** pour copier les réglages d'accès NFS utilisateurs de ce partage source.
+Sélectionnez le nom du dossier partagé source et appuyez sur le bouton **Lire** pour copier les réglages de sécurité NFS de celui-ci.
 
-*Écrire les réglages vers* est utiliser pour copier les réglages d'accès NFS utilisateurs de ce partage vers un ou plusieurs autre(s) partage(s) existant(s).
+*Écrire les paramètres vers* est utilisé pour copier les réglages de sécurité NFS de ce dossier partagé vers un ou plusieurs autres dossiers partagés.
 
-Sélectionnez la(les) destination(s) et appuyez sur le bouton **Écrire** pour copier les réglages d'accès NFS utilisateurs vers le(s) partage(s) sélectionné(s).
+Sélectionnez les destinations désirées et appuyez sur le bouton **Écrire** pour copier les réglages de sécurité NFS vers les dossier partagés sélectionnés.
 :end
 
 :user_add_username_help:
