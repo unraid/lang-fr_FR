@@ -8,6 +8,7 @@ Enter URL of remote plugin file or local plugin file=Entrer l'URL d'un fichier d
 ERROR=ERREUR
 Install Plugin=Installer un Plugin
 install=installer
+Install=Installer
 Installed Plugins=Plugins installés
 Installing Update=Installation d'une mise à jour
 need check=vérification nécessaire
