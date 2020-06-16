@@ -167,7 +167,7 @@ Ceci aidera les autres à avoir un coup d'œil sur les informations de votre sys
 + *Rapports SMART*
   <br>sauvegarder un rapport SMART pour chaque disque présent dans votre système.
 + *Docker*
-  <br>sauvegarder les fichiers *docker.log*, *libvirtd.log* et *libvirt/qemu/\*.log*.
+  <br>sauvegarder les fichiers *docker.log*, *libvirtd.log*, *libvirt/qemu/\*.log* et *vfio-pci*.
 :end
 
 :diagnostics_3_plug:
