@@ -52,3 +52,6 @@ Spinning up all drives=Amorcage de tous les disques en cours
 Starting services=Démarrage des services en cours
 Stopping services=Arrêt des services en cours
 Unmounting disks=Démontage des disques en cours
+Autostart disabled=
+Missing encryption key=
+Opening encrypted volumes=
