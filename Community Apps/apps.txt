@@ -319,6 +319,7 @@ Install Language Pack=Installer le Module Linguistique
 Remove Language Pack=Désinstaller le Module Linguistique
 Update Language Pack=Mettre a jour le Module Linguistique
 Installed Version=Version Installée
+A note about translations=
 
 ; Help Text
 This chooses how to sort the results=Cela choisit comment trier les résultats
