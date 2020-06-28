@@ -1,13 +1,13 @@
 Add User=Ajouter un utilisateur
 Add=Ajouter
-Click to select PNG file=
+Click to select PNG file=Cliquer pour sélectionner un fichier PNG
 Custom image=Image personnalisée
-Description=
+Description=Description
 Do not use reserved names=N'utilisez pas de noms réservés
 Drag-n-drop a PNG file or click the image at the left=Glissez-déposez un fichier PNG ou cliquez sur l'image à la gauche
 Edit User=Modifier l'utilisateur
 Invalid user name=Nom d'utilisateur invalide
-Only PNG images are allowed=
+Only PNG images are allowed=Seule les images PNG sont autorisées
 Password too long=Mot de passe trop long
 Password=Mot de passe
 Restore default image=Restaurer l'image par défaut
