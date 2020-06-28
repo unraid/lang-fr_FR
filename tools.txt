@@ -35,7 +35,7 @@ EULA=CLUF
 Event=Événement
 Expiration=Expiration
 Extend=Renouveler
-extended=Renouvelé(e)
+extended=renouvelé(e)
 Get Trial Key=Obtenir une clé d'évaluation
 Hardware Profile=Profil matériel
 Hide Details=Masquer les détails
@@ -45,7 +45,7 @@ Important=Important
 Install=Installer
 Installed languages=Langues installées
 Invalid Trial Installation=Installation *D'évaluation* invalide
-It will collect all of the system hardware information, remove any serial numbers, and securely upload it to LimeTech=Ceci collectionnera toutes les informations de votre système, retirera les numéros de série, et enverra le tout à LimeTech d'une façon sécuritaire
+It will collect all of the system hardware information, remove any serial numbers, and securely upload it to LimeTech=Ceci collectionnera toutes les informations de votre système, retirera les numéros de série, et enverra le tout à LimeTech de façon sécurisée
 Key file URL=URL du fichier de clé
 Language support added=Prise en charge d'une langue ajouté
 Language support deleted=Prise en charge d'une langue supprimé
@@ -90,19 +90,19 @@ Text=Texte
 Thank you for choosing Unraid OS=Merci d'avoir choisi Unraid OS
 Thank you for registering USB Flash GUID=Merci d'avoir enregistré le GUID du disque flash
 Thank you for trying Unraid OS=Merci d’avoir essayé Unraid OS
-The registered GUID does not match the USB Flash boot device GUID=Le GUID enregistré n'est pas le même que le GUID du disque flash
+The registered GUID does not match the USB Flash boot device GUID=Le GUID enregistré n'est pas le même que le GUID du disque flash de démarrage
 There is a physical problem accessing your USB Flash boot device=Un problème est survenu quand nous avons essayé d'accéder votre périphérique de démarrage USB
 this may take several minutes=ceci peut prendre plusieurs minutes
 This release has been withdrawn for use with Trial keys=Cette version a été révoquée et ne peux être utilisé avec des clés *D'évaluation*
-This server has %s attached storage device=Ce serveur a %s périphérique de stockage local
-This server has %s attached storage devices=Ce serveur a %s périphériques de stockage local
+This server has %s attached storage device=Ce serveur a %s périphérique de stockage
+This server has %s attached storage devices=Ce serveur a %s périphériques de stockage
 This utility is used for troubleshooting purposes=Cet outil est utilisé pour le diagnostic de problèmes
 This will delete all notification files=Ceci supprimera tous les fichiers de notifications
 This will update folder file permissions=Ceci mettra à jour les permissions des dossiers & fichiers
 Time=Temps
 To install a registration key, paste the key file URL in the box below and click Install Key=Pour installer une clé d'enregistrement, collez l'URL dans le champ si dessous et cliquez **Installer une Clé**
 to select your language=pour sélectionner votre langue
-To support more storage devices as your server grows, click Upgrade Key below=Pour prendre en charge plus de périphériques de stockage alors que votre serveur s'agrandit, cliquez *Mettre la clé à niveau* si dessous
+To support more storage devices as your server grows, click Upgrade Key below=Pour prendre en charge plus de périphériques de stockage alors que votre serveur s'agrandit, cliquez *Mettre la clé à niveau* ci-dessous
 Trial key expires on=Clé ***D'évaluation*** expire le
 Trial=Évaluation
 Update OS=Mettre l'OS à jour
@@ -124,24 +124,24 @@ Your Trial key has expired=Votre clé *D'évaluation* a expiré
 Your Trial key requires an internet connection=Votre clé *D'évaluation* exige une connexion à l'internet
 
 ; Sysdevs text - added May 18, 2020
-A reboot is required to apply changes=
-ALERT=
-Bind selected to VFIO at Boot=
-CPU Thread Pairings=
-Changes saved=
-Function Level Reset FLR supported=Function Level Reset (FLR) supported
-In use by Unraid=
-Kernel driver in use vfio-pci=Kernel driver in use: vfio-pci
-No changes=
-PCI Devices and IOMMU Groups=
-Reboot to take effect=
-SCSI Devices=
-The below list doesnt not reflect the way IOMMU would naturally group devices=The below list doesn't not reflect the way IOMMU would naturally group devices
-This controller is bound to vfio, connected USB devices are not visible=
-This controller is bound to vfio, connected drives are not visible=
-To see natural IOMMU groups for your hardware, go to the VM Manager page and set the PCIe ACS override setting to Disabled=To see natural IOMMU groups for your hardware, go to the [VM Manager] page and set the **PCIe ACS override** setting to **Disabled**
-USB Devices=
-Your system has booted with the PCIe ACS Override setting enabled=
+A reboot is required to apply changes=Un redémarrage est nécessaire pour appliquer les changements
+ALERT=ALERTE
+Bind selected to VFIO at Boot=Associer la sélection au VFIO au démarrage
+CPU Thread Pairings=Paire CPU Thread
+Changes saved=Modifications sauvegardées
+Function Level Reset FLR supported=Function Level Reset (FLR) supportée
+In use by Unraid=En cours d'utilisation par Unraid
+Kernel driver in use vfio-pci=Pilote noyau en cours d'utilisation: vfio-pci
+No changes=Pas de changements
+PCI Devices and IOMMU Groups=Périphériques PCI et groupes IOMMU
+Reboot to take effect=Redémarrer pour prendre effet
+SCSI Devices=Périphériques SCSI
+The below list doesnt not reflect the way IOMMU would naturally group devices=La liste ci-dessous ne reflète pas la façon dont IOMMU regroupe les périphériques
+This controller is bound to vfio, connected USB devices are not visible=Ce contrôleur est associé au vfio, les périphériques USB ne sont pas visibles
+This controller is bound to vfio, connected drives are not visible=Ce contrôleur est associé au vfio, les disques ne sont pas visibles
+To see natural IOMMU groups for your hardware, go to the VM Manager page and set the PCIe ACS override setting to Disabled=Pour voir les groups IOMMU associés à vos périphériques, aller à la page [Gestionnaire des VM] et **désactiver** **PCIe ACS override** 
+USB Devices=Périphériques USB
+Your system has booted with the PCIe ACS Override setting enabled=Votre système a démarré avec l'option **PCIe ACS Override** activée
 
 
 :diagnostics_1_plug:
@@ -153,9 +153,9 @@ Ceci aidera les autres à avoir un coup d'œil sur les informations de votre sys
 
 :diagnostics_2_plug:
 + */config*
-  <br>copier tous les fichiers *\*.cfg*, le fichier *go* et le fichier *super.dat*. Ils sont les fichiers de configuration.
+  <br>copier tous les fichiers *\*.cfg*, le fichier *go* et le fichier *super.dat*. Ceci sont les fichiers de configuration.
 + */config/shares*
-  <br>copier tous les fichiers *\*.cfg*. Ceci sont les fichiers de configuration pour le partage d'utilisateur
+  <br>copier tous les fichiers *\*.cfg*. Ceci sont les fichiers de configuration pour le partage d'utilisateur.
 + *Fichier(s) syslog*
   <br>copier le fichier *syslog* actuel et n'importe quels fichiers *syslog* précédents.
 + *System*
