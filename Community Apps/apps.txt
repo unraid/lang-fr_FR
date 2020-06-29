@@ -85,6 +85,7 @@ Post the ENTIRE contents of this message in the Community Applications Support T
 Unknown error happened Please post a screenshot in the support thread of the Statistics screen=Une erreur inconnue s'est produite. Veuillez poster une capture d'écran dans le fil de soutien de la page de Statistiques
 Something really wrong happened Reloading the Apps tab will probably fix the problem=Quelque chose s'est vraiment mal passé. Recharger l'onglet d'Applications va probablement régler le problème
 This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=Ce plugin a un nom dupliqué d'un autre plugin %s Cela aura un impact sur votre capacité à installer les deux plugins simultanément
+You have been logged out=
 
 ; CA Sections Keep the length reasonable
 MENU=MENU
@@ -192,7 +193,7 @@ Utilities=Utilitaires
 Private Apps=Applications Privées
 Uncategorized=Non-Catégorisé
 
-; Categories displayed within a popup or on the card
+; Categories displayed within a popup or on the card.  Where an entry exists after the "=" it is not translated, but rather how it should look
 GameServers=Serveurs de Jeux
 HomeAutomation=Domotique
 MediaApp=Appli Média
@@ -318,6 +319,7 @@ Remove Language Pack=Désinstaller le Module Linguistique
 Update Language Pack=Mettre a jour le Module Linguistique
 Installed Version=Version Installée
 A note about translations=
+Click here to view the language changelog=
 
 ; Help Text
 This chooses how to sort the results=Cela choisit comment trier les résultats
