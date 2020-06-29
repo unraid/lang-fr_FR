@@ -220,6 +220,7 @@ Too many attached devices Please consider upgrading your=Trop de disques connect
 Too many wrong andor missing disks=Trop de disques erronés / manquants
 Total size=Taille totale
 Unassign ALL devices to delete this pool=Désassigne TOUS les disques pour supprimer ce pool
+Unassigned Devices=
 unavailable no parity-check entries logged=unavailable (no parity-check entries logged)
 Unavailable - disk must be spun up=Non disponible - le disque doit être démarré
 Unavailable=Indisponible
