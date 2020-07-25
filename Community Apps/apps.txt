@@ -32,6 +32,7 @@ Plugin Note=Note du Plugin
 
 ; Multi Install
 Install Plugin Applications=Installer les Application de Plugins
+Select all on page=
 
 ; Searches
 Search=Recherche
