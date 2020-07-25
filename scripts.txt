@@ -1,5 +1,5 @@
 A new version of %s is available=
-Docker=
-Language=
-Notice %s - Version update %s=
-Plugin=
+Docker=Docker
+Language=Langue
+Notice %s - Version update %s=Notification %s - Màj version %s
+Plugin=Plugin
