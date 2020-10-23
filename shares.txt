@@ -63,3 +63,4 @@ User Shares=Dossiers Partagés
 Volume dbpath=Volume dbpath
 Write=Écriture
 You cannot use the following within share names=Vous ne pouvez pas utiliser ce qui suit dans un nom de dossier partagé
+
