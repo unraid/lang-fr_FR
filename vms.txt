@@ -130,3 +130,8 @@ Wasnt able to stop the process=Incapable d'arrêter le processus
 Windows 7XP=Windows 7/XP
 Windows 82012, newer Linux distros=Windows 8/2012, nouvelles distros Linux
 XML View=Vue XML
+
+; New entries - 2021-03-14
+20 EHCI=2.0 (EHCI)
+30 nec XHCI=3.0 (nec XHCI)
+30 qemu XHCI=3.0 (qemu XHCI)

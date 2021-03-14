@@ -295,3 +295,11 @@ ou si nous découvrons que le numéro de série n'est pas unique (ceci est commu
 
 Pour plus d'informations, veuillez [Contacter le Support](https://lime-technology.com/contact).
 :end
+
+; New entries - 2021-03-14
+Delete all notifications=
+Downloading=
+Install Language=
+please configure=
+Uploaded=
+PCI Devices No IOMMU Groups Available=PCI Devices (No IOMMU Groups Available)
