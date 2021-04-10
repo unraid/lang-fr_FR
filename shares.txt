@@ -66,4 +66,4 @@ You cannot use the following within share names=Vous ne pouvez pas utiliser ce q
 
 
 ; New entries - 2021-03-14
-Array must be Started to view Shares=Array must be **Started** to view Shares
+Array must be Started to view Shares=Array doit être **Démarré** pour voir les Partages

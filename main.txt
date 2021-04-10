@@ -294,24 +294,24 @@ You may not add new disks and also remove existing disks=Vous ne pouvez pas ajou
 your server=votre serveur
 
 ; New entries - 2021-03-14
-completed=
-Erase=
-Erase Device Content=
-Existing content is permanently lost=
-Invalid, missing or expired=
-SMART controller type=
-SMART notification tolerance level=
-SMART self-test in progress=
-This Unraid OS release has been withdrawn and may no longer be used Please=This Unraid OS release has been withdrawn and may no longer be used. Please
-This will ERASE ALL device content=
-This will ERASE content of ALL devices in the pool=
-To confirm your action type %s=To confirm your action type: %s
+completed=complété
+Erase=Effacer
+Erase Device Content=Effacer Contenu du Périphérique
+Existing content is permanently lost=Contenu existant est définitivement perdu
+Invalid, missing or expired=Invalide, absent ou expiré
+SMART controller type=Type de contrôleur SMART
+SMART notification tolerance level=Niveau de tolérance de notification SMART
+SMART self-test in progress=Auto-test SMART en cours
+This Unraid OS release has been withdrawn and may no longer be used Please=Cette version d'Unraid OS a été retirée et ne devrait plus être utilisée. Merci
+This will ERASE ALL device content=Ceci va EFFACER TOUT le contenu du périphérique
+This will ERASE content of ALL devices in the pool=Ceci va EFFACER le contenu de TOUS les périphériques du pool
+To confirm your action type %s=Pour confirmer votre action tapez: %s
 
 ; New entries - 2021-03-14
-auto=
-Click on FLASH above this message=Click on **FLASH** above this message
-Convert to raid1c3 mode=
-Convert to raid1c4 mode=
-Flash device is set as public share=
-Please change share SMB security=
-See %s Settings=
+auto=auto
+Click on FLASH above this message=Cliquez sur **FLASH** au-dessus de ce message
+Convert to raid1c3 mode=Convertir en mode raid1c3
+Convert to raid1c4 mode=Convertir en mode raid1c4
+Flash device is set as public share=Le périphérique Flash est paramétré en tant que partage public
+Please change share SMB security=Veuillez changer la sécurité SMB du partage
+See %s Settings=Voir Paramètres %s
