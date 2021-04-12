@@ -1,6 +1,6 @@
 ; Translation text for the Parity Check Tuning plugin
 
-; Parity Check Settihgs Page
+; Parity Check Settings Page
 automatic=automatique
 Basic=Basique
 below warning disk temperature threshold=Seuil inférieur d'avertissement de température du disque
@@ -17,11 +17,11 @@ Increment pause time=Incrémenter temps de pause
 Increment resume time=Incrémenter temps de reprise
 manual=manuel
 ParityRead-Check History=Parity/Read-Check History=Historique Vérification Parité/Lecture
-Parity Check=Vérification Parité
-Parity Check Tuning logging=Journalisation Réglages Vérification Parité 
+Parity Check=Vérification de Parité
+Parity Check Tuning logging=Journalisation Réglages de Vérification de Parité 
 Parity Sync=Synchronisation Parité
 Pause an array operation at=Mettre en pause l'opération sur l'array à
-Pause and Resume array operations if disks overheat=Mettre en pause et continuer les opérations sur l'array en fonction dela température des disques
+Pause and Resume array operations if disks overheat=Mettre en pause et continuer les opérations sur l'array en fonction de la température des disques
 Read Check=Vérification en Lecture
 Requires Unraid 67 or later=Requires Unraid 6.7 or later=Unraid 6.7 ou supérieur requis
 Resume an array operation at=Reprendre une opération sur l'array
@@ -42,71 +42,71 @@ Your Unraid release is too old to use this option=Votre version d'Unraid est tro
 
 ; Parity Problems Assistant page
 
-The Parity Problems Assistant is part of the Parity Check Tuning plugin=The **Parity Problems Assistant** is part of the **Parity Check Tuning** plugin= 
-The current status is EXPERIMENTAL and it is always possible that this assistant may be removed in the future=The current status is **EXPERIMENTAL** and it is always possible that this assistant may be removed in the future  
-feedback is welcomed on the basic concept and ideas for improvement=
-This assistant is intended to help pin down and resolve problems after a parity check has been run and errors have been reported=
-The idea is that this assistant can be used after a parity check or read check has reported problems and logged the details of any problem sectors to the syslog=
-In many cases such errors can be due to external factors such as cabling or the power supply rather than the actual disks=   
-If you think you have rectified whatever caused the problems to occur then you can use this assistant to run a partial check over a narrow range to see if the problem still occurs=
-This can be much faster than having to run a full parity check or read check to see if you have resolved the issue or to run a disk extended SMART test to test the actual disk= 
-This assistant should never be used as an alternative to running a full parity check once you think the problem has been resolved=
-End point for check=
-Method used to specify start and stop points=
-Percentage=
-Sector Numbers=
-Start Check=
-Start point for check=
-Write Corrections to Parity=
+The Parity Problems Assistant is part of the Parity Check Tuning plugin=The **Parity Problems Assistant** is part of the **Parity Check Tuning** plugin=L'** Assistant des Problèmes de Parité** fait partie du plugin **Réglages de Vérification de Parité**
+The current status is EXPERIMENTAL and it is always possible that this assistant may be removed in the future=The current status is **EXPERIMENTAL** and it is always possible that this assistant may be removed in the future=L'état actuel est **EXPÉRIMENTAL** et il est toujours possible que cet assistant soit supprimé lors de futures versions  
+feedback is welcomed on the basic concept and ideas for improvement=Un retours d'expérience est souhaité à propos du concept et d'idées pour d'éventuelles améliorations
+This assistant is intended to help pin down and resolve problems after a parity check has been run and errors have been reported=Cet assistant est conçu pour apporter de l'aide lorsqu'une opération de vérification en lecture / parité a signalé des problèmes 
+The idea is that this assistant can be used after a parity check or read check has reported problems and logged the details of any problem sectors to the syslog=Le principe est que cet assistant peut-être utilisé après un signalement de problèmes lors d'une vérification en lecture / parité et que les détails de chaque erreur de secteurs aient été consignées dans le syslog
+In many cases such errors can be due to external factors such as cabling or the power supply rather than the actual disks=Dans la plupart des cas de telles erreurs sont dues à des facteurs externes tels que des câbles ou une alimentation défectueuse plutôt que les disques eux-mêmes  
+If you think you have rectified whatever caused the problems to occur then you can use this assistant to run a partial check over a narrow range to see if the problem still occurs=Si vous pensez que vous avez réparé la cause des erreurs vous pouvez utiliser cet assistant pour vérifier sur une petite étendue du disque si le problème est toujours présent
+This can be much faster than having to run a full parity check or read check to see if you have resolved the issue or to run a disk extended SMART test to test the actual disk=Ceci peut-être beaucoup plus rapide qu'une vérification complète de la parité ou qu'un test SMART étendu sur le disque incriminé afin de vérifier une éventuelle résolution du problème 
+This assistant should never be used as an alternative to running a full parity check once you think the problem has been resolved=Cet assistant ne doit jamais être utilisé en tant qu'alternative à une vérification complète de la parité une fois que vous pensez que le problème a été résolu
+End point for check=Point d'arrêt pour la vérification
+Method used to specify start and stop points=Méthode utilisée pour spécifier les points de départ et d'arrêt
+Percentage=Pourcentage
+Sector Numbers=Nombre de Secteurs
+Start Check=Début de Vérification
+Start point for check=Point de départ pour la vérification
+Write Corrections to Parity=écrire les Corrections de Parité
 
 
 ; PHP file messages
-Array being shutdown due to drive overheating=
-Array operation will not be restarted=
-Array operation restarted=
-Array shutdown=
-Correcting=
-Detected a change to the disk configuration=
-Drives cooled down=
-Elapsed Time=
-Following drives overheated=
-IMPORTANT=
-Increments=
-Non-Correcting=
-Sent notification=
-Shutdown=
-Starting Shutdown=
-Unclean shutdown detected=
-Unknown action=
+Array being shutdown due to drive overheating=Array arrêtée pour cause de surchauffe de disque
+Array operation will not be restarted=L'opération sur l'array ne reprendra pas 
+Array operation restarted=Reprise de l'opération sur l'array 
+Array shutdown=Arrêt de l'array
+Correcting=Correction
+Detected a change to the disk configuration=Détection d'une modification de la configuration des disques
+Drives cooled down=Retour à une température disque normale
+Elapsed Time=Temps Écoulé
+Following drives overheated=Surchauffe des disques suivants
+IMPORTANT=IMPORTANT
+Increments=Incréments
+Non-Correcting=Non-Correction
+Sent notification=Notification Envoyée
+Shutdown=Arrêt
+Starting Shutdown=Arrêt en cours
+Unclean shutdown detected=Arrêt incorrect détecté
+Unknown action=Action inconnue
 
 ; Notifications
-aborted due to Unclean shutdown=
-array stopping so progress will be lost=
-Automatic Unraid parity check will be started=
-Average Speed=
-completed=
-Correcting Parity Check=
-Drives cooled down=
-errors=
-finished=
-Increments=
-NonCorrecting Parity Check=Non-Correcting Parity Check
-Pause=
-Paused=
-Resume=
-Resumed=
-Runtime=
-Scheduled pause=
+aborted due to Unclean shutdown=Annulé du à un arrêt Incorrect
+array stopping so progress will be lost=Array en cours d'arrêt, la progression sera perdue
+Automatic Unraid parity check will be started=La vérification automatique de la parité d'Unraid va démarrer
+Average Speed=Vitesse Moyenne
+completed=Complété
+Correcting Parity Check=Correction et Vérification de Parité
+Drives cooled down=Retour à une température disque normale
+errors=erreurs
+finished=finis
+Increments=Incréments
+NonCorrecting Parity Check=Non-Correcting Parity Check=Non-Correction de la Parité
+Pause=Pause
+Paused=En pause
+Resume=Continuer
+Resumed=Reprise
+Runtime=Durée
+Scheduled pause=Pause planifiée
 
 
 ; Swal warnings
 
-A crontab entry should have 5 space-separated values defining the minutes, hour, day of the month, month, day of the week=
-At the moment there is no mechanism to stop this file from growing forever so it is up to you to manage this manually=
-Are you sure you have not got these the wrong way around=
-Before you can set this option to Yes you must first have enabled system notifications=
-Click on the crontab link to get more details on valid formats=
-Debug mode can generate frequent additional log entries in the syslog file so do not leave debug mode active if you are not interested in this information=
+A crontab entry should have 5 space-separated values defining the minutes, hour, day of the month, month, day of the week=Une entrée crontab doit contenir 5 valeurs séparées par des espaces définissant les minutes, heures, jour du mois, mois, jour de la semaine 
+At the moment there is no mechanism to stop this file from growing forever so it is up to you to manage this manually=Pour le moment il n'y a aucun mécanisme pour contrôler la taille de ce fichier, vous devez le gérer manuellement 
+Are you sure you have not got these the wrong way around=Êtes vous sûrs​ de procéder d'une manière correcte
+Before you can set this option to Yes you must first have enabled system notifications=Avant de pouvoir utiliser cette option vous devez avoir activé les notifications système
+Click on the crontab link to get more details on valid formats=Cliquez sur le lien crontab pour obtenir plus de détails sur les formats valides
+Debug mode can generate frequent additional log entries in the syslog file so do not leave debug mode active if you are not interested in this information=Le mode Débug peut générer de nombreuses entrées additionnelles dans le syslog, n'activez pas le mode débug si vous n'avez pas besoin de ces informations
 Debug mode is intended to give users a feel for when the plugin is active=   
 Do not leave this active if you are not interested in this information=
 Do you really want Debug logging mode=
