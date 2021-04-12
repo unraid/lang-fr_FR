@@ -297,15 +297,15 @@ Pour plus d'informations, veuillez [Contacter le Support](https://lime-technolog
 :end
 
 ; New entries - 2021-03-14
-Delete all notifications=
-Downloading=
-Install Language=
-please configure=
-Uploaded=
-PCI Devices No IOMMU Groups Available=PCI Devices (No IOMMU Groups Available)
+Delete all notifications=Effacer toutes les notifications
+Downloading=Téléchargement
+Install Language=Installer Langue
+please configure=Veuillez configurer
+Uploaded=Téléversé
+PCI Devices No IOMMU Groups Available=PCI Devices (Pas de Groupes IOMMU Disponibles)
 
 ; New entries - 2021-03-14
-Array slots=
-Pool slots=
-VFIO-PCI Log=
-View VFIO-PCI Log=
+Array slots=Emplacements d'Array
+Pool slots=Emplacements de Pool
+VFIO-PCI Log=Log VFIO-PCI
+View VFIO-PCI Log=Voir Log VFIO-PCI
