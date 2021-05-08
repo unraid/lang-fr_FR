@@ -3,7 +3,7 @@ All files encrypted=Tous les fichiers chiffrés
 All files protected=Tous les fichiers protégés
 All files unprotected=Tous les fichiers non-protégés
 Allocation method=Méthode d'allocation
-Array must be **Started** to view Shares=L'Array doit être **Démarré** pour voir les dossiers partagés
+Array must be Started to view Shares=L'Array doit être **Démarré** pour voir les dossiers partagés
 Automatically split any directory as required=Au besoin, diviser automatiquement les répertoires
 Automatically split only the top five directory levels as required=Au besoin, diviser automatiquement les 5 premiers niveaux dans l'arborescence des répertoires
 Automatically split only the top four directory levels as required=Au besoin, diviser automatiquement les 4 premiers niveaux dans l'arborescence des répertoires
@@ -63,7 +63,3 @@ User Shares=Dossiers Partagés
 Volume dbpath=Volume dbpath
 Write=Écriture
 You cannot use the following within share names=Vous ne pouvez pas utiliser ce qui suit dans un nom de dossier partagé
-
-
-; New entries - 2021-03-14
-Array must be Started to view Shares=Array doit être **Démarré** pour voir les Partages

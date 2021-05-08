@@ -296,16 +296,14 @@ ou si nous découvrons que le numéro de série n'est pas unique (ceci est commu
 Pour plus d'informations, veuillez [Contacter le Support](https://lime-technology.com/contact).
 :end
 
-; New entries - 2021-03-14
+; New entries (10) - 2021-03-14
+Array slots=Emplacements d'Array
 Delete all notifications=Effacer toutes les notifications
 Downloading=Téléchargement
 Install Language=Installer Langue
-please configure=Veuillez configurer
-Uploaded=Téléversé
 PCI Devices No IOMMU Groups Available=PCI Devices (Pas de Groupes IOMMU Disponibles)
-
-; New entries - 2021-03-14
-Array slots=Emplacements d'Array
+please configure=Veuillez configurer
 Pool slots=Emplacements de Pool
+Uploaded=Téléversé
 VFIO-PCI Log=Log VFIO-PCI
 View VFIO-PCI Log=Voir Log VFIO-PCI

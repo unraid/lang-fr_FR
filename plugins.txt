@@ -28,5 +28,5 @@ Update All Plugins=Mettre à jour tous les plugins
 Upgrade=Mettre à niveau
 View Release Notes=Voir les notes de version
 
-; New entries - 2021-03-14
+; New entries (1) - 2021-03-14
 No plugins installed=Pas de plugins installés

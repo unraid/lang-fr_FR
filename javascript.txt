@@ -55,3 +55,10 @@ Unmounting disks=Démontage des disques en cours
 Autostart disabled=Démarrage automatique désactivé
 Missing encryption key=Clé de cryptage manquante
 Opening encrypted volumes=Ouvertue des volumes encryptés
+
+; New entries (5) - 2021-05-08
+Container Path=
+Container Port=
+Container Variable=
+Container Label=
+Container Device=

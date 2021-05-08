@@ -129,10 +129,8 @@ Web=Web
 WebUI=Interface Web
 Writable=Accessible en écriture
 
-; New entries - 2021-03-14
+; New entries (4) - 2021-03-14
 Drivers=Pilotes
 Reset sorting=Réinitialiser le tri
 Start Container After Install=Démarrer Container Après Installation
-
-; New entries - 2021-03-14
 Total size=Taille totale

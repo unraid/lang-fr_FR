@@ -293,12 +293,19 @@ xfs_repair status=status xfs_repair
 You may not add new disks and also remove existing disks=Vous ne pouvez pas ajouter de nouveaux disques ou supprimer des disques existants
 your server=votre serveur
 
-; New entries - 2021-03-14
+; New entries (19) - 2021-03-14
+auto=auto
+Click on FLASH above this message=Cliquez sur **FLASH** au-dessus de ce message
 completed=complété
+Convert to raid1c3 mode=Convertir en mode raid1c3
+Convert to raid1c4 mode=Convertir en mode raid1c4
 Erase=Effacer
 Erase Device Content=Effacer Contenu du Périphérique
 Existing content is permanently lost=Contenu existant est définitivement perdu
+Flash device is set as public share=Le périphérique Flash est paramétré en tant que partage public
 Invalid, missing or expired=Invalide, absent ou expiré
+Please change share SMB security=Veuillez changer la sécurité SMB du partage
+See %s Settings=Voir Paramètres %s
 SMART controller type=Type de contrôleur SMART
 SMART notification tolerance level=Niveau de tolérance de notification SMART
 SMART self-test in progress=Auto-test SMART en cours
@@ -306,12 +313,3 @@ This Unraid OS release has been withdrawn and may no longer be used Please=Cette
 This will ERASE ALL device content=Ceci va EFFACER TOUT le contenu du périphérique
 This will ERASE content of ALL devices in the pool=Ceci va EFFACER le contenu de TOUS les périphériques du pool
 To confirm your action type %s=Pour confirmer votre action tapez: %s
-
-; New entries - 2021-03-14
-auto=auto
-Click on FLASH above this message=Cliquez sur **FLASH** au-dessus de ce message
-Convert to raid1c3 mode=Convertir en mode raid1c3
-Convert to raid1c4 mode=Convertir en mode raid1c4
-Flash device is set as public share=Le périphérique Flash est paramétré en tant que partage public
-Please change share SMB security=Veuillez changer la sécurité SMB du partage
-See %s Settings=Voir Paramètres %s
