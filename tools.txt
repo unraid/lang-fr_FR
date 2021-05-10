@@ -308,7 +308,6 @@ Uploaded=Téléversé
 VFIO-PCI Log=Log VFIO-PCI
 View VFIO-PCI Log=Voir Log VFIO-PCI
 
-; New entries (3) - 2021-05-10
-Beta=
+; New entries (2) - 2021-05-10
 Next=
 Stable=
