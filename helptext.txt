@@ -374,7 +374,6 @@ si aucun suffixe, un bloc de 1024 octets est établi par défaut.
 **Modes Spéciaux:**
 
 + Mode de sécurité SMB affiché en *italique* indique une exportation de partage utilisateur caché.
-+ Mode de sécurité AFP affiché en *italique* indique une exportation d'un partage utilisateur de type Time Machine.
 + NFS n'a aucun mode spécial pour les partages d'utilisateurs.
 :end
 
@@ -395,7 +394,6 @@ si aucun suffixe, un bloc de 1024 octets est établi par défaut.
 **Special modes:**
 
 + Mode de sécurité SMB affiché en *italique* indique une exportation de partage de disque caché.
-+ Mode de sécurité AFP affiché en italique indique une exportation d'un partage de disque de type Time Machine.
 + NFS n'a aucun mode spécial pour les partages de disques.
 :end
 
