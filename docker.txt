@@ -134,3 +134,6 @@ Drivers=Pilotes
 Reset sorting=Réinitialiser le tri
 Start Container After Install=Démarrer Container Après Installation
 Total size=Taille totale
+
+; New entries (1) - 2021-06-12
+Crypto Currency=
