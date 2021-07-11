@@ -313,3 +313,8 @@ This Unraid OS release has been withdrawn and may no longer be used Please=Cette
 This will ERASE ALL device content=Ceci va EFFACER TOUT le contenu du périphérique
 This will ERASE content of ALL devices in the pool=Ceci va EFFACER le contenu de TOUS les périphériques du pool
 To confirm your action type %s=Pour confirmer votre action tapez: %s
+
+; New entries (3) - 2021-07-11
+enter disk index and device name as applicable to your controller=
+next device=
+previous device=
