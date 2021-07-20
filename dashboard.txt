@@ -103,22 +103,22 @@ View Running Processes=Voir les processus en cours d'exécution
 Virtual Machines=Machines Virtuelles
 
 ; New entries (1) - 2021-03-14
-Temp=Température
+Temp=Temp
 
 ; New entries (2) - 2021-05-08
-%s ago=
-Only PNG images are allowed=Only PNG images are allowed!
+%s ago=il y a %s
+Only PNG images are allowed=Seules les images PNG sont autorisées !
 
 ; New entries (1) - 2021-05-15
-SMART health-check failed=
+SMART health-check failed=Échec du contrôle de santé SMART
 
 ; New entries (2) - 2021-05-20
-Click to toggle CPU chart=
-Network traffic=
+Click to toggle CPU chart=Cliquez pour basculer le graphique CPU
+Network traffic=Trafic réseau
 
 ; New entries (5) - 2021-05-31
-10 s=
-30 s=
-1 m=
-2 m=
-Select time frame=
+10 s=10 s
+30 s=30 s
+1 m=1 m
+2 m=2 m
+Select time frame=Sélectionner la fréquence
