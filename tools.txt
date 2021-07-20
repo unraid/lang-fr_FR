@@ -309,8 +309,8 @@ VFIO-PCI Log=Log VFIO-PCI
 View VFIO-PCI Log=Voir Log VFIO-PCI
 
 ; New entries (2) - 2021-05-10
-Next=
-Stable=
+Next=Suivante
+Stable=Stable
 
 ; New entries (1) - 2021-05-20
-Beta=
+Beta=Béta

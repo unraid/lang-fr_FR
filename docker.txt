@@ -22,9 +22,9 @@ Configuration not found=Configuration introuvable
 Connection Type=Type de connexion
 Console shell command=Terminal de commande
 Container ID=ID du Conteneur
-Container Path=Chemin d'accès du Conteneur
-Container Port=Port du Conteneur
-Container Size=Taille du Conteneur
+Container Path=Chemin d'accès Conteneur
+Container Port=Port Conteneur
+Container Size=Taille Conteneur
 Container=Conteneur
 CPU Memory load=Charge mémoire CPU
 CPU Pinning=Assignation CPU
@@ -136,4 +136,4 @@ Start Container After Install=Démarrer Container Après Installation
 Total size=Taille totale
 
 ; New entries (1) - 2021-06-12
-Crypto Currency=
+Crypto Currency=Crypto Monnaie

@@ -586,13 +586,13 @@ VM manager=Gestionnaire de VM
 xfs vDisk=vDisk xfs
 
 ; New entries (114) - 2021-05-08
-%s ago=
-%s is out of range minimum 1 maximum 65535=%s is out of range (minimum 1 maximum 65535)
-Add Peer=
-Add Tunnel=
-Advanced=
-Allow=
-automatic=
+%s ago=il y a %s
+%s is out of range minimum 1 maximum 65535=%s est hors limites (minimum 1 maximum 65535)
+Add Peer=Ajouter un pair
+Add Tunnel=Ajouter un tunnel
+Advanced=Avancé
+Allow=Autoriser
+automatic=automatique
 Autostart=
 Basic=
 CIDR optional=
@@ -701,7 +701,7 @@ VPN tunneled access=
 WireGuard Configuration=
 
 ; New entries (2) - 2021-05-31
-Set password=
+Set password=Définir le mot de passe
 User root=User 'root'
 
 ; New entries (2) - 2021-06-12
