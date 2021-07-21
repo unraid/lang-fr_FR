@@ -392,12 +392,12 @@ This will start the array=Ceci démarrera le Array
 This will stop the array=Ceci arrêtera le Array
 
 ; DateTime
-year=an
+year=année
 years=années
 month=mois
 months=mois
-day=journée
-days=journées
+day=jour
+days=jours
 hour=heure
 hours=heures
 minute=minute
@@ -658,10 +658,10 @@ Username not changeable=
 Your browser has JavaScript disabled=
 
 ; New entries (1) - 2021-06-12
-Docs=
+Docs=Docs
 
 ; New entries (1) - 2021-06-12
-Username=
+Username=Nom d'utilisateur
 
 ; My Servers Wan IP Check - 2021-06-30
 Remark your WAN IPv4 is %s=Remark: your WAN IPv4 is **%s**
