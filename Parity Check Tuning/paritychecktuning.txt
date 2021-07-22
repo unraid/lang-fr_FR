@@ -9,7 +9,7 @@ Click to show parity-check history=Cliquez pour afficher l'historique de vérifi
 Data Rebuild=Reconstruction des Données
 Debug=Débug
 Disk Clear=Effacer Disque
-Donate to plugin author=FAIRE UN DON
+Donate to plugin author=Faire un don à l'auteur du plugin
 entry in %s format=entrée au format %s
 High disk temperatures can shutdown server=Une température élevée pour les disques peut entraîner l'arrêt du serveur
 Increment frequency=Incrémenter fréquence
@@ -32,7 +32,7 @@ scheduled=planifié
 Send notifications for Pause or Resume of increments=Envoyer notifications lors de Pause ou Reprise des increments
 Send notifications for temperature related Pause or Resume=Envoyer notifications lors de Pause ou Reprise en fonction de la température
 Shutdown server at=Éteindre le serveur à
-Testing=Test
+Testing=Tester
 Unscheduled=Non plannifié
 Use increments for %s %s=Utiliser incréments pour %s %s
 Use increments for disk Clear operations=Utiliser incréments pour les opérations d'effacement du disque
@@ -107,12 +107,12 @@ Are you sure you have not got these the wrong way around=Êtes vous sûrs​ de 
 Before you can set this option to Yes you must first have enabled system notifications=Avant de pouvoir utiliser cette option vous devez avoir activé les notifications système
 Click on the crontab link to get more details on valid formats=Cliquez sur le lien crontab pour obtenir plus de détails sur les formats valides
 Debug mode can generate frequent additional log entries in the syslog file so do not leave debug mode active if you are not interested in this information=Le mode Débug peut générer de nombreuses entrées additionnelles dans le syslog, n'activez pas le mode débug si vous n'avez pas besoin de ces informations
-Debug mode is intended to give users a feel for when the plugin is active=   
-Do not leave this active if you are not interested in this information=
-Do you really want Debug logging mode=
-Do you really want Testing logging mode=
-Do you really want to log to the flash drive=
-Do you really want this=
+Debug mode is intended to give users a feel for when the plugin is active=Le mode de débogage est destiné à donner aux utilisateurs une idée du moment où le plugin est actif
+Do not leave this active if you are not interested in this information=Ne laissez pas cette option active si vous n'êtes pas intéressé par cette information
+Do you really want Debug logging mode=Voulez-vous vraiment le mode de journalisation de débogage
+Do you really want Testing logging mode=Voulez-vous vraiment tester le mode de journalisation
+Do you really want to log to the flash drive=Voulez-vous vraiment vous connecter au lecteur flash
+Do you really want this=Veux-tu vraiment ça
 Error in custom entry=
 extra time that will elapse before the system is once again in a protected state=
 Logging to the flash drive can can cause a lot additional writes thus potentially shortening its lifetime)
@@ -182,20 +182,20 @@ Resume request=
 so no further action to take=
 Temperature monitoring switched off=
 Unscheduled array operation in progress=
-using scheduled mode of %s=
-warm=
-with all drives below temperature threshold for a Pause=
+using scheduled mode of %s=utilisation du mode programmé de %s
+warm=chaud
+with all drives below temperature threshold for a Pause=avec tous les disques en dessous du seuil de température pour une Pause
 
 
 ; Syslog messages (with testing logging enabled)
 ; (almost certainly not worth translating these as they are mainly of use to the plugin developer)
-analyze previous progress before starting new one=
-Array not started so no action taken=
-Drive %s%s appears to be critical=
-Plugin temperature settings=
-shutdown %s=
-Shutdown not actioned as running in TESTING mode=
-updated cron settings are in %s=
+analyze previous progress before starting new one=analyser les progrès antérieurs avant d'en commencer un nouveau
+Array not started so no action taken=L'Array n'a pas démarré, donc aucune action n'a été entreprise
+Drive %s%s appears to be critical=Le lecteur %s%s semble critique
+Plugin temperature settings=Paramètres de température du plugin
+shutdown %s=arrêt %s
+Shutdown not actioned as running in TESTING mode=L'arrêt n'a pas été effectué car exécuté en mode TESTING
+updated cron settings are in %s=les paramètres cron mis à jour sont dans %s
 
 ; Help text on settings page
 ; These could perhaps be left in English to keep tranrlation task easier)
