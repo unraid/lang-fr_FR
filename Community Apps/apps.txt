@@ -178,7 +178,7 @@ Backup Server=Serveur de Sauvegarde
 ; Statistics Popup Titles
 Repository List=Liste des Dépots
 All Invalid Templates Found=Tous les Modèles Invalides Trouvés
-Template Errors=Erreurs de Modèle(s)
+Template Errors=Erreurs de Modèle
 All Moderation Entries=Toutes les Entrées de Modération
 
 ; Statistics Popup
