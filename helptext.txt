@@ -1506,7 +1506,7 @@ Sélectionner les interfaces membres de l'interface *bridgé*. Par défaut eth0 
 :end
 
 :eth_network_protocol_help:
-Sélectionnez les protocole (s) utilisés. Par défaut uniquement IPv4 est utilisé.<br>
+Sélectionnez les protocole utilisés. Par défaut uniquement IPv4 est utilisé.<br>
 Lorsque IPv4 et IPv6 sont sélectionnés, chaque protocole peut être configurée indépendamment.
 :end
 
@@ -1527,7 +1527,7 @@ Grisés lors de l'utilisation de l'affectation automatique d'adresses IP. Sinon,
 :end
 
 :eth_ipv4_dns_server_assignment_help:
-Si réglé sur *Automatique* le serveur utilisera le ou les serveurs DNS IPv4 (s) indiqué par l'affectation automatique locale.<br>
+Si réglé sur *Automatique* le serveur utilisera le ou les serveurs DNS IPv4 indiqué par l'affectation automatique locale.<br>
 Si réglé sur *Statique* vous pouvez entrer votre propre liste.
 
 Ceci est utile dans des configurations Active Directory où vous devez définir l'adresse de votre serveur de Domaine Active Directory comme première entrée de serveur DNS.
@@ -1568,7 +1568,7 @@ Activer ou désactiver la génération d'un identificateur d'interface IPv6 alé
 :end
 
 :eth_ipv6_dns_server_assignment_help:
-Si réglé sur *Automatique* le serveur DNS IPv6 utilise le ou les serveur(s) indiqués par l'affectation automatique locale.<br>
+Si réglé sur *Automatique* le serveur DNS IPv6 utilise le ou les serveur indiqués par l'affectation automatique locale.<br>
 Si réglé sur *Statique* vous pouvez entrer votre propre liste.
 :end
 

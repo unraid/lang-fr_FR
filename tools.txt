@@ -6,7 +6,7 @@ and=et
 Anonymize diagnostics=Anonymiser les diagnostics
 Anytime=N'importe quand
 Archived Notifications=Notifications archivées
-Are you sure=Êtes-vous sur(e)?
+Are you sure=Êtes-vous sur ?
 Array has been Reset=L'Array a été **Réinitialisé**
 Array must be Started to change permissions=L'Array doit être **Démarré** pour changer les permissions
 Array must be Stopped to change=L'Array doit être **Arrêté** pour changer
@@ -20,7 +20,7 @@ Cannot connect to key-server=Impossible de se connecter au serveur de clés
 Check for Updates=Rechercher des mises à jour
 click Install Key=cliquez <i>Installer une Clé</i>
 collecting diagnostic information this may take several minutes=En cours: Collecte des informations de diagnostics (ceci peut prendre plusieurs minutes)
-Component=Composant(e)
+Component=Composant
 Credits=Remerciments
 Data slots=Emplacements de données
 Delete notification=Supprimer cette notification
@@ -35,7 +35,7 @@ EULA=CLUF
 Event=Événement
 Expiration=Expiration
 Extend=Renouveler
-extended=renouvelé(e)
+extended=renouvelé
 Get Trial Key=Obtenir une clé d'évaluation
 Hardware Profile=Profil matériel
 Hide Details=Masquer les détails
@@ -157,7 +157,7 @@ Ceci aidera les autres à avoir un coup d'œil sur les informations de votre sys
   <br>copier tous les fichiers *\*.cfg*, le fichier *go* et le fichier *super.dat*. Ceci sont les fichiers de configuration.
 + */config/shares*
   <br>copier tous les fichiers *\*.cfg*. Ceci sont les fichiers de configuration pour le partage d'utilisateur.
-+ *Fichier(s) syslog*
++ *Fichier syslog*
   <br>copier le fichier *syslog* actuel et n'importe quels fichiers *syslog* précédents.
 + *System*
   <br>sauvegarder la sortie des commandes suivantes:
