@@ -103,7 +103,6 @@ This will update folder file permissions=Ceci mettra à jour les permissions des
 Time=Temps
 To install a registration key, paste the key file URL in the box below and click Install Key=Pour installer une clé d'enregistrement, collez l'URL dans le champ si dessous et cliquez **Installer une Clé**
 to select your language=pour sélectionner votre langue
-To support more storage devices as your server grows, click Upgrade Key below=Pour prendre en charge plus de périphériques de stockage alors que votre serveur s'agrandit, cliquez *Mettre la clé à niveau* ci-dessous
 Trial key expires on=Clé ***D'évaluation*** expire le
 Trial=Évaluation
 Update OS=Mettre l'OS à jour

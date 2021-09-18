@@ -36,8 +36,6 @@ DNS=DNS
 Docker Containers=Conteneurs Docker
 Docker Hub URL=URL Docker Hub
 Docker Service failed to start=Service Docker a échoué son démarrage
-Donation Link=Lien de donation
-Donation Text=Texte de donation
 Downloaders=Téléchargeurs
 Edit Configuration=Éditer Configuration
 Exited=Quitté
@@ -58,7 +56,6 @@ Icon URL=Icône URL
 Image ID=ID Image
 Key=Clé
 Label=Étiquette
-latest=dernier
 Management=Gestionnaire
 MediaApp=AppliMédia
 MediaServer=ServeurMédia
@@ -109,7 +106,6 @@ Successfully removed container=Conteneur supprimé avec succès
 Successfully removed orphan image=Image orpheline supprimée avec succès
 Successfully stopped container=Conteneur arrêté avec succès
 Support Thread=Fil de support
-Template repositories=Référentiels de modèles
 Template URL=URL du modèle
 Template=Modèle
 The command failed=Échec de la commande
@@ -132,8 +128,11 @@ Writable=Accessible en écriture
 ; New entries (4) - 2021-03-14
 Drivers=Pilotes
 Reset sorting=Réinitialiser le tri
-Start Container After Install=Démarrer Container Après Installation
 Total size=Taille totale
 
 ; New entries (1) - 2021-06-12
 Crypto Currency=Crypto Monnaie
+
+; New entries (2) - 2021-09-18
+Additional Requirements=
+None Listed=
