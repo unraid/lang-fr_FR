@@ -10,8 +10,10 @@ Are you sure=Êtes-vous sur ?
 Array has been Reset=L'Array a été **Réinitialisé**
 Array must be Started to change permissions=L'Array doit être **Démarré** pour changer les permissions
 Array must be Stopped to change=L'Array doit être **Arrêté** pour changer
+Array slots=Emplacements d'Array
 Array=Array
 Author=Créateur
+Beta=Béta
 Blacklisted USB Flash GUID=GUID de Disque flash USB a été blacklisté
 Branch=Branche
 By using this software, you agree with our=En utilisant ce logiciel, vous acceptez notre
@@ -23,11 +25,13 @@ collecting diagnostic information this may take several minutes=En cours: Collec
 Component=Composant
 Credits=Remerciments
 Data slots=Emplacements de données
+Delete all notifications=Effacer toutes les notifications
 Delete notification=Supprimer cette notification
 Developer=Développeur
 Diagnostics=Diagnostics
 Disks=Disques
 Display Settings=Paramètres d'affichage
+Downloading=Téléchargement
 End-User License Agreement=Contrat de licence d'utilisateur final
 Enter URL of language pack XML file=Saisissez l'URL du fichier XML du module linguistique
 Error accessing your physical USB Flash boot device=Erreur survenue durant l'accès de votre clé USB de démarrage
@@ -42,6 +46,7 @@ Hide Details=Masquer les détails
 If you do not receive an email, please check your spam or junk-email folder=Si vous n'avez pas reçu un e-mail, vérifiez votre dossier spam or junk
 Importance=Importance
 Important=Important
+Install Language=Installer Langue
 Install=Installer
 Installed languages=Langues installées
 Invalid Trial Installation=Installation *D'évaluation* invalide
@@ -55,6 +60,7 @@ Missing Language=Langue manquante
 Network Settings=Réglages réseau
 New Config=Nouvelle configuration
 New Permissions=Nouvelles permissions
+Next=Suivante
 No notifications present=Aucune notification
 No personal information such as user names, passwords, or any other file contents is included in the hardware profile=Aucune information personnelle telle que les noms d'utilisateurs, mots de passe, ou n'importe quel autre contenu des fichiers n’est inclus dans le profil matériel
 normal=normal(es)
@@ -62,8 +68,10 @@ Only ZIP files are allowed=Seulement les fichiers ZIP sont permis
 Page Map=Plan du site
 Parity slots=Emplacements de parité
 Please check your=Veuillez vérifier votre
+please configure=Veuillez configurer
 Please select a language before proceeding=Veuillez choisir une langue avant de continuer
 Please=SVP
+Pool slots=Emplacements de Pool
 Preserve current assignments=Maintenir les assignations présentes
 previous=précédent
 Privacy Policy=Politique de confidentialité
@@ -84,6 +92,7 @@ Select language file=Sélectionnez le fichier de langue
 Select language=Sélectionnez la langue
 Show Details=Montrer les détails
 slots=Emplacements
+Stable=Stable
 Subject=Sujet
 System Devices=Appareils du système
 System Update Check=Vérification de la mise à jour du système
@@ -107,6 +116,7 @@ Trial key expires on=Clé ***D'évaluation*** expire le
 Trial=Évaluation
 Update OS=Mettre l'OS à jour
 Upgrade Key=Mettre la clé à niveau
+Uploaded=Téléversé
 uploading hardware information=En cours: téléchargement des informations du matériel
 Uploading=téléchargement en cours
 Use this to develop language packs=Utilisez ceci pour développer des packs de langues
@@ -114,6 +124,8 @@ Use this to install official language packs=Utilisez ceci pour installer des pac
 User Shares=Partages d'utilisateur
 User=Utilisateur
 Vars=Vars
+VFIO-PCI Log=Log VFIO-PCI
+View VFIO-PCI Log=Voir Log VFIO-PCI
 warning=avertissement
 webGUI=webGUI
 When received, please paste the URL into the Key file URL box and=Quand recu, collez l'URL dans la case <i>URL du fichier de clé</i> et
@@ -134,6 +146,7 @@ In use by Unraid=En cours d'utilisation par Unraid
 Kernel driver in use vfio-pci=Pilote noyau en cours d'utilisation: vfio-pci
 No changes=Pas de changements
 PCI Devices and IOMMU Groups=Périphériques PCI et groupes IOMMU
+PCI Devices No IOMMU Groups Available=PCI Devices (Pas de Groupes IOMMU Disponibles)
 Reboot to take effect=Redémarrer pour prendre effet
 SCSI Devices=Périphériques SCSI
 The below list doesnt not reflect the way IOMMU would naturally group devices=La liste ci-dessous ne reflète pas la façon dont IOMMU regroupe les périphériques
@@ -143,12 +156,12 @@ To see natural IOMMU groups for your hardware, go to the VM Manager page and set
 USB Devices=Périphériques USB
 Your system has booted with the PCIe ACS Override setting enabled=Votre système a démarré avec l'option **PCIe ACS Override** activée
 
-
 :diagnostics_1_plug:
 Cet outil est utilisé pour la résolution de problèmes. Il va recueillir tous les informations du système et les fichiers de configuration, et finalement les compacter dans un fichier ZIP qui peut être sauvegardé localement.
 Ensuite, ce fichier peut être inclus dans votre correspondance avec LimeTech ou le forum Unraid
 
 Ceci aidera les autres à avoir un coup d'œil sur les informations de votre système et ainsi rendra la tâche de vous aider plus facile et efficace. Les informations et fichiers de configuration suivants sont recueillis:
+
 :end
 
 :diagnostics_2_plug:
@@ -180,6 +193,9 @@ par contre, le nom de votre serveur, l'adresse IP, et les partages d'utilisateur
 to the system log.*
 
 *Utilisez* **Anonymiser les diagnostics** *Utilisez ceci quand vous publiez les fichiers de diagnostics dans un forum public. Pour une conversation privée avec LimeTech il est recommandé de ne pas cocher cette option et de recueillir toutes les informations inaltérées.*
+
+
+
 :end
 
 :newconfig_plug:
@@ -190,6 +206,9 @@ Ceci est utile quand vous avez ajouté ou retiré plusieurs disques et que vous 
 Utilisez l'option *'Maintenir les assignations présentes'* pour remplir les disques sélectionnés ***après*** la réinitialisation de l'Array. Par défaut, **aucune** des fentes de disque n’est remplie.
 
 **NE PAS UTILISER CET OUTIL PENSANT QU’IL VA RECONSTRUIRE UN DISQUE DÉFECTUEUX** - Il aura l'effet inverse et rendra la tâche de reconstruire un disque actuellement défectueux ***impossible*** - Vous avez été prévenue!
+
+
+
 :end
 
 :newperms_1_plug:
@@ -200,6 +219,8 @@ Cet outil est aussi utile pour aider dans la restauration des permissions/posses
 
 L'outil lance un processus d'arrière-plan qui passe par chaque disque de données, disque de cache,
 partages d'utilisateur sélectionnés et change la possession de chaque fichier et répertoire à *nobody/users* (i.e., uid/gid to 99/100), et règle les permissions comme suit:
+
+
 :end
 
 :newperms_2_plug:
@@ -211,6 +232,8 @@ Pour les fichiers lecture/écriture:
 
 Pour les fichiers lecture-seulement:
   -r--r--r--
+
+
 :end
 
 :newperms_3_plug:
@@ -219,6 +242,8 @@ Cliquer sur **Démarrer** ouvrira une nouvelle fenêtre et lancera le processus 
 Fermer la fenêtre avant la complétion mettra fin au processus d'arrière-plan - donc, ne le faites pas. Ce processus peut prendre longtemps si vous avez beaucoup de fichiers.
 
 Prenez note que cet outil peut affecter vos conteneurs docker négativement si vous incluez le partage d'Appdata.
+
+
 :end
 
 :registration_1_plug:
@@ -229,6 +254,8 @@ Une clé *D'évaluation* donne accès à toutes les fonctionnalités d'une clé 
 Les clés d'enregistrement sont liées au numéro de série de votre périphérique de démarrage physique USB (GUID). Veuillez utiliser un appareil produit par une compagnie bien connue d'au moins 1Go en taille.
 
 Note: Les lecteurs de carte ne sont généralement **pas** supporter parce qu'ils ne contiennent souvent pas de numéro de série unique
+
+
 :end
 
 :registration_2_plug:
@@ -242,12 +269,15 @@ Votre clé *D'évaluation* donne accès à toutes les fonctionnalités et la pri
 Lorsque votre clé *D'évaluation* sera arrivée à expiration, votre serveur **continuera de fonctionner normalement** jusqu'à l'**Arrêt** de votre Array
 
 À ce moment, vous pouvez sois acheter une Clé d'enregistrement, ou faire une requête pour une extension de votre clé *D'évaluation*.
+
+
 :end
 
 :registration_4_plug:
 Pour continuer d'utiliser Unraid OS vous pouvez acheter une Clé d'enregistrement. Sinon, vous pouvez faire une requête pour une extension de votre clé *D'évaluation*.
 
 La plupart du temps, les requêtes d'extension sont traitées immédiatement. Par contre, SVP laissez jusqu'à une journée pour recevoir votre clé *D'évaluation* en extension.
+
 :end
 
 :registration_5_plug:
@@ -256,6 +286,8 @@ Il n'est pas possible d'utiliser une clé *D'évaluation* avec une installation 
 Vous pouvez acheter une Clé d'enregistrement correspondant à cette mémoire flash USB pour continuer d'utiliser cette installation.
 
 Pour plus d'informations, Veuillez [Contacter le support](https://lime-technology.com/contact).
+
+
 :end
 
 :registration_6_plug:
@@ -265,12 +297,15 @@ Il semble que votre fichier qui contient la Clé D'enregistrement est corrompue 
 Si vous n'avez pas une copie de sauvegarde de votre fichier de Clé d'enregistrement, [Contactez le Support](https://lime-technology.com/contact).
 
 Si ceci est une installation *D'évaluation*, vous pouvez acheter une Clé D'enregistrement.
+
+
 :end
 
 :registration_7_plug:
 Les installations *D'évaluation* sont seulement valides avec la mémoire flash USB dont la clé a été originalement enregistrée avec.
 
 Pour continuer d'utiliser cette installation avec cette mémoire flash USB, vous pouvez acheter une Clé D'enregistrement.
+
 :end
 
 :registration_8_plug:
@@ -283,6 +318,8 @@ Si vous voulez remplacer votre Clé d'enregistrement avec une nouvelle clé lié
 Par la suite, une clé de remplacement peut être remplacée seulement après un an suite au dernier remplacement. Si vous nécessitez une autre clé de remplacement plus tôt, [Contactez le Support](https://lime-technology.com/contact).
 
 **Note:** Le remplacement d'une clé d'enregistrement met le GUID de la mémoire flash USB précédente sur une *liste noir* permanente.
+
+
 :end
 
 :registration_9_plug:
@@ -293,23 +330,6 @@ Une mémoire flash USB peut aussi être mise sur la *liste noire* s’il n'y a p
 ou si nous découvrons que le numéro de série n'est pas unique (ceci est commun avec les lecteurs de cartes)
 
 Pour plus d'informations, veuillez [Contacter le Support](https://lime-technology.com/contact).
+
+
 :end
-
-; New entries (10) - 2021-03-14
-Array slots=Emplacements d'Array
-Delete all notifications=Effacer toutes les notifications
-Downloading=Téléchargement
-Install Language=Installer Langue
-PCI Devices No IOMMU Groups Available=PCI Devices (Pas de Groupes IOMMU Disponibles)
-please configure=Veuillez configurer
-Pool slots=Emplacements de Pool
-Uploaded=Téléversé
-VFIO-PCI Log=Log VFIO-PCI
-View VFIO-PCI Log=Voir Log VFIO-PCI
-
-; New entries (2) - 2021-05-10
-Next=Suivante
-Stable=Stable
-
-; New entries (1) - 2021-05-20
-Beta=Béta

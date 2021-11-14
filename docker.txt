@@ -2,6 +2,7 @@ Access Mode=Mode d'accès
 Add another Path, Port, Variable, Label or Device=Ajouter un Chemin, un Port, une Variable, une Étiquette, ou un Périphérique supplémentaire
 Add Configuration=Ajouter Configuration
 Add=Ajouter
+Additional Requirements=
 Always=Toujours
 App to Host=Appli vers Hôte
 Application=Application
@@ -29,6 +30,7 @@ Container=Conteneur
 CPU Memory load=Charge mémoire CPU
 CPU Pinning=Assignation CPU
 Created=Créé
+Crypto Currency=Crypto Monnaie
 Default Value=Valeur par défaut
 Device=Périphérique
 Display=Affichage
@@ -37,6 +39,7 @@ Docker Containers=Conteneurs Docker
 Docker Hub URL=URL Docker Hub
 Docker Service failed to start=Service Docker a échoué son démarrage
 Downloaders=Téléchargeurs
+Drivers=Pilotes
 Edit Configuration=Éditer Configuration
 Exited=Quitté
 Extra Parameters=Paramètres supplémentaires
@@ -64,6 +67,7 @@ Missing parameters=paramètres manquants
 Music=Musique
 Network Type=Type de Réseau
 No Docker containers installed=Aucun conteneur Docker installé
+None Listed=
 of=de
 orphan image=image orpheline
 Other=Autre
@@ -79,6 +83,7 @@ Productivity=Productivité
 Project Page=Page du Projet
 Proxy=Proxy
 Pulling image=Récupération de l'image
+Read Me First=
 Read Only - Shared=Lecture Seule - Partagé
 Read Only - Slave=Lecture Seule - Esclave
 Read Only=Lecture Seule
@@ -91,6 +96,7 @@ Removing container=Suppression du conteneur en cours
 Removing orphan image=Suppression de l'image orpheline en cours
 Repository=Référentiel
 Required=Requis
+Reset sorting=Réinitialiser le tri
 Resume All=Résumer Tout
 Save=Sauvegarder
 Select a template=Sélectionner un modèle
@@ -111,6 +117,7 @@ Template=Modèle
 The command failed=Échec de la commande
 The command finished successfully=La commande a terminé avec succès
 TOTAL DATA PULLED=TOTAL DONNÉES RÉCUPURÉES
+Total size=Taille totale
 Unknown action=Action inconnue
 Update All=Tout Mettre à jour
 update ready=mise à jour prête
@@ -125,17 +132,4 @@ Web=Web
 WebUI=Interface Web
 Writable=Accessible en écriture
 
-; New entries (4) - 2021-03-14
-Drivers=Pilotes
-Reset sorting=Réinitialiser le tri
-Total size=Taille totale
-
-; New entries (1) - 2021-06-12
-Crypto Currency=Crypto Monnaie
-
-; New entries (2) - 2021-09-18
-Additional Requirements=
-None Listed=
-
-; New entries (1) - 2021-11-07
-Read Me First=
+; Note: November 14, 2021 - 3 missing translations
