@@ -160,9 +160,7 @@ Your system has booted with the PCIe ACS Override setting enabled=Votre système
 Cet outil est utilisé pour la résolution de problèmes. Il va recueillir tous les informations du système et les fichiers de configuration, et finalement les compacter dans un fichier ZIP qui peut être sauvegardé localement.
 Ensuite, ce fichier peut être inclus dans votre correspondance avec LimeTech ou le forum Unraid
 
-Ceci aidera les autres à avoir un coup d'œil sur les informations de votre système et ainsi rendra la tâche de vous aider plus facile et efficace. Les informations et fichiers de configuration suivants sont recueillis:
-
-:end
+Ceci aidera les autres à avoir un coup d'œil sur les informations de votre système et ainsi rendra la tâche de vous aider plus facile et efficace. Les informations et fichiers de configuration suivants sont recueillis::end
 
 :diagnostics_2_plug:
 + */config*
@@ -192,11 +190,7 @@ par contre, le nom de votre serveur, l'adresse IP, et les partages d'utilisateur
 *Prenez note que certains plug-ins tiers **peuvent** conserver certaines informations personnelles dans des fichiers qui sont spécifiques au plug-in et/ou dans la sortie log du système.
 to the system log.*
 
-*Utilisez* **Anonymiser les diagnostics** *Utilisez ceci quand vous publiez les fichiers de diagnostics dans un forum public. Pour une conversation privée avec LimeTech il est recommandé de ne pas cocher cette option et de recueillir toutes les informations inaltérées.*
-
-
-
-:end
+*Utilisez* **Anonymiser les diagnostics** *Utilisez ceci quand vous publiez les fichiers de diagnostics dans un forum public. Pour une conversation privée avec LimeTech il est recommandé de ne pas cocher cette option et de recueillir toutes les informations inaltérées.*:end
 
 :newconfig_plug:
 Cet outil est utilisé pour réinitialiser la configuration des disques dans l'Array pour qu'ils apparaissent tous comme étant de "Nouveaux" disques, comme si c'était un nouveau serveur.
@@ -205,11 +199,7 @@ Ceci est utile quand vous avez ajouté ou retiré plusieurs disques et que vous 
 
 Utilisez l'option *'Maintenir les assignations présentes'* pour remplir les disques sélectionnés ***après*** la réinitialisation de l'Array. Par défaut, **aucune** des fentes de disque n’est remplie.
 
-**NE PAS UTILISER CET OUTIL PENSANT QU’IL VA RECONSTRUIRE UN DISQUE DÉFECTUEUX** - Il aura l'effet inverse et rendra la tâche de reconstruire un disque actuellement défectueux ***impossible*** - Vous avez été prévenue!
-
-
-
-:end
+**NE PAS UTILISER CET OUTIL PENSANT QU’IL VA RECONSTRUIRE UN DISQUE DÉFECTUEUX** - Il aura l'effet inverse et rendra la tâche de reconstruire un disque actuellement défectueux ***impossible*** - Vous avez été prévenue!:end
 
 :newperms_1_plug:
 Ceci est une action unique nécessaire qui doit être prise après avoir mis à jour Unraid d'une version pre-5.0 à une version v5 ou plus récente.
@@ -219,8 +209,6 @@ Cet outil est aussi utile pour aider dans la restauration des permissions/posses
 
 L'outil lance un processus d'arrière-plan qui passe par chaque disque de données, disque de cache,
 partages d'utilisateur sélectionnés et change la possession de chaque fichier et répertoire à *nobody/users* (i.e., uid/gid to 99/100), et règle les permissions comme suit:
-
-
 :end
 
 :newperms_2_plug:
@@ -232,8 +220,6 @@ Pour les fichiers lecture/écriture:
 
 Pour les fichiers lecture-seulement:
   -r--r--r--
-
-
 :end
 
 :newperms_3_plug:
@@ -242,8 +228,6 @@ Cliquer sur **Démarrer** ouvrira une nouvelle fenêtre et lancera le processus 
 Fermer la fenêtre avant la complétion mettra fin au processus d'arrière-plan - donc, ne le faites pas. Ce processus peut prendre longtemps si vous avez beaucoup de fichiers.
 
 Prenez note que cet outil peut affecter vos conteneurs docker négativement si vous incluez le partage d'Appdata.
-
-
 :end
 
 :registration_1_plug:
@@ -254,8 +238,6 @@ Une clé *D'évaluation* donne accès à toutes les fonctionnalités d'une clé 
 Les clés d'enregistrement sont liées au numéro de série de votre périphérique de démarrage physique USB (GUID). Veuillez utiliser un appareil produit par une compagnie bien connue d'au moins 1Go en taille.
 
 Note: Les lecteurs de carte ne sont généralement **pas** supporter parce qu'ils ne contiennent souvent pas de numéro de série unique
-
-
 :end
 
 :registration_2_plug:
@@ -269,16 +251,12 @@ Votre clé *D'évaluation* donne accès à toutes les fonctionnalités et la pri
 Lorsque votre clé *D'évaluation* sera arrivée à expiration, votre serveur **continuera de fonctionner normalement** jusqu'à l'**Arrêt** de votre Array
 
 À ce moment, vous pouvez sois acheter une Clé d'enregistrement, ou faire une requête pour une extension de votre clé *D'évaluation*.
-
-
 :end
 
 :registration_4_plug:
 Pour continuer d'utiliser Unraid OS vous pouvez acheter une Clé d'enregistrement. Sinon, vous pouvez faire une requête pour une extension de votre clé *D'évaluation*.
 
-La plupart du temps, les requêtes d'extension sont traitées immédiatement. Par contre, SVP laissez jusqu'à une journée pour recevoir votre clé *D'évaluation* en extension.
-
-:end
+La plupart du temps, les requêtes d'extension sont traitées immédiatement. Par contre, SVP laissez jusqu'à une journée pour recevoir votre clé *D'évaluation* en extension.:end
 
 :registration_5_plug:
 Il n'est pas possible d'utiliser une clé *D'évaluation* avec une installation d'Unraid OS existante.
@@ -286,8 +264,6 @@ Il n'est pas possible d'utiliser une clé *D'évaluation* avec une installation 
 Vous pouvez acheter une Clé d'enregistrement correspondant à cette mémoire flash USB pour continuer d'utiliser cette installation.
 
 Pour plus d'informations, Veuillez [Contacter le support](https://lime-technology.com/contact).
-
-
 :end
 
 :registration_6_plug:
@@ -297,16 +273,12 @@ Il semble que votre fichier qui contient la Clé D'enregistrement est corrompue 
 Si vous n'avez pas une copie de sauvegarde de votre fichier de Clé d'enregistrement, [Contactez le Support](https://lime-technology.com/contact).
 
 Si ceci est une installation *D'évaluation*, vous pouvez acheter une Clé D'enregistrement.
-
-
 :end
 
 :registration_7_plug:
 Les installations *D'évaluation* sont seulement valides avec la mémoire flash USB dont la clé a été originalement enregistrée avec.
 
-Pour continuer d'utiliser cette installation avec cette mémoire flash USB, vous pouvez acheter une Clé D'enregistrement.
-
-:end
+Pour continuer d'utiliser cette installation avec cette mémoire flash USB, vous pouvez acheter une Clé D'enregistrement.:end
 
 :registration_8_plug:
 Le fichier de Clé d'enregistrement ne correspond pas avec la mémoire flash USB.
@@ -318,8 +290,6 @@ Si vous voulez remplacer votre Clé d'enregistrement avec une nouvelle clé lié
 Par la suite, une clé de remplacement peut être remplacée seulement après un an suite au dernier remplacement. Si vous nécessitez une autre clé de remplacement plus tôt, [Contactez le Support](https://lime-technology.com/contact).
 
 **Note:** Le remplacement d'une clé d'enregistrement met le GUID de la mémoire flash USB précédente sur une *liste noir* permanente.
-
-
 :end
 
 :registration_9_plug:
@@ -330,6 +300,4 @@ Une mémoire flash USB peut aussi être mise sur la *liste noire* s’il n'y a p
 ou si nous découvrons que le numéro de série n'est pas unique (ceci est commun avec les lecteurs de cartes)
 
 Pour plus d'informations, veuillez [Contacter le Support](https://lime-technology.com/contact).
-
-
 :end
