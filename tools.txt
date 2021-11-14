@@ -160,7 +160,8 @@ Your system has booted with the PCIe ACS Override setting enabled=Votre système
 Cet outil est utilisé pour la résolution de problèmes. Il va recueillir tous les informations du système et les fichiers de configuration, et finalement les compacter dans un fichier ZIP qui peut être sauvegardé localement.
 Ensuite, ce fichier peut être inclus dans votre correspondance avec LimeTech ou le forum Unraid
 
-Ceci aidera les autres à avoir un coup d'œil sur les informations de votre système et ainsi rendra la tâche de vous aider plus facile et efficace. Les informations et fichiers de configuration suivants sont recueillis::end
+Ceci aidera les autres à avoir un coup d'œil sur les informations de votre système et ainsi rendra la tâche de vous aider plus facile et efficace. Les informations et fichiers de configuration suivants sont recueillis:
+:end
 
 :diagnostics_2_plug:
 + */config*
@@ -190,7 +191,8 @@ par contre, le nom de votre serveur, l'adresse IP, et les partages d'utilisateur
 *Prenez note que certains plug-ins tiers **peuvent** conserver certaines informations personnelles dans des fichiers qui sont spécifiques au plug-in et/ou dans la sortie log du système.
 to the system log.*
 
-*Utilisez* **Anonymiser les diagnostics** *Utilisez ceci quand vous publiez les fichiers de diagnostics dans un forum public. Pour une conversation privée avec LimeTech il est recommandé de ne pas cocher cette option et de recueillir toutes les informations inaltérées.*:end
+*Utilisez* **Anonymiser les diagnostics** *Utilisez ceci quand vous publiez les fichiers de diagnostics dans un forum public. Pour une conversation privée avec LimeTech il est recommandé de ne pas cocher cette option et de recueillir toutes les informations inaltérées.*
+:end
 
 :newconfig_plug:
 Cet outil est utilisé pour réinitialiser la configuration des disques dans l'Array pour qu'ils apparaissent tous comme étant de "Nouveaux" disques, comme si c'était un nouveau serveur.
@@ -199,7 +201,8 @@ Ceci est utile quand vous avez ajouté ou retiré plusieurs disques et que vous 
 
 Utilisez l'option *'Maintenir les assignations présentes'* pour remplir les disques sélectionnés ***après*** la réinitialisation de l'Array. Par défaut, **aucune** des fentes de disque n’est remplie.
 
-**NE PAS UTILISER CET OUTIL PENSANT QU’IL VA RECONSTRUIRE UN DISQUE DÉFECTUEUX** - Il aura l'effet inverse et rendra la tâche de reconstruire un disque actuellement défectueux ***impossible*** - Vous avez été prévenue!:end
+**NE PAS UTILISER CET OUTIL PENSANT QU’IL VA RECONSTRUIRE UN DISQUE DÉFECTUEUX** - Il aura l'effet inverse et rendra la tâche de reconstruire un disque actuellement défectueux ***impossible*** - Vous avez été prévenue!
+:end
 
 :newperms_1_plug:
 Ceci est une action unique nécessaire qui doit être prise après avoir mis à jour Unraid d'une version pre-5.0 à une version v5 ou plus récente.
@@ -256,7 +259,8 @@ Lorsque votre clé *D'évaluation* sera arrivée à expiration, votre serveur **
 :registration_4_plug:
 Pour continuer d'utiliser Unraid OS vous pouvez acheter une Clé d'enregistrement. Sinon, vous pouvez faire une requête pour une extension de votre clé *D'évaluation*.
 
-La plupart du temps, les requêtes d'extension sont traitées immédiatement. Par contre, SVP laissez jusqu'à une journée pour recevoir votre clé *D'évaluation* en extension.:end
+La plupart du temps, les requêtes d'extension sont traitées immédiatement. Par contre, SVP laissez jusqu'à une journée pour recevoir votre clé *D'évaluation* en extension.
+:end
 
 :registration_5_plug:
 Il n'est pas possible d'utiliser une clé *D'évaluation* avec une installation d'Unraid OS existante.
@@ -278,7 +282,8 @@ Si ceci est une installation *D'évaluation*, vous pouvez acheter une Clé D'enr
 :registration_7_plug:
 Les installations *D'évaluation* sont seulement valides avec la mémoire flash USB dont la clé a été originalement enregistrée avec.
 
-Pour continuer d'utiliser cette installation avec cette mémoire flash USB, vous pouvez acheter une Clé D'enregistrement.:end
+Pour continuer d'utiliser cette installation avec cette mémoire flash USB, vous pouvez acheter une Clé D'enregistrement.
+:end
 
 :registration_8_plug:
 Le fichier de Clé d'enregistrement ne correspond pas avec la mémoire flash USB.
