@@ -62,3 +62,6 @@ Container Port=Port du conteneurs
 Container Variable=Variable du conteneur
 Container Label=Étiquette du conteneur
 Container Device=Dispositif du conteneur
+
+; New entries (1) - 2021-11-14
+Read Me First=
