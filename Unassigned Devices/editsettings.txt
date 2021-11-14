@@ -1,19 +1,19 @@
-Click the 'Default' button to select the default Script File=Cliquez sur le bouton "Par défaut" pour sélectionner le fichier de script par défaut
-Default Script=Script par défaut
-Delete Script File=Supprimer le fichier de script
-Edit Script=Modifier le script
-Enter Script File Name=Entrer le nom du fichier de script
-Enter and Edit the Script that runs when a udev or operator event occurs=Entrer et modifier le script qui s'exécute lorsqu'un événement udev ou opérateur se produit
+Click the 'Default' button to select the default Device Script File=
+Default=
+Delete Device Script File=
+Edit Device Script=
+Enter Device Script File Name=
+Enter and Edit the Device Script that runs when a udev or operator event occurs=
 Enter the User Script that will be using this device=Entrer le script utilisateur qui utilisera cet appareil
-Load the default script=Charger le script par défaut
-Remove Script File=Supprimer le fichier de script
+Load the default Device Script=
+Delete Device Script File=
 Run in background=Exécuter en arrière-plan
 Mount Device Read only=Monter l'appareil Lecture seule
 Mount Device when Plugged in or Array is Started=Monter le périphérique lorsqu'il est branché ou que l'Array est démarré
 Mount ISO File when Array is Started=Monter le fichier ISO au démarrage de l'Array
 Mount Remote SMB or NFS Share when Array is Started=Monter le partage SMB ou NFS distant au démarrage de l'Array
-Run Script File in the background=Exécuter le fichier de script en arrière-plan
-Save your Script File changes=Enregistrer les modifications de votre fichier de script
+Run Device Script File in the background=
+Save your Device Script File changes=
 Save=Sauvegarder
 Script content=Contenu du script
 Share Device with SMB and NFS=Partager l'appareil avec SMB et NFS
@@ -40,7 +40,6 @@ Volume=Volume
 :ud_edit_user_script_choose_name_plug:
 > Si vous avez installé le plug-in User Scripts, vous pouvez faire en sorte que les appareils non attribués affichent l'état d'exécution du script utilisateur qui utilisera cet appareil. Ce champ ne sera activé que lorsqu'un fichier de script existe.
 :end
-<?endif;?>
 
 :ud_edit_script_run_background_plug:
 > Activez **Exécuter en arrière-plan** pour que le script s'exécute en tant que tâche en arrière-plan. Cela peut empêcher l'interface utilisateur des appareils non attribués de se bloquer lorsque le script est exécuté à partir de l'interface utilisateur.

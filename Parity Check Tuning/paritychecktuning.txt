@@ -1,8 +1,13 @@
 ; Translation text for the Parity Check Tuning plugin
 
+; PART 1 - text strings
+
 ; Parity Check Settings Page
+
+Parity Check Tuning=
 automatic=automatique
 Basic=Basique
+below critical disk temperature threshold=
 below warning disk temperature threshold=Seuil inférieur d'avertissement de température du disque
 CAUTION=ATTENTION
 Click to show parity-check history=Cliquez pour afficher l'historique de vérification de la parité
@@ -15,7 +20,7 @@ High disk temperatures can shutdown server=Une température élevée pour les di
 Increment frequency=Incrémenter fréquence
 Increment pause time=Incrémenter temps de pause
 Increment resume time=Incrémenter temps de reprise
-manual=manuel
+No parity check entries found in syslog=
 ParityRead-Check History=Historique Vérification Parité/Lecture
 Parity Check=Vérification de Parité
 Parity Check Tuning logging=Journalisation Réglages de Vérification de Parité 
@@ -23,7 +28,7 @@ Parity Sync=Synchronisation Parité
 Pause an array operation at=Mettre en pause l'opération sur l'array à
 Pause and Resume array operations if disks overheat=Mettre en pause et continuer les opérations sur l'array en fonction de la température des disques
 Read Check=Vérification en Lecture
-Requires Unraid 67 or later=Unraid 6.7 ou supérieur requis
+Requires unRaid 67 or later=Requires unRaid 6.7 or later=
 Resume an array operation at=Reprendre une opération sur l'array
 Resume parity checks on next array start=Reprendre vérification de parité lors du prochain démarrage de l'array
 Resume running Array operations on next array start=Reprendre les opérations en cours sur l'array lors du prochain démarrage
@@ -32,6 +37,9 @@ scheduled=planifié
 Send notifications for Pause or Resume of increments=Envoyer notifications lors de Pause ou Reprise des increments
 Send notifications for temperature related Pause or Resume=Envoyer notifications lors de Pause ou Reprise en fonction de la température
 Shutdown server at=Éteindre le serveur à
+Syslog only=
+Syslog and Flash=
+Flash only=
 Testing=Tester
 Unscheduled=Non plannifié
 Use increments for %s %s=Utiliser incréments pour %s %s
@@ -40,26 +48,37 @@ Use increments for Parity-SyncData Rebuild operations=Utiliser incréments pour 
 You require a parity disk present for this option to be relevant=Disque de parité requis pour que cette option soit utile
 
 ; Parity Problems Assistant page
-
-The Parity Problems Assistant is part of the Parity Check Tuning plugin=The **Parity Problems Assistant** is part of the **Parity Check Tuning** plugin=L'** Assistant des Problèmes de Parité** fait partie du plugin **Réglages de Vérification de Parité**
-The current status is EXPERIMENTAL and it is always possible that this assistant may be removed in the future=The current status is **EXPERIMENTAL** and it is always possible that this assistant may be removed in the future=L'état actuel est **EXPÉRIMENTAL** et il est toujours possible que cet assistant soit supprimé lors de futures versions  
-feedback is welcomed on the basic concept and ideas for improvement=Un retours d'expérience est souhaité à propos du concept et d'idées pour d'éventuelles améliorations
-This assistant is intended to help pin down and resolve problems after a parity check has been run and errors have been reported=Cet assistant est conçu pour apporter de l'aide lorsqu'une opération de vérification en lecture / parité a signalé des problèmes 
-The idea is that this assistant can be used after a parity check or read check has reported problems and logged the details of any problem sectors to the syslog=Le principe est que cet assistant peut-être utilisé après un signalement de problèmes lors d'une vérification en lecture / parité et que les détails de chaque erreur de secteurs aient été consignées dans le syslog
-In many cases such errors can be due to external factors such as cabling or the power supply rather than the actual disks=Dans la plupart des cas de telles erreurs sont dues à des facteurs externes tels que des câbles ou une alimentation défectueuse plutôt que les disques eux-mêmes  
-If you think you have rectified whatever caused the problems to occur then you can use this assistant to run a partial check over a narrow range to see if the problem still occurs=Si vous pensez que vous avez réparé la cause des erreurs vous pouvez utiliser cet assistant pour vérifier sur une petite étendue du disque si le problème est toujours présent
-This can be much faster than having to run a full parity check or read check to see if you have resolved the issue or to run a disk extended SMART test to test the actual disk=Ceci peut-être beaucoup plus rapide qu'une vérification complète de la parité ou qu'un test SMART étendu sur le disque incriminé afin de vérifier une éventuelle résolution du problème 
-This assistant should never be used as an alternative to running a full parity check once you think the problem has been resolved=Cet assistant ne doit jamais être utilisé en tant qu'alternative à une vérification complète de la parité une fois que vous pensez que le problème a été résolu
+Parity Problems Assistant=
+; page intro text
+:parityProblems_intro_plug:
+The **Parity Problems Assistant** is part of the **Parity Check Tuning** plugin.<p/>
+The current status is **EXPERIMENTAL** and it is always possible that this assistant may be removed in the future).  
+**(feedback is welcomed on the basic concept and ideas for improvement)**.<p/>
+The idea is that this assistant can be used after a parity check or read check has reported problems and logged the details of any problem sectors to the syslog.  
+In many cases such errors can be due to external factors such as cabling or the power supply rather than the actual disks.<p/>
+It is also not uncommon, particularly on **Ryzen/ThreadRipper** based systems, to get random parity errors if the RAM is overclocked
+(an XMP profile **is** an overclock),  
+and the motherboard/CPU combination may also impose limits that are lower than the RAM is capable of supporting.<p/>
+If you think you have rectified whatever caused the problems to occur then you can use this assistant to run a partial check over a narrow range to see if the problem still occurs.  
+This can be much faster than having to run a full parity check or read check to see if you have resolved the issue or to run a disk extended SMART test to test the actual disk.<p/>
+**IMPORTANT**:  This assistant should never be used as an alternative to running a full parity check once you think the problem has been resolved.
+:end
+; fields
+Click to show Error Sectors from syslog=
 End point for check=Point d'arrêt pour la vérification
 Method used to specify start and stop points=Méthode utilisée pour spécifier les points de départ et d'arrêt
+Only read checks can be performed=
+percent=
 Percentage=Pourcentage
+sector=
 Sector Numbers=Nombre de Secteurs
+Show Sector Numbers=
 Start Check=Début de Vérification
 Start point for check=Point de départ pour la vérification
 Write Corrections to Parity=écrire les Corrections de Parité
 
-
 ; PHP file messages
+
 Analyze results from an array operation=Analyser les résultats de l'Array
 Array being shutdown due to drive overheating=Array arrêtée pour cause de surchauffe de disque
 Array operation will not be restarted=L'opération sur l'array ne reprendra pas 
@@ -71,7 +90,7 @@ Detected a change to the disk configuration=Détecté un changement dans la conf
 Drives cooled down=Retour à une température disque normale
 Elapsed Time=Temps Écoulé
 ERROR=ERREUR
-Following drives overheated=Surchauffe des disques suivants
+Following drives overheated=Les disques suivants ont surchauffé
 IMPORTANT=IMPORTANT
 Increments=Incréments
 Non-Correcting=Non-Correction
@@ -91,8 +110,10 @@ Usage=Utilisation
 where action is one of=où l'action est l'une des
 
 ; Notifications
+
 aborted due to Unclean shutdown=Annulé du à un arrêt Incorrect
 array stopping so progress will be lost=Array en cours d'arrêt, la progression sera perdue
+; The type of array operation (parity check, clear, rebuild) will be appended to the following text
 Automatic unRaid=UnRaid automatique
 Average Speed=Vitesse Moyenne
 completed=Complété
@@ -110,7 +131,6 @@ Runtime=Durée
 Scheduled pause=Pause planifiée
 Unclean shutdown detected=Arrêt incorrect détecté
 will be started=sera démarré
-
 
 ; Swal warnings
 
@@ -140,14 +160,14 @@ Testing mode is normally only used by the plugin author or when gathering eviden
 Testing mode is very verbose and generates a lot of additional log entries so you do not want it enabled unless this is really necessary=Le mode de test est très détaillé et génère de nombreuses entrées de journal supplémentaires, vous ne voulez donc pas qu'il soit activé, sauf si cela est vraiment nécessaire
 The Pause and Resume times would give an increment length of more than 12 hours which is unusual=Les temps de pause et de reprise donneraient une durée d'incrément de plus de 12 heures, ce qui est inhabituel
 The Resume value must be greater than the Pause one for the heat related Pause and Resume to work correctly as they are both subtracted from the disk temperature warning value when calculating the desired temperature=La valeur de reprise doit être supérieure à celle de la pause pour que la pause et la reprise liées à la chaleur fonctionnent correctement car elles sont toutes deux soustraites de la valeur d'avertissement de température du disque lors du calcul de la température souhaitée.
+The value you have specified seems unusually large as it is not an absolute value but is relative to the value specified for the drives Temperature Warning level at the unRaid level=
 This might affect array integrity=Cela peut affecter l'intégrité de l'array
-
-Temperature Pause and Resume=Température Pause et Reprise
+Unusually large value=
 
 ; Syslog messages (with debug logging disabled)
 
 %s Cancelled=%s Annulé
-Array not started so no action taken=L'array n'a pas démarré, donc aucune action n'est prise
+Array not started so no action taken=L'Array n'a pas démarré, donc aucune action n'a été entreprise
 as drives now cooled down=car les disques ont maintenant refroidi
 Following drives overheated=Les disques suivants ont surchauffé
 Only able to start a Read-Check due to number of disabled drives=Uniquement capable de démarrer une vérification de lecture en raison du nombre de lecteurs désactivés
@@ -192,11 +212,11 @@ Temperature monitoring switched off=Surveillance de la température désactivée
 Unscheduled array operation in progress=Opération de l'array non planifiée en cours
 using scheduled mode of %s=utilisation du mode programmé de %s
 warm=chaud
-with all drives below temperature threshold for a Pause=avec tous les disques en dessous du seuil de température pour une Pause
-
+with all array drives below temperature threshold for a Pause=
 
 ; Syslog messages (with testing logging enabled)
 ; (almost certainly not worth translating these as they are mainly of use to the plugin developer)
+
 analyze previous progress before starting new one=analyser les progrès antérieurs avant d'en commencer un nouveau
 Array not started so no action taken=L'Array n'a pas démarré, donc aucune action n'a été entreprise
 Drive %s%s appears to be critical=Le lecteur %s%s semble critique
@@ -204,6 +224,11 @@ Plugin temperature settings=Paramètres de température du plugin
 shutdown %s=arrêt %s
 Shutdown not actioned as running in TESTING mode=L'arrêt n'a pas été effectué car exécuté en mode TESTING
 updated cron settings are in %s=les paramètres cron mis à jour sont dans %s
+
+; PART 2 - TEXT Blocks ant HELP text
+
+End point for check=Point d'arrêt pour la vérification
+Method used to specify start and stop points=Méthode utilisée pour spécifier les points de départ et d'arrêt
 
 ; Help text on settings page
 ; These could perhaps be left in English to keep translation task easier)
@@ -224,6 +249,8 @@ updated cron settings are in %s=les paramètres cron mis à jour sont dans %s
 >* The rest of the month this plugin will do nothing as there is no active parity check in progress when the start time for an increment comes around.
 >
 >**CAUTION:**  If the array is stopped while an array operation is incomplete then the progress so far is lost and it can only be restarted from the beginning
+>* The parity check will now actually take 10 days elapsed time (10 x 3 = 30) so the parity check will complete on 10th of the month.  
+>* The parity check will now actually take 10 days elapsed time (10 x 3 = 30) so the parity check will complete on 10th of the month.  
 :end
 
 :parity_tune_increments_plug:
@@ -235,6 +262,10 @@ updated cron settings are in %s=les paramètres cron mis à jour sont dans %s
 :end
 
 :parity_tune_frequency_plug:
+> The frequency at which parity check increments should be run.
+>
+>In normal operation it is expected that the **Daily** option will be the one that most users will want to use so this is the default.   To support any user looking for other frequencies there is the option to set up **Custom** schedules which will allow for more complicated schedules for the Pause and Resume times.  When you use this option you are given the option to specify the time as used by the Linux <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> utility.   
+>In normal operation it is expected that the **Daily** option will be the one that most users will want to use so this is the default.   To support any user looking for other frequencies there is the option to set up **Custom** schedules which will allow for more complicated schedules for the Pause and Resume times.  When you use this option you are given the option to specify the time as used by the Linux <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> utility.   
 > The frequency at which parity check increments should be run.<br><br>In normal operation it is expected that the <strong>Daily</strong> option will be the one that most users will want to use so this is the default.   To support any user looking for other frequencies there is the option to set up <strong>Custom</strong> schedules which will allow for more complicated schedules for the Pause and Resume times.  When you use this option you are given the option to specify the time as used by the Linux <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> utility
 :end
 
@@ -255,6 +286,8 @@ updated cron settings are in %s=les paramètres cron mis à jour sont dans %s
 > The frequency at which parity check increments should be run.
 >
 >In normal operation it is expected that the **Daily** option will be the one that most users will want to use so this is the default.   To support any user looking for other frequencies there is the option to set up **Custom** schedules which will allow for more complicated schedules for the Pause and Resume times.  When you use this option you are given the option to specify the time as used by the Linux <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> utility.   
+>In normal operation it is expected that the **Daily** option will be the one that most users will want to use so this is the default.   To support any user looking for other frequencies there is the option to set up **Custom** schedules which will allow for more complicated schedules for the Pause and Resume times.  When you use this option you are given the option to specify the time as used by the Linux <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> utility.   
+>In normal operation it is expected that the **Daily** option will be the one that most users will want to use so this is the default.   To support any user looking for other frequencies there is the option to set up **Custom** schedules which will allow for more complicated schedules for the Pause and Resume times.  When you use this option you are given the option to specify the time as used by the Linux <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> utility.   
 :end
 
 :parity_tune_resume_plug:
@@ -262,6 +295,8 @@ updated cron settings are in %s=les paramètres cron mis à jour sont dans %s
 >
 >Typically this time would be set to be the start of an idle period overnight.   An appropriate value might be to use the same time that you have specified for a scheduled parity check to start.
 >
+>If the increment period has been set to **Custom** then the hours/minutes fields are hidden and you are instead given the option to set the time in <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> format.
+>If the increment period has been set to **Custom** then the hours/minutes fields are hidden and you are instead given the option to set the time in <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> format.
 >If the increment period has been set to **Custom** then the hours/minutes fields are hidden and you are instead given the option to set the time in <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> format.
 :end
 
@@ -274,11 +309,15 @@ updated cron settings are in %s=les paramètres cron mis à jour sont dans %s
 >If the increment period has been set to **Custom** then the hours/minutes fields are hidden and you are instead given the option to set the time in <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> format.
 >
 >You also want to make sure that the time allocated to running increments is sufficient to expect the parity check to run to completion before the next check is scheduled to start.   Since most people only schedule parity checks to run infrequently (e.g. Monthly or Quarterly) then this is unlikely to be an issue but it is something to take into consideration.  
+>If the increment period has been set to **Custom** then the hours/minutes fields are hidden and you are instead given the option to set the time in <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> format.
+>If the increment period has been set to **Custom** then the hours/minutes fields are hidden and you are instead given the option to set the time in <a href="https://en.wikipedia.org/wiki/Cron#Overview"  target="_blank">crontab</a> format.
 :end
 
 :parity_tune_notify_plug:
 > Setting this option to <strong>Yes</strong> means that you will be sent a notification every time the plugin Pauses or Resumes an array operation.
 >If you would rather not get such notifications then leave this option set to **No**.
+>The notification is sent as a **Notice** category message to the targets specified under *<a href="Settings/Notifications">Settings->Notification Settings</a>*.
+>The notification is sent as a **Notice** category message to the targets specified under *<a href="Settings/Notifications">Settings->Notification Settings</a>*.
 >The notification is sent as a **Notice** category message to the targets specified under *<a href="Settings/Notifications">Settings->Notification Settings</a>*.
 :end
 
@@ -344,6 +383,8 @@ updated cron settings are in %s=les paramètres cron mis à jour sont dans %s
 
 :parity_tune_temp_notify_plug:
 > Setting this option to **Yes** means that you will be sent a notification every time the plugin Pauses or Resumes an array operation due to the temperature of your drives.<br>If you would rather not get such notifications then leave this option set to **No**.    The notification is sent as a **Notice** category message to the targets specified under *<a href="Settings/Notifications">Settings->Notification Settings</a>*.
+> Setting this option to **Yes** means that you will be sent a notification every time the plugin Pauses or Resumes an array operation due to the temperature of your drives.<br>If you would rather not get such notifications then leave this option set to **No**.    The notification is sent as a **Notice** category message to the targets specified under *<a href="Settings/Notifications">Settings->Notification Settings</a>*.
+> Setting this option to **Yes** means that you will be sent a notification every time the plugin Pauses or Resumes an array operation due to the temperature of your drives.<br>If you would rather not get such notifications then leave this option set to **No**.    The notification is sent as a **Notice** category message to the targets specified under *<a href="Settings/Notifications">Settings->Notification Settings</a>*.
 :end
 
 :parity_tune_shutdown_plug:
@@ -355,6 +396,8 @@ updated cron settings are in %s=les paramètres cron mis à jour sont dans %s
 >When the server is started up again after such a shutdown then when the array is started you will be notified that a temperature related shutdown happened in case you were not aware of the reason.
 >
 >**CAUTION:**  If the array is stopped while an array operation is incomplete then the progress so far is lost and it can only be restarted from the beginning.
+> The temperatures are checked against the thresholds set for the **Critical** disk temperature levels. If a Critical temperature has been defined for an individual drive (accessed by clicking on the drive in the Main tab) then this is the value used.  If not the global setting (*<a href="Settings/DisplaySettings">Settings->Display Settings</a>) will be used.
+> The temperatures are checked against the thresholds set for the **Critical** disk temperature levels. If a Critical temperature has been defined for an individual drive (accessed by clicking on the drive in the Main tab) then this is the value used.  If not the global setting (*<a href="Settings/DisplaySettings">Settings->Display Settings</a>) will be used.
 :end
 
 :parity_tune_critical_plug:
@@ -407,4 +450,24 @@ updated cron settings are in %s=les paramètres cron mis à jour sont dans %s
 > In practice for technical reasons the check may end later than the point you specify as a check is only made once a minute to see if the end point has been reached.
 :end
 
+:parityProblems_correct_plug:
+> Specify whether you want to attempt to update parity to correct any error found,
+> or just do a read test to see if any parity errors are reported.
+:end
 
+:parityProblems_correct_plug:
+> Specify whether you want to attempt to update parity to correct any error found,
+> or just do a read test to see if any parity errors are reported.
+:end
+
+:parityProblems_check_plug:
+> When you click on the option to **Start Check** then a partial check is initiated that
+> will cover the start and end points that you have specified.  It will be a correcting check 
+> if the option to **Write Corrections** is set to **Yes**, and a read-check otherwise.
+:end
+
+:parityProblems_sectors_plug:
+> When you click on the option to **Show Sector Numbers** then the a dialog will be shown
+> that extracts entries from the syslog that have shown any sectors for which any parity
+> sector is displayed and whether the it was being corrected or is a parity error.
+:end

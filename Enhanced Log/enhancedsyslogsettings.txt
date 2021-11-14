@@ -146,7 +146,7 @@ Other Highlight Color=Couleur Surlignage Autre
 
 :enhanced_log_custom_plug:
 > Saisissez chaque évènement que vous voulez surligner dans le journal. Ces évènements personnalisés seront traités après les évènements standard.
-> Ces événements sont saisis en tant que : "chaîne de recherche", "évènement"
+> Ces événements sont saisis en tant que : "chaîne de recherche", "évènement" 
 > La casse est ignorée lors de la recherche et les métacaractères (jokers) sont permis.
 > Exemples:
 > "found.*chip" renverra n'importe quelle chaîne contenant 'found' et 'chip' avec n'importe quel texte entre les deux.

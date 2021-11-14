@@ -1,10 +1,10 @@
 File Activity=Activité des Fichiers
-File Activity Logging=Journalisation de l'Activité des Fichiers
+File Activity Monitoring=
 Start File Activity=Démarrer Activité des Fichiers
-Stop File Activity Logging=Arrêter Journalisation de l'Activité des Fichiers
+Stop File Activity Monitoring=
 Clear the File Activity log=Effacer Activité des Fichiers
 Refresh log=Rafraîchir journal
-Enable File Activity Logging=Activer Journalisation de l'Activité des Fichiers
+Enable File Activity Monitoring=
 Enable for Unassigned Devices=Activer pour Unassigned Devices
 Enable for Cache and Pool=Activer pour le Pool Cache
 ;
@@ -32,4 +32,8 @@ Enable for Cache and Pool=Activer pour le Pool Cache
 
 :file_activity_enable_cache_plug:
 	> Sélectionnez 'Oui' pour activer la journalisation de l'Activité des Fichiers pour les disques du Pool de Cache. les disques du Pool sont présents à partir d'Unraid 6.9.
+:end
+
+:file_activity_log_by_plug:
+	> Set to **Disk** to log disk activity.  Set to **Share** to log share activity.
 :end

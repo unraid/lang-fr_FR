@@ -56,6 +56,10 @@ User defined options=Options définies par l'utilisateur
 > to reset the cache-pressure execute 'sudo sysctl vm.vfs_cache_pressure=100', or run cache-dirs with cache_pressure 100.
 >
 > See 'vfs_cache_pressure' in [kernel.org](https://www.kernel.org/doc/Documentation/sysctl/vm.txt).
+> Set cache_pressure to NN (default = 10). A value of 0 means never reclaim cache.
+> to reset the cache-pressure execute 'sudo sysctl vm.vfs_cache_pressure=100', or run cache-dirs with cache_pressure 100.
+> Set cache_pressure to NN (default = 10). A value of 0 means never reclaim cache.
+> to reset the cache-pressure execute 'sudo sysctl vm.vfs_cache_pressure=100', or run cache-dirs with cache_pressure 100.
 :end
 
 :cachedirs_suspend_plug:
@@ -122,6 +126,8 @@ User defined options=Options définies par l'utilisateur
 
 :cachedirs_limit_memory_plug:
 > set ulimit to NN to limit memory used by script (default=50000), '-U 0' sets no ulimit at all and inherits the shells default).
+> set ulimit to NN to limit memory used by script (default=50000), '-U 0' sets no ulimit at all and inherits the shells default).
+> set ulimit to NN to limit memory used by script (default=50000), '-U 0' sets no ulimit at all and inherits the shells default).
 :end
 
 :cachedirs_logging_plug:
@@ -139,4 +145,6 @@ User defined options=Options définies par l'utilisateur
 > <span class="strong orange-text">-a '-noleaf -name .Recycle.Bin -prune -o -name log -prune -o -name temp -prune -o -print'</span>
 >
 > Note that the single quotes around argument to -a is important. Double-quotes do not work in the current version, so unfortunately its not currently possible to filter with '-name "*Old" -prune'.
+> <span class="strong orange-text">-a '-noleaf -name .Recycle.Bin -prune -o -name log -prune -o -name temp -prune -o -print'</span>
+> <span class="strong orange-text">-a '-noleaf -name .Recycle.Bin -prune -o -name log -prune -o -name temp -prune -o -print'</span>
 :end
