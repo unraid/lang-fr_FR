@@ -132,4 +132,4 @@ Web=Web
 WebUI=Interface Web
 Writable=Accessible en écriture
 
-; Note: November 14, 2021 - 3 missing translations
+; Note: November 15, 2021 - 3 missing translations
