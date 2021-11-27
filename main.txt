@@ -74,7 +74,6 @@ Dual parity valid requires ALL disks in their original slots=La validité de la 
 Elapsed time=Temps écoulé
 Enable user share assignment=Activer l'attribution des partages utilisateurs
 enter disk index and device name as applicable to your controller=entrez l'index du disque et le nom de l'appareil applicables à votre contrôleur
-Erase=Effacer
 Erase Device Content=Effacer Contenu du Périphérique
 encrypted=crypté
 Encryption input=Input du cryptage
