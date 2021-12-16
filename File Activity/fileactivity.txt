@@ -6,7 +6,7 @@ Clear the File Activity log=Effacer Activité des Fichiers
 Refresh log=Rafraîchir journal
 Enable File Activity Monitoring=
 Enable for Unassigned Devices=Activer pour Unassigned Devices
-Enable for Cache and Pool=Activer pour le Pool Cache
+Enable for Cache and Pool Disks=
 ;
 ; Help
 ;
@@ -38,4 +38,4 @@ Enable for Cache and Pool=Activer pour le Pool Cache
 	> Set to **Disk** to log disk activity.  Set to **Share** to log share activity.
 :end
 
-; Note: November 15, 2021 - 3 missing translations
+; Note: December 16, 2021 - 4 missing translations
