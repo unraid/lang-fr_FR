@@ -1,6 +1,5 @@
 Add ISO File Share=Ajouter un partage de fichiers ISO
 Add Remote SMB=
-NFS Share=
 An XFS or BTRFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=Un disque XFS ou BTRFS partitionné en UD est compatible avec le partitionnement de disque de matrice et peut être ajouté à la matrice
 Any data on this disk will be lost=Toutes les données sur ce disque seront perdues
 Are you sure=Êtes-vous sûr
@@ -9,7 +8,6 @@ Back=Retour
 Browse Disk Share=Parcourir le disque partager
 Browse ISO File Share=Parcourir le partage de fichiers ISO
 Browse Remote SMB=
-NFS Share=
 Choose File System Format=Choisisser le format du système de fichiers
 Choose ISO File=Choisisser le fichier ISO
 Choose Server=Choisisser serveur
@@ -18,7 +16,6 @@ Click on Icon to Choose Protocol=Cliquez sur l'icône pour choisir le protocole
 Change Disk Mount Point=Changer le point de montage du disque
 Change ISO File Mount Point=Modifier le point de montage du fichier ISO
 Change SMB=
-NFS Mount Point=
 Changing the Mount Point will also change the disk label=Changer le point de montage changera également l'étiquette du disque
 Click to select ISO file=Cliquer pour sélectionner le fichier ISO
 Click to view/hide partitions and mount points=Cliquer pour afficher/masquer les partitions et les points de montage
@@ -31,7 +28,6 @@ Domain=Domaine
 Edit Device Script=Modifier le script de l'appareil
 Edit ISO File Script=Modifier le script de fichier ISO
 Edit Remote SMB=
-NFS Script=
 Enter the Domain for the share if on a Domain=Entrer le domaine pour le partage si sur un domaine
 Enter the Password if the share is password protected=Entrer le mot de passe si le partage est protégé par mot de passe
 Enter the Username if the share is password protected=Entrer le nom d'utilisateur si le partage est protégé par mot de passe
@@ -56,10 +52,13 @@ Loading=Chargement
 Log=Journal
 Mount=Monter
 Mounting=Montage
+NFS Mount Point=
+NFS or ISO File Shares configured=
+NFS Script=
+NFS Share=
 NFS Shares=Partages NFS
 Next=Suivant
 No Remote SMB=
-NFS or ISO File Shares configured=
 No Unassigned Disks available=Aucun disque non affecté disponible
 not installed=pas installé
 Note=Noter
@@ -78,12 +77,10 @@ Remove Device configuration=Supprimer la configuration de l'appareil
 Remove ISO File Share=Supprimer le partage de fichiers ISO
 Remove Partition=Supprimer la partition
 Remove Remote SMB=
-NFS Share=
 Remove partition=Supprimer la partition
 Run with CORRECT flag=Exécuter avec le drapeau CORRECT
 Running=En cours
 Shares=Partages
-SMB Shares=Partages SMB
 Script=Script
 Search For Servers=Rechercher des serveurs
 Search for Servers, or enter the Server nameIP address manually=Rechercher des serveurs ou entrer manuellement l'adresse IP du nom du serveur
@@ -92,6 +89,7 @@ Searching=Recherche
 Serial Number Mountpoint=Point de montage du numéro de série
 share for=partager pour
 Simple=Simple
+SMB Shares=Partages SMB
 Source=Source
 SSD cannot be spun down=Le SSD ne peut pas être arrêté
 Success=Succès
@@ -117,7 +115,7 @@ You must enable SMB in Settings->SMB to mount SMB shares=
 You must enable the Destructive Mode in UD Settings before you can Format this disk=Vous devez activer le mode destructif dans les paramètres UD avant de pouvoir formater ce disque
 WARNING=
 You WILL have problems if you do=Vous aurez des problèmes si vous le faites
-You will need to enter credentials for Windows 10 shares just to list them=Vous devrez entrer les informations d'identification pour les partages Windows 10 juste pour les répertorier
+You will need to enter credentials for Windows shares just to list them=
 
 ; Help
 ;
@@ -181,4 +179,4 @@ You will need to enter credentials for Windows 10 shares just to list them=Vous 
 > Be careful using the /dev/sdX designation because it can change after a reboot.
 :end
 
-; Note: December 16, 2021 - 22 missing translations
+; Note: January 8, 2022 - 21 missing translations
