@@ -40,7 +40,6 @@ Volume=Volume
 :ud_edit_user_script_choose_name_plug:
 > Si vous avez installé le plug-in User Scripts, vous pouvez faire en sorte que les appareils non attribués affichent l'état d'exécution du script utilisateur qui utilisera cet appareil. Ce champ ne sera activé que lorsqu'un fichier de script existe.
 :end
-<?endif;?>=
 
 :ud_edit_script_run_background_plug:
 > Activez **Exécuter en arrière-plan** pour que le script s'exécute en tant que tâche en arrière-plan. Cela peut empêcher l'interface utilisateur des appareils non attribués de se bloquer lorsque le script est exécuté à partir de l'interface utilisateur.
@@ -53,4 +52,4 @@ Volume=Volume
 > Vous devez toujours cliquer sur **Enregistrer** pour valider la modification.
 :end
 
-; Note: January 8, 2022 - 11 missing translations
+; Note: January 8, 2022 - 10 missing translations
