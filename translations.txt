@@ -77,6 +77,7 @@ Copying=Copier
 CPU=CPU
 Create Unraidnet Account=Create Unraid.net Account
 Dashboard=Tableau de bord
+Data-Rebuild=
 day=jour
 Days_array=Sunday:dimanche Monday:lundi Tuesday:mardi Wednesday:mercredi Thursday:jeudi Friday:vendredi Saturday:samedi Sun:dim. Mon:lun. Tue:mar. Wed:mer. Thu:jeu. Fri:ven. Sat:sam.
 days=jours
@@ -97,6 +98,7 @@ Disabled=Désactivé
 disabled=désactivé
 Disk=Disque
 disk=disque
+Disk-Clear=
 DNS issue, unable to resolve mothershipunraidnet=DNS issue, unable to resolve mothership.unraid.net
 Do you want to update to the new version=Voulez-vous mettre à jour à la nouvelle version
 Docker=Docker
@@ -249,6 +251,7 @@ Parity is valid=La parité est valide
 Parity=Parité
 parity=parité
 Parity-Check=Vérification de parité
+Parity-Sync=
 Parity-Sync Data-Rebuild=Synchronisation de parité Reconstruction des données
 Password confirmation does not match=La confirmation du mot de passe ne correspond pas
 Password recovery=Récupération de mot de passe
@@ -673,4 +676,4 @@ Remark Unraids WAN IPv4 %1s does not match your clients WAN IPv4 %2s=Remarque: L
 This may indicate a complex network that will not work with this Remote Access solution=Cela peut indiquer un réseau complexe qui ne fonctionnera pas avec cette solution d'accès à distance
 Ignore this message if you are currently connected via Remote Access or VPN=Ignorez ce message si vous êtes actuellement connecté via Remote Access ou VPN
 
-; Note: November 16, 2021 - 8 missing translations
+; Note: February 8, 2022 - 11 missing translations
