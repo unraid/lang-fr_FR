@@ -219,6 +219,8 @@ Started, formatting=En cours, formatage
 Starting=En cours de démarrage
 Stopping=En cours d'extinction
 Sync errors=Erreurs de synchronisation
+Sync errors corrected=
+Sync errors detected=
 Sync=Synchronisation
 Syslinux Configuration=Configuration de Syslinux
 Syslinux configuration=Configuration de syslinux
@@ -343,4 +345,4 @@ System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
 
-; Note: February 8, 2022 - 29 missing translations
+; Note: February 8, 2022 - 31 missing translations
