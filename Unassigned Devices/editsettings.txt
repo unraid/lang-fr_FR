@@ -1,12 +1,13 @@
 Click the 'Default' button to select the default Device Script File=
 Default=
 Delete Device Script File=
+Device Script content=
+Disk Name=
 Edit Device Script=
 Enter Device Script File Name=
 Enter and Edit the Device Script that runs when a udev or operator event occurs=
 Enter the User Script that will be using this device=Entrer le script utilisateur qui utilisera cet appareil
 Load the default Device Script=
-Delete Device Script File=
 Run in background=Exécuter en arrière-plan
 Mount Device Read only=Monter l'appareil Lecture seule
 Mount Device when Plugged in or Array is Started=Monter le périphérique lorsqu'il est branché ou que l'Array est démarré
@@ -15,7 +16,6 @@ Mount Remote SMB or NFS Share when Array is Started=Monter le partage SMB ou NFS
 Run Device Script File in the background=
 Save your Device Script File changes=
 Save=Sauvegarder
-Script content=Contenu du script
 Share Device with SMB and NFS=Partager l'appareil avec SMB et NFS
 Share Remote Mount with SMB and NFS=Partager le montage à distance avec SMB et NFS
 Mark this Device as passed through to a VM or Docker=Marquer cet appareil comme transmis à une VM ou à Docker
@@ -27,6 +27,14 @@ Volume=Volume
 ;
 :ud_edit_script_device_settings_plug:
 > Sélectionnez les options pour ce périphérique/point de montage. Ces modifications sont effectuées immédiatement. Vous n'avez pas besoin de cliquer sur **Enregistrer** pour les enregistrer.
+:end
+
+:ud_disk_name_plug:
+> Enter the alias name for this device.  This is the name you want to use to refer to this drive.  Leave the name blank and the 'devX' will be assigned.
+>
+> **Name:** 8 characters max, spaces converted to '_', minimal special characters allowed, name is case sensitive.
+>
+> **Note:** Cannot contain "dev" as the first characters.  This is reserved for the 'devX' devices.
 :end
 
 :ud_apfs_volume_plug:
@@ -52,4 +60,4 @@ Volume=Volume
 > Vous devez toujours cliquer sur **Enregistrer** pour valider la modification.
 :end
 
-; Note: January 8, 2022 - 10 missing translations
+; Note: February 19, 2022 - 11 missing translations
