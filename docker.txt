@@ -131,5 +131,3 @@ Was this container created using this plugin=Ce conteneur a-t-il été créé à
 Web=Web
 WebUI=Interface Web
 Writable=Accessible en écriture
-
-; Note: February 25, 2022 - 3 missing translations
