@@ -674,7 +674,7 @@ Your USB Flash GUID and other relevant server data will also be sent=Le GUID de 
 
 ; My Servers Wan IP Check - 2021-06-30
 Remark your WAN IPv4 is %s=Remarque: votre WAN IPv4 est **%s**
-Remark Unraids WAN IPv4 %1s does not match your clients WAN IPv4 %2s=Remarque: Le WAN IPv4 **%1s** d'Unraid ne correspond pas au WAN IPv4 **%2s** de votre client
+Remark Unraids WAN IPv4 %1s does not match your clients WAN IPv4 %2s=Remarque: L'adresse IPv4 du WAN **%1s** d'Unraid ne correspond pas à l'adresse IPv4 du WAN **%2s** de votre client
 This may indicate a complex network that will not work with this Remote Access solution=Cela peut indiquer un réseau complexe qui ne fonctionnera pas avec cette solution d'accès à distance
 Ignore this message if you are currently connected via Remote Access or VPN=Ignorez ce message si vous êtes actuellement connecté via Remote Access ou VPN
 
