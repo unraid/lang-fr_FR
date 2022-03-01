@@ -2,6 +2,7 @@ Click the 'Default' button to select the default Device Script File=
 Default=
 Delete Device Script File=
 Device Script content=
+Disable Mount=
 Disk Name=
 Edit Device Script=
 Enter Device Script File Name=
@@ -60,4 +61,4 @@ Volume=Volume
 > Vous devez toujours cliquer sur **Enregistrer** pour valider la modification.
 :end
 
-; Note: February 27, 2022 - 11 missing translations
+; Note: March 1, 2022 - 12 missing translations
