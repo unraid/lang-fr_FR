@@ -61,4 +61,4 @@ Volume=Volume
 > Vous devez toujours cliquer sur **Enregistrer** pour valider la modification.
 :end
 
-; Note: March 18, 2022 - 12 missing translations
+; Note: April 2, 2022 - 12 missing translations
