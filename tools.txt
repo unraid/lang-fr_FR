@@ -152,7 +152,7 @@ SCSI Devices=Périphériques SCSI
 The below list doesnt not reflect the way IOMMU would naturally group devices=La liste ci-dessous ne reflète pas la façon dont IOMMU regroupe les périphériques
 This controller is bound to vfio, connected USB devices are not visible=Ce contrôleur est associé au vfio, les périphériques USB ne sont pas visibles
 This controller is bound to vfio, connected drives are not visible=Ce contrôleur est associé au vfio, les disques ne sont pas visibles
-To see natural IOMMU groups for your hardware, go to the VM Manager page and set the PCIe ACS override setting to Disabled=Pour voir les groups IOMMU associés à vos périphériques, aller à la page [Gestionnaire des VM] et **désactiver** **PCIe ACS override** 
+To see natural IOMMU groups for your hardware, go to the VM Manager page and set the PCIe ACS override setting to Disabled=Pour voir les groups IOMMU associés à vos périphériques, aller à la page [Gestionnaire des VM] et **désactiver** **PCIe ACS override**
 USB Devices=Périphériques USB
 Your system has booted with the PCIe ACS Override setting enabled=Votre système a démarré avec l'option **PCIe ACS Override** activée
 
