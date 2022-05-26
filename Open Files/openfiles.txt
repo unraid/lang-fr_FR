@@ -21,4 +21,4 @@ Cannot get list of open files=Ne peut obtenir la liste des fichiers ouverts
 >Cliquez sur 'Programme', 'ID Processus', ou 'Nom de Fichier et Chemin d'Accès' pour changer l'ordre de tri.
 :end
 
-; Note: May 20, 2022 - 1 missing translations
+; Note: May 26, 2022 - 1 missing translations
