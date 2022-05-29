@@ -21,4 +21,4 @@ No USB devices=Pas de périphériques USB
 > Sélectionnez la VM à laquelle attacher/détacher le périphérique USB et sélectionnez le périphérique USB correspondant à la VM.
 :end
 
-; Note: May 26, 2022 - 1 missing translations
+; Note: May 29, 2022 - 1 missing translations
