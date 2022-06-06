@@ -52,9 +52,14 @@ Array Clearing=Nettoyage de la baie
 Array Starting=Démarrage de la baie
 Array Stopping=Arrêt de la baie
 Mounting disks=Montage des disques
+Retry unmounting user shares=Retry unmounting user share(s)
 Spinning up all drives=Amorçage de tous les disques
+Stale configuration=
 Starting services=Démarrage des services
 Stopping services=Arrêt des services
+Starting Recycle Bin=
+Stopping Recycle Bin=
+Sync filesystems=
 Unmounting disks=Démontage des disques
 Autostart disabled=Démarrage automatique désactivé
 Missing encryption key=Clé de cryptage manquante
@@ -66,3 +71,5 @@ Container Port=Port du conteneur
 Container Variable=Variable du conteneur
 Container Label=Étiquette du conteneur
 Container Device=Dispositif du conteneur
+
+; Note: June 6, 2022 - 5 missing translations

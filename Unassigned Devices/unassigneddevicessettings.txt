@@ -126,4 +126,4 @@ Use only when directed for support=
 > Select the disk that you want to change the UUID.  This is useful when a XFS formatted disk has been removed from the array and has the same UUID as an array disk.  Drive must be unmounted to change the UUID.
 :end
 
-; Note: May 30, 2022 - 7 missing translations
+; Note: June 6, 2022 - 7 missing translations
