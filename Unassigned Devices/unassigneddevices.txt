@@ -90,7 +90,6 @@ Remove ISO File Share=Supprimer le partage de fichiers ISO
 Remove Partition=Supprimer la partition
 Remove Remote SMB=
 Remove partition=Supprimer la partition
-Run with CORRECT flag=Exécuter avec le drapeau CORRECT
 Running=En cours
 Script=Script
 Search For Servers=Rechercher des serveurs
