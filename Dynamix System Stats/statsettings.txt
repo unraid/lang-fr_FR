@@ -39,47 +39,47 @@ Tools menu=Menu Outils
 Viewable system graphs=Graphiques système affichables
 
 :stats_utilization_plug:
-> The disk utilization percentage number can be positioned either at the start (left) or at the end (right) of the bar.
+> Le pourcentage d'utilisation du disque peut être placé au début (à gauche) ou à la fin (à droite) de la barre.
 >
-> Left will align all numbers, while right lets the number float depending on its value.
+> Gauche aligne tous les nombres, tandis que Droite positionne le nombre dynamiquement en fonction de sa valeur.
 :end
 
 :stats_graphs_plug:
-> Select which system information needs to be displayed. Internally all information is always gathered and stored.
+> Sélectionnez les informations système devant être affichées. En interne, toutes les informations sont toujours récupérées et stockées.
 >
-> This setting only affects what is being displayed.
+> Ce paramètre n'affecte que ce qui est affiché.
 :end
 
 :stats_scaling_plug:
-> Select the CPU graph scaling to be automatic or fixed at 100%.
+> Sélectionnez l'échelle du graphique du CPU pour qu'elle soit automatique ou fixe à 100%.
 :end
 
 :stats_view_plug:
-> Select how many graphs will be displayed in a single row. The width is automatically adjusted to the number of graphs and the screen resolution.
+> Sélectionnez le nombre de graphiques à afficher sur une seule ligne. La largeur est automatiquement ajustée en fonction du nombre de graphiques et de la résolution de l'écran.
 >
-> Graph samples are internally done with a one minute interval, this setting does not change the resolution, just the width of a graph.
+> Les échantillons de graphiques sont faits en interne avec un intervalle d'une minute, ce paramètre ne change pas la résolution, juste la largeur d'un graphique.
 :end
 
 :stats_disk_size_plug:
-> Show the size of each disk at the right side of the disk usage graph. Size is always displayed using the highest possible unit.
+> Affichez la taille de chaque disque sur le côté droit du graphique d'utilisation du disque. La taille est toujours affichée en utilisant l'unité la plus élevée possible.
 :end
 
 :stats_ethernet_plug:
-> When more than one interface is present then select the interface to be displayed. Internally statistics of all available interfaces is kept.
+> Si plus d'une interface est présente, sélectionnez l'interface à afficher. En interne, les statistiques de toutes les interfaces disponibles sont conservées.
 :end
 
 :stats_unit_plug:
-> Select how interface (network) speeds are displayed, common is bits per second.
+> Sélectionnez le mode d'affichage des vitesses d'interface (réseau), le plus courant étant les bits par seconde.
 :end
 
 :stats_initial_plug:
-> The system graphs can be viewd over different periods, select here the intial period. On the system stats page itself this can be changed to any of the other choices.
+> Les graphiques du système peuvent être visualisés sur différentes périodes, sélectionnez ici la période initiale. Sur la page des statistiques du système, cette période peut être remplacée par l'un des autres choix.
 >
-> Internally information is kept with a monthly rotating mechanism. Each day is stored in a separate file.
+> En interne, les informations sont conservées grâce à un mécanisme de rotation mensuelle. Chaque jour est stocké dans un fichier séparé.
 :end
 
 :stats_realtime_plug:
-> Real-time graphing is done in a sliding window fashion. E.g. 5 minutes are first filled and next start to slide with each new sample added at the end.
+> La représentation graphique en temps réel se fait par fenêtre glissante. Par exemple, 5 minutes sont d'abord remplies, puis le graphique commence à glisser avec chaque nouvel échantillon ajouté à la fin.
 >
-> This setting sets the initial duration of the sliding window, it can be changed on the system stats page itself.
+> Ce paramètre définit la durée initiale de la fenêtre glissante, il peut être modifié sur la page des statistiques système elle-même.
 :end
