@@ -9,9 +9,9 @@ Result=Résultat
 Result of attachdetach operation=Résultats de l'opération attacher/détacher
 Note=Note
 Some USB Devices require detaching and attaching multiple times to be properly detected by VMs=Certains périphériques USB nécessitent d'êtres attachés et détachés plusieurs fois avant d'êtres correctements détectés par les VMs
-If you disconnected the USB device while it was attached to a VM, you will have to detach it and then re-attach it=
-Detaching Please wait=Détachage, veuillez patienter
-Attaching Please wait=Attachage, veuillez patienter
+If you disconnected the USB device while it was attached to a VM, you will have to detach it and then re-attach it=Si vous avez déconnecté le périphérique USB alors qu'il était attaché à une VM, vous devrez le détacher puis le réattacher
+Detaching Please wait=Détachement, veuillez patienter
+Attaching Please wait=Attachement, veuillez patienter
 No VM Selected=Pas de VM sélectionnée
 No USB devices=Pas de périphériques USB
 ;
