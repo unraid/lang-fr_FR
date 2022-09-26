@@ -20,7 +20,7 @@ High disk temperatures can shutdown server=Une température élevée pour les di
 Increment frequency=Incrémenter fréquence
 Increment pause time=Incrémenter temps de pause
 Increment resume time=Incrémenter temps de reprise
-No parity check entries found in syslog=
+No parity check entries found in syslog=Aucune entrée de contrôle de parité trouvée dans le syslog
 ParityRead-Check History=Historique Vérification Parité/Lecture
 Parity Check=Vérification de Parité
 Parity Check Tuning logging=Journalisation Réglages de Vérification de Parité 
@@ -37,18 +37,18 @@ scheduled=planifié
 Send notifications for Pause or Resume of increments=Envoyer notifications lors de Pause ou Reprise des increments
 Send notifications for temperature related Pause or Resume=Envoyer notifications lors de Pause ou Reprise en fonction de la température
 Shutdown server at=Éteindre le serveur à
-Syslog only=
-Syslog and Flash=
-Flash only=
+Syslog only=Syslog seulement
+Syslog and Flash=Syslog et Flash
+Flash only=Flash seulement
 Testing=Tester
-Unscheduled=Non plannifié
+Unscheduled=Non planifié
 Use increments for %s %s=Utiliser incréments pour %s %s
 Use increments for disk Clear operations=Utiliser incréments pour les opérations d'effacement du disque
 Use increments for Parity-SyncData Rebuild operations=Utiliser incréments pour les opérations de Sync Parité/Recons. données disque
 You require a parity disk present for this option to be relevant=Disque de parité requis pour que cette option soit utile
 
 ; Parity Problems Assistant page
-Parity Problems Assistant=
+Parity Problems Assistant=Assistant des problèmes de parité
 ; page intro text
 :parityProblems_intro_plug:
 The **Parity Problems Assistant** is part of the **Parity Check Tuning** plugin.<p/>
@@ -64,15 +64,15 @@ This can be much faster than having to run a full parity check or read check to 
 **IMPORTANT**:  This assistant should never be used as an alternative to running a full parity check once you think the problem has been resolved.
 :end
 ; fields
-Click to show Error Sectors from syslog=
+Click to show Error Sectors from syslog=Cliquez pour montrer les secteurs défectueux depuis le syslog
 End point for check=Point d'arrêt pour la vérification
 Method used to specify start and stop points=Méthode utilisée pour spécifier les points de départ et d'arrêt
 Only read checks can be performed=
-percent=
+percent=pourcent
 Percentage=Pourcentage
-sector=
+sector=secteur
 Sector Numbers=Nombre de Secteurs
-Show Sector Numbers=
+Show Sector Numbers=Montrer le nombre de secteurs
 Start Check=Début de Vérification
 Start point for check=Point de départ pour la vérification
 Write Corrections to Parity=écrire les Corrections de Parité
@@ -111,21 +111,21 @@ where action is one of=où l'action est l'une des
 
 ; Notifications
 
-aborted due to Unclean shutdown=Annulé du à un arrêt Incorrect
+aborted due to Unclean shutdown=interrompu en raison d'un arrêt incorrecte
 array stopping so progress will be lost=Array en cours d'arrêt, la progression sera perdue
 ; The type of array operation (parity check, clear, rebuild) will be appended to the following text
 Automatic unRaid=UnRaid automatique
 Average Speed=Vitesse Moyenne
-completed=Complété
+completed=complété
 Correcting Parity Check=Correction et vérification de Parité
 Drives cooled down=Retour à une température disque normale
 errors=erreurs
 finished=finis
 Increments=Incréments
-NonCorrecting Parity Check=Non-Correction de la Parité
+NonCorrecting Parity Check=Vérification de la parité sans correction
 Pause=Pause
 Paused=En pause
-Resume=Continuer
+Resume=Reprendre
 Resumed=Reprise
 Runtime=Durée
 Scheduled pause=Pause planifiée
