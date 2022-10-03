@@ -1,38 +1,38 @@
 Add ISO File Share=Ajouter un partage de fichiers ISO
-Add Remote SMB=
-Add Root Share=
+Add Remote SMB=Ajouter un partage SMB distant
+Add Root Share=Ajouter un partage racine
 An XFS or BTRFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=Un disque XFS ou BTRFS partitionné en UD est compatible avec le partitionnement de disque de matrice et peut être ajouté à la matrice
-Any data on this disk will be lost=Toutes les données sur ce disque seront perdues
+Any data on this disk will be lost=Toutes les données de ce disque seront perdues
 Are you sure=Êtes-vous sûr
 Auto mount=Montage automatique
 Back=Retour
-Browse Disk Share=Parcourir le disque partager
+Browse Disk Share=Parcourir le partager du disque
 Browse ISO File Share=Parcourir le partage de fichiers ISO
-Browse Remote SMB=
-Choose File System Format=Choisisser le format du système de fichiers
-Choose ISO File=Choisisser le fichier ISO
-Choose Server=Choisisser serveur
-Choose Share=Choisisser partager
+Browse Remote SMB=Parcourir le partage SMB distant
+Choose File System Format=Choisir le format du système de fichiers
+Choose ISO File=Choisir le fichier ISO
+Choose Server=Choisir le serveur
+Choose Share=Choisir le partage
 Click on Icon to Choose Protocol=Cliquez sur l'icône pour choisir le protocole
 Change Disk Mount Point=Changer le point de montage du disque
 Change ISO File Mount Point=Modifier le point de montage du fichier ISO
-Change Remote Share Mount Point=
-Change SMB=
+Change Remote Share Mount Point=Modifier le point de montage du partage distant
+Change SMB=Modifier le partage SMB
 Changing the Mount Point will also change the disk label=Changer le point de montage changera également l'étiquette du disque
 Click to select ISO file=Cliquer pour sélectionner le fichier ISO
 Click to view/hide partitions and mount points=Cliquer pour afficher/masquer les partitions et les points de montage
 Complete=Compléter
-Device=
+Device=Disque
 Disks=Disques
-Disk Label=
+Disk Label=Label du disque
 Disk Log Information=Informations sur le journal du disque
-Disk Sharing must be disabled to add a Root Share=
-Do NOT use a remote share local mount in a Docker container or VM for critical data=
-Do not put files or folders into the /mnt/rootshare/ folder=
+Disk Sharing must be disabled to add a Root Share=Le partage de disque doit être désactivé pour ajouter un partage racine
+Do NOT use a remote share local mount in a Docker container or VM for critical data=N'utilisez PAS un montage local de partage à distance dans un conteneur Docker ou une VM pour des données critiques
+Do not put files or folders into the /mnt/rootshare/ folder=Ne pas mettre de fichiers ou de dossiers dans le dossier /mnt/rootshare/
 Domain=Domaine
 Edit Device Script=Modifier le script de l'appareil
 Edit ISO File Script=Modifier le script de fichier ISO
-Edit Remote SMB=
+Edit Remote SMB=Modifier le partage SMB distant
 Enter the Domain for the share if on a Domain=Entrer le domaine pour le partage si sur un domaine
 Enter the Password if the share is password protected=Entrer le mot de passe si le partage est protégé par mot de passe
 Enter the Username if the share is password protected=Entrer le nom d'utilisateur si le partage est protégé par mot de passe
@@ -41,65 +41,65 @@ Execute Script as udev simulating a device being installed=Exécuter le script e
 Fail=Échouer
 file share for=partage de fichiers pour
 File System Check=Vérification du système de fichiers
-File System Scrub=
+File System Scrub=Nettoyage du système de fichiers
 Format=Format
 Formatting=Formatage
 Free=Libre
 from disk=du disque
-Go to Settings->Global Share Settings and set Enable Disk Shares to Auto or Off=
-Historical=
-Historical Devices=Appareils historiques
+Go to Settings->Global Share Settings and set Enable Disk Shares to Auto or Off=Allez dans Réglages->Paramètres globaux des partages et réglez l'option Activer les partages disque sur Auto ou Non
+Historical=Historique
+Historical Devices=Historique des disques 
 Identification=Identification
-If this disk was pre-cleared, you will remove the pre-clear signature=
+If this disk was pre-cleared, you will remove the pre-clear signature=Si ce disque a été pré-formaté, vous allez supprimer la signature de pré-formatage
 If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=
 ISO File is=Le fichier ISO est
 ISO File Shares=Partages de fichiers ISO
 If using a disk password be sure to enter the password for this disk in UD Settings so it can be mounted=Si vous utilisez un mot de passe de disque, assurez-vous d'entrer le mot de passe de ce disque dans les paramètres UD afin qu'il puisse être monté
-Device=
+Device=Disque
 Leave blank to use the array passwordpassphrase=Laissez ce champ vide pour utiliser la phrase secrète du mot de passe de l'Array de disques.                                                                                                                                                                                                                            .
 Load Shares=Charge des partages
 Loading=Chargement
 Log=Journal
 Mount=Monter
-Mount Point=
-Mounting=Montage
-NFS Mount Point=
-NFS or ISO File Shares configured=
-NFS Script=
-NFS Share=
+Mount Point=Point de Montage
+Mounting=Montage en cours
+NFS Mount Point=Point de montage NFS
+NFS or ISO File Shares configured=Partages NFS ou de fichier ISO configuré
+NFS Script=Script NFS
+NFS Share=Partage NFS
 NFS Shares=Partages NFS
 Next=Suivant
-No Remote SMB=
+No Remote SMB=Aucun partage SMB distant
 No Unassigned Disks available=Aucun disque non affecté disponible
 not installed=pas installé
 Note=Noter
-You must enable NFS in Settings->NFS to mount NFS shares=
-You must enable SMB in Settings->SMB to mount SMB shares=
+You must enable NFS in Settings->NFS to mount NFS shares=Vous devez activer NFS dans Réglages->NFS afin de monter des partages NFS
+You must enable SMB in Settings->SMB to mount SMB shares=Vous devez activer SMB dans Réglages->SMB afin de monter des partages SMB
 Open=Ouvrir
 Partition and Format Disk=Partitionner et formater le disque
-Pass Thru=Pass Thru
+Pass Thru=Passage à travers
 Password=Mot de passe
 Read only=Lecture seule
-Reboot=
+Reboot=Redémarrer
 Refresh Disks and Configuration=Actualiser les disques et la configuration
 Remember your password It cannot be recovered=Rappelez-vous de votre mot de passe Il ne peut pas être récupéré
-Remote Share is=Le partage à distance est
-Remote share mounts are dependent on a solid and reliable network connection and that is difficult to achieve=Les montages de partage à distance dépendent d'une connexion réseau solide et fiable et cela est difficile à réaliser
+Remote Share is=Le partage distant est
+Remote share mounts are dependent on a solid and reliable network connection and that is difficult to achieve=Les montages de partage distant dépendent d'une connexion réseau solide et fiable et cela est difficile à réaliser
 Remove Device configuration=Supprimer la configuration de l'appareil
 Remove ISO File Share=Supprimer le partage de fichiers ISO
 Remove Partition=Supprimer la partition
-Remove Remote SMB=
+Remove Remote SMB=Supprimer le partage SMB distant
 Remove partition=Supprimer la partition
 Running=En cours
 Script=Script
 Search For Servers=Rechercher des serveurs
-Search for Servers, or enter the Server nameIP address manually=Rechercher des serveurs ou entrer manuellement l'adresse IP du nom du serveur
+Search for Servers, or enter the Server nameIP address manually=Rechercher des serveurs ou entrer manuellement l'adresse IP du serveur
 Search for Shares or enter the Share name manually=Rechercher des partages ou entrer le nom du partage manuellement
-Searching=Recherche
-Select the Mount Point to Root Share=
-Serial Number Mount Point=Serial Number (Mount Point)
+Searching=Recherche...
+Select the Mount Point to Root Share=Choisissez le point de montage vers le partage racine
+Serial Number Mount Point=Numéro de série (Point de Montage)
 Shares=Partages
-Share Type=
+Share Type=Type de partage
 share for=partager pour
 Simple=Simple
 SMB Shares=Partages SMB
@@ -109,7 +109,7 @@ Success=Succès
 Show Historical Devices=Afficher les périphériques historiques
 Show SMB/NFS/ISO Shares=Afficher les partages SMB/NFS/ISO
 Show Disk Devices=Afficher les périphériques disque
-This is a way to gather Unraid shares into one Root Share=
+This is a way to gather Unraid shares into one Root Share=C'est une façon de rassembler les partages Unraid en un seul partage racine
 This will remove the ISO file share for=Cela supprimera le partage de fichiers ISO pour
 This will remove the remote=Cela supprimera l'accès distant
 This will remove the saved configuration of=Cela supprimera la configuration enregistrée de
@@ -118,23 +118,23 @@ to confirm=pour confirmer
 to format=au format
 Unmount=Démonter
 Unmounting=Démontage
-Use caution when gathering shares into one Root Share=
+Use caution when gathering shares into one Root Share=Soyez prudent lorsque vous regroupez des partages en un seul partage racine
 Used=Utilisé
-User and Pool Shares=
-User Shares=
+User and Pool Shares=Partages Utilisateur et de Pool
+User Shares=Partages Utilisateur
 Username=Nom d'utilisateur
-View Device Script Log=Afficher le journal des scripts du périphérique
+View Device Script Log=Afficher le journal des scripts du disque
 View ISO File Script Log=Afficher le journal des scripts de fichier ISO
-View Remote SMB=
-When you copy files between shares in the Root Share, the files may not end up on the expected disks=
-NFS Script Log=
-You can also subject yourself to security issues like ransomware by exposing all your shares in one Root Share=
-You must enable NFS in Settings->NFS to mount NFS shares=
-You must enable SMB in Settings->SMB to mount SMB shares=
+View Remote SMB=Afficher le partage SMB distant
+When you copy files between shares in the Root Share, the files may not end up on the expected disks=Lorsque vous copiez des fichiers entre des partages dans le partage racine, les fichiers peuvent ne pas se retrouver sur les disques attendus
+NFS Script Log=Journal de script NFS
+You can also subject yourself to security issues like ransomware by exposing all your shares in one Root Share=Vous encourez également des problèmes de sécurité tels des ransomwares en exposant tous vos partages dans un Partage Racine
+You must enable NFS in Settings->NFS to mount NFS shares=Vous devez activer NFS dans Réglages->NFS afin de monter des partages NFS
+You must enable SMB in Settings->SMB to mount SMB shares=Vous devez activer SMB dans Réglages->SMB afin de monter des partages SMB
 You must enable the Destructive Mode in UD Settings before you can Format this disk=Vous devez activer le mode destructif dans les paramètres UD avant de pouvoir formater ce disque
-WARNING=
+WARNING=ATTENTION
 You WILL have problems if you do=Vous aurez des problèmes si vous le faites
-You will need to enter credentials to list the shares=
+You will need to enter credentials to list the shares=Vous devrez entrez des identifiants afin d'afficher les partages
 
 ; Help
 ;
@@ -153,49 +153,49 @@ You will need to enter credentials to list the shares=
 :end
 
 :unassigned_devices_general_help_plug:
-> **Unassigned Devices is called UD for short.**
+> **Unassigned Devices est appelé UD.**
 >
-> Hover your mouse over an any active area on the UD page and a tool tip will show you what clicking that area does.
-> You can mount USB devices, sata drives, Remote SMB/NFS shares, and ISO Files with UD.  Any devices with the auto mount switch on will be mounted when the array is started.  All drives and SMB/NFS Mounts are unmounted when the array is stopped on the 'stopping_svcs' event.
-> If you want to share your drive, you can turn on the Share switch.  The default for Remote SMB shares is Public read/write access.  Enable SMB Security by user in the Unassigned Devices Settings.  NFS shares are exported and access is read/write.  The export of NFS devices is enabled in the Unassigned Devices settings. You can also enable a common script that will be executed on every disk mount.  In order to share any UD device, sharing needs to be enabled in the UD Settings and the switch turned on to share the particular device.  SMB/NFS remove shares and ISO mounts are always shared.
-> After entering a mount point, press &lt;Enter&gt; to save the change.
+> Passez votre souris sur une zone active de la page UD et une info-bulle vous montrera ce qu'il faut faire en cliquant sur cette zone.
+> Vous pouvez monter des périphériques USB, des lecteurs SATA, des partages SMB/NFS distants et des fichiers ISO avec UD.  Tous les périphériques dont l'option de montage automatique est activée seront montés au démarrage de la baie.  Tous les lecteurs et montages SMB/NFS sont démontés lorsque la matrice est arrêtée par l'événement 'stopping_svcs'.
+> Si vous souhaitez partager votre lecteur, vous pouvez activer le commutateur de partage.  La valeur par défaut des partages SMB distants est Accès public en lecture/écriture.  Activez la sécurité SMB par utilisateur dans les paramètres de Unassigned Devices.  Les partages NFS sont exportés et l'accès est en lecture/écriture.  L'exportation de périphériques NFS est activée dans les paramètres de Unassigned Devices. Vous pouvez également activer un script commun qui sera exécuté à chaque montage de disque.  Pour partager un périphérique UD, le partage doit être activé dans les paramètres UD et le commutateur doit être activé pour partager le périphérique en question.  Les partages de suppression SMB/NFS et les montages ISO sont toujours partagés.
+> Après avoir saisi un point de montage, appuyez sur &lt;Entrée&gt; pour enregistrer la modification.
 >
-> Additional options are available when you click on the <i style='color:black;font-weight:bold;' class="fa fa-plus-square"></i> icon by device identification.  When the disk is unmounted, the mount point of the device can be changed.  The disk label will also be changed.  A disk can be formatted and an fsck run to check the disk.
+> Des options supplémentaires sont disponibles lorsque vous cliquez sur l'icône <i style='color:black;font-weight:bold;' class="fa fa-plus-square"></i> par identification du périphérique.  Lorsque le disque est démonté, le point de montage du périphérique peut être modifié.  L'étiquette du disque sera également modifiée.  Un disque peut être formaté et un fsck exécuté pour vérifier le disque.
 >
-> The 'Settings->Unassigned Devices' security settings for SMB and NFS must be set correctly for SMB and NFS sharing to work properly.
+> Les paramètres de sécurité "Réglages->Unassigned Devices" pour SMB et NFS doivent être correctement définis pour que les partages SMB et NFS fonctionnent correctement.
 >
-> If the mount button is grayed out for a SMB/NFS remote share, the remote server is not responding to a ping.  The remote share server must respond to a ping or UD will consider it off-line.
+> Si le bouton de montage est grisé pour un partage distant SMB/NFS, le serveur distant ne répond peut-être pas au ping.  Le serveur du partage distant doit répondre à un ping sinon UD le considérera comme hors ligne.
 >
-> UD has a destructive mode that allows deleting disk partitions and formatting disks.	If Destructive Mode is not turned on in the UD Settings, you WILL NOT be able to format a disk or remove partitions.  Go the the 'Settings->Unassigned Devices' to set the destructive mode.
+> UD dispose d'un mode destructif qui permet de supprimer des partitions de disque et de formater des disques.	Si le mode destructif n'est pas activé dans les paramètres de l'UD, vous NE POURREZ PAS formater un disque ou supprimer des partitions.  Allez dans 'Réglages->Unassigned Devices' pour définir le mode destructif.
 >
-> **To format a disk:**
+> **Pour formater un disque :**
 >
-> + Destructive mode must be enabled.
-> + Disk must have all partitions removed. Unmount disk, click on the <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> icon, and click on all <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> icons to delete partitions.
-> + If the disk has been precleared and shows a grayed 'Format' button, click on the <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> icon, then click on the <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> icon to delete the preclear status file.
+> + Le mode destructif doit être activé.
+> + Le disque ne doit plus avoir de partition. Démontez le disque, cliquez sur l'icône <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> et cliquez sur toutes les icônes <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> pour supprimer les partitions.
+> + Si le disque a fait l'objet d'un pré-formatage et affiche un bouton 'Formater' grisé, cliquez sur l'icône <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> puis cliquez sur l'icône <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> pour supprimer le fichier d'état de pré-formatage.
 >
-> **Note: A disk partitioned in UD is compatible with the array disk partitioning and can be added to the array.  Supported file formats are XFS, XFS encrypted, BTRFS and BTRFS encrypted.**
+> **Remarque : Un disque partitionné en UD est compatible avec le partitionnement du disque de la matrice et peut être ajouté à la matrice.  Les formats de fichiers pris en charge sont XFS, XFS chiffré, BTRFS et BTRFS chiffré.**
 >
-> **Encrypted Disks:**
+> **Disque chiffrés :**
 >
-> + Any disk formatted in UD that is encrypted will use the array password/passphrase and can be incorporated into the array.  Or you can set a unique password when it is formatted.  If you set a password on the disk when it is formatted, you will need to enter a disk password in Unassigned Devices->Settings for that disk.
-> + Any disk that was not encrypted with the Array password/passphrase can be mounted by setting a per disk password set in Unassigned Devices->Settings.
+> + Tout disque formaté en UD qui est chiffré utilisera le mot de passe/passphrase de la matrice et pourra être incorporé dans la matrice.  Vous pouvez également définir un mot de passe unique lors de son formatage.  Si vous définissez un mot de passe sur le disque lorsqu'il est formaté, vous devrez entrer un mot de passe de disque dans Unassigned Devices->Règlages pour ce disque.
+> + Tout disque qui n'a pas été chiffré avec le mot de passe/passphrase de la matrice peut être monté en définissant un mot de passe par disque dans Unassigned Devices->Réglages.
 >
-> **Unassigned devices script:**
+> **Script Unassigned devices :**
 >
-> UD includes a script that is used for mounting and unmounting devices and SMB/NFS mounts. These scripts can be used from the command line or in your scripts as necessary.
+> UD inclut un script qui est utilisé pour monter et démonter les périphériques et les montages SMB/NFS. Ces scripts peuvent être utilisés à partir de la ligne de commande ou dans vos propres scripts si nécessaire.
 >
-> + '/usr/local/sbin/rc.unassigned mount autodevices' - all devices set to auto mount will be mounted.
-> + '/usr/local/sbin/rc.unassigned mount autoshares' - all SMB/NFS mounts set to auto mount will be mounted.
-> + '/usr/local/sbin/rc.unassigned umount auto' - all devices and SMB/NFS mounts set to auto mount will be unmounted.
-> + '/usr/local/sbin/rc.unassigned umount all' - all devices and SMB/NFS mounts are unmounted in preparation for shutting down the array.
-> + '/usr/local/sbin/rc.unassigned mount /dev/sdX or devX' - mount device sdX where 'X' is the device designator.  The devX is the device name in the UD page.  If the device name is 'Dev 1', then use dev1 as the device to mount.
-> + '/usr/local/sbin/rc.unassigned umount /dev/sdX or devX' - unmount device sdX where 'X' is the device designator. The devX is the device name in the UD page.  If the device name is 'Dev 1', then use dev1 as the device to unmount. You can use this command in a UD script to unmount the device when the script has completed.
-> + '/usr/local/sbin/rc.unassigned spindown devX' - spin down a disk.  The devX is the device name in the UD page.  If the device name is 'Dev 1', then use dev1 as the device to spin down.  SSDs will not spin down.
-> + '/usr/local/sbin/rc.unassigned mount SOURCE' - where SOURCE is the SMB/NFS source.
-> + '/usr/local/sbin/rc.unassigned umount SOURCE' - where SOURCE is the SMB/NFS source.
+> + '/usr/local/sbin/rc.unassigned mount autodevices' - tous les périphériques définis pour le montage automatique seront montés.
+> + '/usr/local/sbin/rc.unassigned mount autoshares' - tous les montages SMB/NFS définis pour le montage automatique seront montés.
+> + '/usr/local/sbin/rc.unassigned umount auto' - tous les périphériques et les montages SMB/NFS définis pour le montage automatique seront démontés.
+> + '/usr/local/sbin/rc.unassigned umount all' - tous les périphériques et les montages SMB/NFS sont démontés en vue de l'arrêt de la matrice.
+> + '/usr/local/sbin/rc.unassigned mount /dev/sdX or devX' - monte le périphérique sdX où 'X' est l'indicatif du périphérique.  devX est le nom du périphérique dans la page UD.  Si le nom du périphérique est 'Dev 1', utilisez dev1 comme périphérique à monter.
+> + '/usr/local/sbin/rc.unassigned umount /dev/sdX or devX' - démonte le périphérique sdX où 'X' est l'indicatif du périphérique. devX est le nom du périphérique dans la page UD.  Si le nom du périphérique est 'Dev 1', utilisez dev1 comme périphérique à démonter. Vous pouvez utiliser cette commande dans un script UD pour démonter le périphérique une fois le script terminé.
+> + '/usr/local/sbin/rc.unassigned spindown devX' - arrête la rotation d'un disque.  Le devX est le nom du périphérique dans la page UD.  Si le nom du périphérique est 'Dev 1', utilisez dev1 comme périphérique à mettre hors tension.  Les SSD ne seront pas mis hors tension.
+> + '/usr/local/sbin/rc.unassigned mount SOURCE' - où SOURCE est la source SMB/NFS.
+> + '/usr/local/sbin/rc.unassigned umount SOURCE' - où SOURCE est la source SMB/NFS.
 >
-> Be careful using the /dev/sdX designation because it can change after a reboot.
+> Soyez prudent en utilisant la désignation /dev/sdX car elle peut changer après un redémarrage.
 :end
 
 ; Note: June 6, 2022 - 41 missing translations
