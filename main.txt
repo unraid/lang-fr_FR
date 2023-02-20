@@ -343,7 +343,7 @@ your server=votre serveur
 ; Sleep plugin translations
 Check this=Vérifiez ceci
 for more information=pour plus d'informations
-Make sure your server supports S3 sleep=Assurez vous que votre serveur support le mode veille S3
+Make sure your server supports S3 sleep=Assurez vous que votre serveur supporte l'état S3 (veille)
 Sleep will immediately put the server in sleep mode=**Veille** mettre immédiatiement votre serveur en veille
 Sleeping=En veille
 System in sleep mode=Système en mode veille
