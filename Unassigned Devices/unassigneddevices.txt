@@ -1,7 +1,7 @@
 Add ISO File Share=Ajouter un partage de fichiers ISO
 Add Remote SMB=Ajouter un partage SMB distant
 Add Root Share=Ajouter un partage racine
-An XFS or BTRFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=Un disque XFS ou BTRFS partitionné en UD est compatible avec le partitionnement de disque de matrice et peut être ajouté à la matrice
+An XFS, BTRFS, or ZFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=
 Any data on this disk will be lost=Toutes les données de ce disque seront perdues
 Are you sure=Êtes-vous sûr
 Auto mount=Montage automatique
@@ -49,9 +49,11 @@ from disk=du disque
 Go to Settings->Global Share Settings and set Enable Disk Shares to Auto or Off=Allez dans Réglages->Paramètres globaux des partages et réglez l'option Activer les partages disque sur Auto ou Non
 Historical=Historique
 Historical Devices=Historique des disques 
+Historical Device is=
 Identification=Identification
 If this disk was pre-cleared, you will remove the pre-clear signature=Si ce disque a été pré-formaté, vous allez supprimer la signature de pré-formatage
 If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=Si vous ajoutez le disque à l'array et que la signature de pré-libération est supprimée, Unraid devra passer par un long processus de libération du disque à nouveau.
+is offline=
 ISO File is=Le fichier ISO est
 ISO File Shares=Partages de fichiers ISO
 If using a disk password be sure to enter the password for this disk in UD Settings so it can be mounted=Si vous utilisez un mot de passe de disque, assurez-vous d'entrer le mot de passe de ce disque dans les paramètres UD afin qu'il puisse être monté
@@ -63,16 +65,18 @@ Log=Journal
 Mount=Monter
 Mount Point=Point de Montage
 Mounting=Montage en cours
+Next=Suivant
 NFS Mount Point=Point de montage NFS
 NFS or ISO File Shares configured=Partages NFS ou de fichier ISO configuré
 NFS Script=Script NFS
+NFS Script Log=Journal de script NFS
 NFS Share=Partage NFS
 NFS Shares=Partages NFS
-Next=Suivant
 No Remote SMB=Aucun partage SMB distant
 No Unassigned Disks available=Aucun disque non affecté disponible
 not installed=pas installé
 Note=Noter
+offilne=
 You must enable NFS in Settings->NFS to mount NFS shares=Vous devez activer NFS dans Réglages->NFS afin de monter des partages NFS
 You must enable SMB in Settings->SMB to mount SMB shares=Vous devez activer SMB dans Réglages->SMB afin de monter des partages SMB
 Open=Ouvrir
@@ -126,31 +130,15 @@ Username=Nom d'utilisateur
 View Device Script Log=Afficher le journal des scripts du disque
 View ISO File Script Log=Afficher le journal des scripts de fichier ISO
 View Remote SMB=Afficher le partage SMB distant
+WARNING=ATTENTION
 When you copy files between shares in the Root Share, the files may not end up on the expected disks=Lorsque vous copiez des fichiers entre des partages dans le partage racine, les fichiers peuvent ne pas se retrouver sur les disques attendus
-NFS Script Log=Journal de script NFS
+Working=
 You can also subject yourself to security issues like ransomware by exposing all your shares in one Root Share=Vous encourez également des problèmes de sécurité tels des ransomwares en exposant tous vos partages dans un Partage Racine
 You must enable NFS in Settings->NFS to mount NFS shares=Vous devez activer NFS dans Réglages->NFS afin de monter des partages NFS
 You must enable SMB in Settings->SMB to mount SMB shares=Vous devez activer SMB dans Réglages->SMB afin de monter des partages SMB
 You must enable the Destructive Mode in UD Settings before you can Format this disk=Vous devez activer le mode destructif dans les paramètres UD avant de pouvoir formater ce disque
-WARNING=ATTENTION
 You WILL have problems if you do=Vous aurez des problèmes si vous le faites
 You will need to enter credentials to list the shares=Vous devrez entrez des identifiants afin d'afficher les partages
-
-; Help
-;
-:unassgned_devices_switches_plug:
-> Activez le commutateur **Disques** pour modifier la page Web afin d'afficher les périphériques de disque. Désactivez le commutateur **Disques** pour modifier la page Web afin de masquer les périphériques de disque.
->
-> Activez le bouton **Partages** pour modifier la page Web afin d'afficher les partages. Désactivez le bouton **Partages** pour modifier la page Web afin de masquer les partages.
->
-> Activez le commutateur **Historique** pour afficher les périphériques de disque historiques. Désactivez le commutateur **Historique** pour revenir à l'affichage des périphériques de disque historiques.
->
-> Clique sur le <i style='color:black;font-weight:bold;' class="fa fa-refresh"></i> icône pour actualiser les disques et la configuration.
->
-> Clique sur le <i style='color:black;font-weight:bold;' class="fa fa-gear"></i> icône pour accéder aux paramètres UD.
->
-> You can spin a disk up or down by clicking on the disk ball <i class='fa fa-circle orb green-orb'></i>or <i class='fa fa-circle orb grey-orb'></i>indicator.  Applies to version 6.9 RC2 and later only.
-:end
 
 :unassigned_devices_general_help_plug:
 > **Unassigned Devices est appelé UD.**
@@ -198,4 +186,4 @@ You will need to enter credentials to list the shares=Vous devrez entrez des ide
 > Soyez prudent en utilisant la désignation /dev/sdX car elle peut changer après un redémarrage.
 :end
 
-; Note: June 6, 2022 - 41 missing translations
+; Note: March 17, 2023 - 5 missing translations

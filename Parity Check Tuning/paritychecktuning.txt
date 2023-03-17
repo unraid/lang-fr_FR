@@ -472,4 +472,4 @@ Method used to specify start and stop points=Méthode utilisée pour spécifier 
 > sector is displayed and whether the it was being corrected or is a parity error.
 :end
 
-; Note: June 6, 2022 - 15 missing translations
+; Note: March 17, 2023 - 6 missing translations

@@ -20,5 +20,3 @@ No USB devices=Pas de périphériques USB
 :libvirt_hot_plug:
 > Sélectionnez la VM à laquelle attacher/détacher le périphérique USB et sélectionnez le périphérique USB correspondant à la VM.
 :end
-
-; Note: June 6, 2022 - 1 missing translations

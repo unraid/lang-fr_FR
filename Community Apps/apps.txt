@@ -146,7 +146,10 @@ This usually means your flash drive is corrupted or has dropped offline The rest
 Fatal Docker Image Error=Erreur fatale d'image Docker						 
 Your docker image or folder is either read-only or completely full Issues will result because of this You should create a new post in the Unraid forums and include your diagnostics=Votre image ou dossier docker est soit en lecture seule, soit complètement plein. Des problèmes en résulteront. Vous devez créer un nouveau message dans les forums Unraid et inclure vos diagnostics
 This template is set up to use a custom network You may have to adjust the network or IP address etc to match your system=Ce modèle est configuré pour utiliser un réseau personnalisé. Vous devrez peut-être ajuster le réseau ou l'adresse IP, etc. pour correspondre à votre système
+This template is set up to run as Privileged This is a possible security risk and usually does not need to be enabled Note that some applications require privileged in order to operate correctly=
 One or more ports used by this application are already in use by another service or app running on your server You will need to adjust the host ports accordingly on the template=Un ou plusieurs ports utilisés par cette application sont déjà utilisés par un autre service ou une autre application fonctionnant sur votre serveur. Vous devrez ajuster les ports hôtes en conséquence sur le modèle
+Not Enough Memory=
+Community Applications (and Unraid OS) have a minimum required installed memory of 4G CA cannot run without those mimimums being met=
 
 ; CA Sections Keep the length reasonable
 Home=Acceuil
@@ -308,6 +311,7 @@ Current Version=Version Actuelle
 Min OS=SE Minimal
 Max OS=SE Maximum
 Total Downloads=Total de Téléchargements
+Popularity=
 Licence=Licence
 Ranked #%s=Coté #%s
 ; as in Trending up or down arrow
@@ -441,4 +445,4 @@ An error occurred - Could not determine configuration=Une erreur s'est produite 
 Click Install to download and install the Community Applications plugin=Cliquez sur **Install** pour télécharger et installer le **Community Applications** plugin
 
 
-; Note: September 16, 2022 - 65 missing translations
+; Note: March 17, 2023 - 4 missing translations
