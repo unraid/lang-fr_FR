@@ -195,6 +195,8 @@ raidz3=
 Raw Value=Valeur Brute
 Raw View=Vue Brute
 Read-Check in progress=Contrôle de Lecture en cours
+Read errors corrected=
+Read errors detected=
 Reading=Lecture
 Reboot in safe mode=Redémarrez en mode sans échec
 Registration Key Manager=Gestionnaire de clé d'enregistrement
@@ -373,4 +375,4 @@ System in sleep mode=Système en mode veille
 This will put the system in sleep mode=Cela mettra votre système en veille
 wiki entry=entrée wiki
 
-; Note: March 17, 2023 - 26 missing translations
+; Note: April 11, 2023 - 28 missing translations

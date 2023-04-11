@@ -35,8 +35,9 @@ STALE=PÉRIMÉ
 Support Thread=Fil de Support
 Uninstall=Désinstaller
 Update All Plugins=Mettre à jour tous les plugins
+Update Incompatible=
 Update Plugin=Mettre à jour le plug in
 Upgrade=Mettre à niveau
 View Release Notes=Voir les notes de version
 
-; Note: March 17, 2023 - 2 missing translations
+; Note: April 11, 2023 - 3 missing translations
