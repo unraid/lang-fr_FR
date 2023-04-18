@@ -72,4 +72,4 @@ User Shares=Dossiers Partagés
 Write=Écriture
 You cannot use the following within share names=Vous ne pouvez pas utiliser ce qui suit dans un nom de dossier partagé
 
-; Note: April 18, 2023 - 9 missing translations
+; Note: April 18, 2023 - 8 missing translations
