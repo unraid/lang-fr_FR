@@ -55,6 +55,7 @@ Bug Description=Description du bug
 Bug Report=Rapport de bug
 bytes=octets
 Cache=Cache
+Calculated free space value=
 Cancel=Annuler
 Capabilities=Capacités
 Case-sensitive names=Noms sensibles à la casse
@@ -909,4 +910,4 @@ Your current url %s is not in the list of allowed origins for this server=Your c
 Your server will not be usable until you purchase a Registration key or install a free 30-day Trial key=Votre serveur ne sera pas utilisable tant que vous n'aurez pas acheté une clé d'enregistrement ou installé une clé d'essai gratuite de 30 jours
 Your Unraid registration key is ineligible for replacement as it is blacklisted=Votre clé d'enregistrement Unraid ne peut être remplacée car elle figure sur la liste noire
 
-; Note: April 11, 2023 - 30 missing translations
+; Note: April 18, 2023 - 31 missing translations
