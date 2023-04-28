@@ -91,7 +91,6 @@ Update Plugin=Mettre à jour le plugin
 
 Requirements not met=Configuration requise non respectée
 The requirements for this upgrade have not been met on your system=Les conditions requises pour cette mise à jour n'ont pas été remplies sur votre système
-The sidebar for the app click info will list the details=The sidebar for the app (click info) will list the details
 
 BACK=RETOUR
 
@@ -362,7 +361,6 @@ Docker Application Installation finished=Installation de l'Application Docker te
 ; Application Cards
 Actions=Actions
 Pending=En attente
-This application is a driver plugin=This application is a driver (plugin)
 This is a language pack=Ceci est un pack de langue
 This application is a docker container=Cette application est un conteneur docker
 This application is a plugin=Cette application est un plugin
@@ -441,7 +439,8 @@ An error occurred - Could not determine configuration=Une erreur s'est produite 
 Click Install to download and install the Community Applications plugin=Cliquez sur **Install** pour télécharger et installer le **Community Applications** plugin
 
 
-; Note: April 28, 2023 - 9 missing translations
+; Note: April 29, 2023 - 11 missing translations
+The sidebar for the app click info will list the details=The sidebar for the app (click info) will list the details
 This template is set up to run as Privileged This is a possible security risk and usually does not need to be enabled Note that some applications require privileged in order to operate correctly=
 Not Enough Memory=
 Community Applications and Unraid OS have a minimum required installed memory of 4G CA cannot run without those mimimums being met=
@@ -451,3 +450,4 @@ Another plugin installation or update is already in progress and this one cannot
 %s is incompatible with your OS version Either uninstall %s or update the OS=
 Featured Applications=
 Popularity=
+This application is a driver plugin=This application is a driver (plugin)
