@@ -847,7 +847,7 @@ Your Unraid registration key is ineligible for replacement as it has been replac
 Your Unraid registration key is ineligible for replacement as it is blacklisted=Votre clé d'enregistrement Unraid ne peut être remplacée car elle figure sur la liste noire
 Your USB Flash GUID and other relevant server data will also be sent=Le GUID de votre clé USB de démarrage et autres infos pertinentes de votre serveur seront également envoyés
 
-; Note: April 28, 2023 - 68 missing translations
+; Note: April 28, 2023 - 74 missing translations
 Calculated free space value=
 Job=
 Dated=
@@ -883,6 +883,7 @@ Confirm Connect plugin removal=
 Connect Error=
 Connect plugin install failed=
 Connect=
+Connected to Mothership=
 Connected=
 Continue using Connect=
 Customizable Dashboard Tiles=
@@ -896,7 +897,9 @@ Enhance your experience with Connect=
 For best results, use one of these urls=
 Go to Connect=
 Go to Go to Connect=
+Go to My Servers Dashboard=
 If you need to change flash drives, generate a backup from Connect and be up and running in minutes=
+Installing Connect beta=Installing Connect (beta)
 License Management=
 Loading Connect data=
 Manage multiple servers from your phone, tablet, laptop, or PC in the same browser window=
@@ -905,6 +908,7 @@ Manage Your Server Within Connect=
 Never ever be left without a backup of your config=
 Online Flash Backup=
 Please access this server via the Go to Connect=
+Please access this server via the My Servers Dashboard=
 Please uninstall and reinstall the Connect plugin=
 Please wait…=
 Register for Connect by signing in to Unraid.net=
@@ -916,3 +920,5 @@ Thank you installing Connect=
 The Connect dashboard links to relevant sections of the webgui, allowing quick access to those settings and server sections=
 The Connect plugin install is incomplete=
 This will register your server with Connect <sup>BETA</sup>=
+Trial key expired at %s=
+With an Unraidnet account you can start using Connect beta which gives you access to the following features=With an Unraid.net account you can start using Connect (beta) which gives you access to the following features:
