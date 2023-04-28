@@ -1,5 +1,4 @@
 %s An update is available=%s: Une mise à jour est disponible
-Alert Message=
 anonymous=anonyme
 Author=Auteur
 Check For Updates=Vérifier les mises à jour
@@ -27,7 +26,6 @@ Plugin Update Check=Vérifier mise à jour de plugin
 Plugin=Plugin
 Release Notes=Notes de version
 Remove Plugin=Retirer le plugin
-Remove Selected Plugins=
 remove=supprimer
 Select local plugin file=Sélectionner un fichier de plugin local
 Stable=Stable
@@ -35,9 +33,11 @@ STALE=PÉRIMÉ
 Support Thread=Fil de Support
 Uninstall=Désinstaller
 Update All Plugins=Mettre à jour tous les plugins
-Update Incompatible=
 Update Plugin=Mettre à jour le plug in
 Upgrade=Mettre à niveau
 View Release Notes=Voir les notes de version
 
-; Note: April 11, 2023 - 3 missing translations
+; Note: April 28, 2023 - 3 missing translations
+Alert Message=
+Remove Selected Plugins=
+Update Incompatible=
