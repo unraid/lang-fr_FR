@@ -65,6 +65,7 @@ Bonding members of=Membres de l'aggrégation
 Bonding mode=Mode d'aggrégation
 boost=boost
 Both=Les deux
+Both Web Virt-Manager Remote Viewer=Both Web & Virt-Manager Remote Viewer
 bottom-left=en bas à gauche
 bottom-right=en bas à droite
 Bridging members of=Membres du bridging
@@ -110,6 +111,7 @@ Confirm sleep command=Confirmer la mise en veille
 Confirmations=Confirmations
 connect to any device on the VPN tunnel=connectez-vous à n'importe quel appareil sur le tunnel VPN
 connect to this server using IP address=se connecter à ce serveur en utilisant l'adresse IP
+Console Options=
 Container=Conteneur
 Content=Contenu
 Correct file system errors=Corriger les erreurs du système de fichier
@@ -726,6 +728,7 @@ View libvirt log=Voir le log libvirt
 View Local Config=Afficher la configuration locale
 View Peer Config=Afficher la configuration des pairs
 view=vue
+Virt-Manager Remote Viewer=
 VLAN assignment mismatch=Assignation des VLAN mal assorties
 VLAN number=Nombre de VLAN
 VM Manager=Gestionnaire des VM
@@ -743,6 +746,7 @@ VPN tunneled access=Accès tunnelé VPN
 WAN Port=Port réseau WAN
 Warnings=Alertes
 Watts=Watts
+Web interface=
 Week of the month=Semaine du mois
 Weekly=Hebdomadaire
 WireGuard Configuration=Configuration WireGuard
@@ -809,4 +813,4 @@ Transient errors in this log can be ignored unless you are having issues=Les err
 Unraid API extra origins=Origines supplémentaires de l'Unraid API
 View Flash Backup Error Log=Voir l'historique des erreurs de sauvegarde de la clé de démarrage
 
-; Note: April 18, 2023 - 35 missing translations
+; Note: April 28, 2023 - 39 missing translations
