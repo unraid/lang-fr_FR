@@ -52,7 +52,6 @@ Array Clearing=Nettoyage de la baie
 Array Starting=Démarrage de la baie
 Array Stopping=Arrêt de la baie
 Mounting disks=Montage des disques
-Retry unmounting user shares=Retry unmounting user share(s)
 Spinning up all drives=Amorçage de tous les disques
 Stale configuration=Configuration obsolète
 Starting services=Démarrage des services
@@ -71,3 +70,6 @@ Container Port=Port du conteneur
 Container Variable=Variable du conteneur
 Container Label=Étiquette du conteneur
 Container Device=Dispositif du conteneur
+
+; Note: April 29, 2023 - 1 missing translations
+Retry unmounting user shares=Retry unmounting user share(s)
