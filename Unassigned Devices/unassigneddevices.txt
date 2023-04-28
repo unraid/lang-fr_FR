@@ -1,7 +1,6 @@
 Add ISO File Share=Ajouter un partage de fichiers ISO
 Add Remote SMB=Ajouter un partage SMB distant
 Add Root Share=Ajouter un partage racine
-An XFS, BTRFS, or ZFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=
 Any data on this disk will be lost=Toutes les données de ce disque seront perdues
 Are you sure=Êtes-vous sûr
 Auto mount=Montage automatique
@@ -19,7 +18,6 @@ Change ISO File Mount Point=Modifier le point de montage du fichier ISO
 Change Remote Share Mount Point=Modifier le point de montage du partage distant
 Change SMB=Modifier le partage SMB
 Changing the Mount Point will also change the disk label=Changer le point de montage changera également l'étiquette du disque
-Clear=
 Click to select ISO file=Cliquer pour sélectionner le fichier ISO
 Click to view/hide partitions and mount points=Cliquer pour afficher/masquer les partitions et les points de montage
 Complete=Compléter
@@ -49,12 +47,10 @@ Free=Libre
 from disk=du disque
 Go to Settings->Global Share Settings and set Enable Disk Shares to Auto or Off=Allez dans Réglages->Paramètres globaux des partages et réglez l'option Activer les partages disque sur Auto ou Non
 Historical=Historique
-Historical Devices=Historique des disques 
-Historical Device is=
+Historical Devices=Historique des disques
 Identification=Identification
 If this disk was pre-cleared, you will remove the pre-clear signature=Si ce disque a été pré-formaté, vous allez supprimer la signature de pré-formatage
 If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=Si vous ajoutez le disque à l'array et que la signature de pré-libération est supprimée, Unraid devra passer par un long processus de libération du disque à nouveau.
-is offline=
 ISO File is=Le fichier ISO est
 ISO File Shares=Partages de fichiers ISO
 If using a disk password be sure to enter the password for this disk in UD Settings so it can be mounted=Si vous utilisez un mot de passe de disque, assurez-vous d'entrer le mot de passe de ce disque dans les paramètres UD afin qu'il puisse être monté
@@ -77,7 +73,6 @@ No Remote SMB=Aucun partage SMB distant
 No Unassigned Disks available=Aucun disque non affecté disponible
 not installed=pas installé
 Note=Noter
-offilne=
 You must enable NFS in Settings->NFS to mount NFS shares=Vous devez activer NFS dans Réglages->NFS afin de monter des partages NFS
 You must enable SMB in Settings->SMB to mount SMB shares=Vous devez activer SMB dans Réglages->SMB afin de monter des partages SMB
 Open=Ouvrir
@@ -133,14 +128,12 @@ View ISO File Script Log=Afficher le journal des scripts de fichier ISO
 View Remote SMB=Afficher le partage SMB distant
 WARNING=ATTENTION
 When you copy files between shares in the Root Share, the files may not end up on the expected disks=Lorsque vous copiez des fichiers entre des partages dans le partage racine, les fichiers peuvent ne pas se retrouver sur les disques attendus
-Working=
 You can also subject yourself to security issues like ransomware by exposing all your shares in one Root Share=Vous encourez également des problèmes de sécurité tels des ransomwares en exposant tous vos partages dans un Partage Racine
 You must enable NFS in Settings->NFS to mount NFS shares=Vous devez activer NFS dans Réglages->NFS afin de monter des partages NFS
 You must enable SMB in Settings->SMB to mount SMB shares=Vous devez activer SMB dans Réglages->SMB afin de monter des partages SMB
 You must enable the Destructive Mode in UD Settings before you can Format this disk=Vous devez activer le mode destructif dans les paramètres UD avant de pouvoir formater ce disque
 You WILL have problems if you do=Vous aurez des problèmes si vous le faites
 You will need to enter credentials to list the shares=Vous devrez entrez des identifiants afin d'afficher les partages
-ZFS Pool Name=
 
 :unassigned_devices_general_help_plug:
 > **Unassigned Devices est appelé UD.**
@@ -188,4 +181,11 @@ ZFS Pool Name=
 > Soyez prudent en utilisant la désignation /dev/sdX car elle peut changer après un redémarrage.
 :end
 
-; Note: April 11, 2023 - 7 missing translations
+; Note: April 28, 2023 - 7 missing translations
+An XFS, BTRFS, or ZFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=
+Clear=
+Historical Device is=
+is offline=
+offilne=
+Working=
+ZFS Pool Name=

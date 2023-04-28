@@ -14,6 +14,6 @@ Minute=Minute
 Custom cron expression=Expression cron personnalisée
 Credits=Crédits
 Docker Must Be Enabled For This Module To Operate=Docker Doit Être Activé Pour Utiliser Ce Module
-Time to wait for graceful stop before killing=Temps d'attente d'arrêt normale avant de tuer le processus  
+Time to wait for graceful stop before killing=Temps d'attente d'arrêt normale avant de tuer le processus
 Update All Docker Applications=Mettre à jour Toutes les Applications Docker
 Do not overlap with autoupdate=Ne pas empiéter avec les mises à jour automatique

@@ -4,10 +4,8 @@
 
 ; Parity Check Settings Page
 
-Parity Check Tuning=
 automatic=automatique
 Basic=Basique
-below critical disk temperature threshold=
 below warning disk temperature threshold=Seuil inférieur d'avertissement de température du disque
 CAUTION=ATTENTION
 Click to show parity-check history=Cliquez pour afficher l'historique de vérification de la parité
@@ -23,7 +21,7 @@ Increment resume time=Incrémenter temps de reprise
 No parity check entries found in syslog=Aucune entrée de contrôle de parité trouvée dans le syslog
 ParityRead-Check History=Historique Vérification Parité/Lecture
 Parity Check=Vérification de Parité
-Parity Check Tuning logging=Journalisation Réglages de Vérification de Parité 
+Parity Check Tuning logging=Journalisation Réglages de Vérification de Parité
 Parity Sync=Synchronisation Parité
 Pause an array operation at=Mettre en pause l'opération sur l'array à
 Pause and Resume array operations if disks overheat=Mettre en pause et continuer les opérations sur l'array en fonction de la température des disques
@@ -67,7 +65,6 @@ This can be much faster than having to run a full parity check or read check to 
 Click to show Error Sectors from syslog=Cliquez pour montrer les secteurs défectueux depuis le syslog
 End point for check=Point d'arrêt pour la vérification
 Method used to specify start and stop points=Méthode utilisée pour spécifier les points de départ et d'arrêt
-Only read checks can be performed=
 percent=pourcent
 Percentage=Pourcentage
 sector=secteur
@@ -81,7 +78,7 @@ Write Corrections to Parity=écrire les Corrections de Parité
 
 Analyze results from an array operation=Analyser les résultats de l'Array
 Array being shutdown due to drive overheating=Array arrêtée pour cause de surchauffe de disque
-Array operation will not be restarted=L'opération sur l'array ne reprendra pas 
+Array operation will not be restarted=L'opération sur l'array ne reprendra pas
 Array operation restarted=Reprise de l'opération sur l'array
 Array shutdown=Arrêt de l'array
 Cancel a running parity check=Annuler un contrôle de parité en cours
@@ -134,8 +131,8 @@ will be started=sera démarré
 
 ; Swal warnings
 
-A crontab entry should have 5 space-separated values defining the minutes, hour, day of the month, month, day of the week=Une entrée crontab doit contenir 5 valeurs séparées par des espaces définissant les minutes, heures, jour du mois, mois, jour de la semaine 
-At the moment there is no mechanism to stop this file from growing forever so it is up to you to manage this manually=Pour le moment il n'y a aucun mécanisme pour contrôler la taille de ce fichier, vous devez le gérer manuellement 
+A crontab entry should have 5 space-separated values defining the minutes, hour, day of the month, month, day of the week=Une entrée crontab doit contenir 5 valeurs séparées par des espaces définissant les minutes, heures, jour du mois, mois, jour de la semaine
+At the moment there is no mechanism to stop this file from growing forever so it is up to you to manage this manually=Pour le moment il n'y a aucun mécanisme pour contrôler la taille de ce fichier, vous devez le gérer manuellement
 Are you sure you have not got these the wrong way around=Êtes vous sûrs​ de procéder d'une manière correcte
 Before you can set this option to Yes you must first have enabled system notifications=Avant de pouvoir utiliser cette option vous devez avoir activé les notifications système
 Click on the crontab link to get more details on valid formats=Cliquez sur le lien crontab pour obtenir plus de détails sur les formats valides
@@ -160,9 +157,7 @@ Testing mode is normally only used by the plugin author or when gathering eviden
 Testing mode is very verbose and generates a lot of additional log entries so you do not want it enabled unless this is really necessary=Le mode de test est très détaillé et génère de nombreuses entrées de journal supplémentaires, vous ne voulez donc pas qu'il soit activé, sauf si cela est vraiment nécessaire
 The Pause and Resume times would give an increment length of more than 12 hours which is unusual=Les temps de pause et de reprise donneraient une durée d'incrément de plus de 12 heures, ce qui est inhabituel
 The Resume value must be greater than the Pause one for the heat related Pause and Resume to work correctly as they are both subtracted from the disk temperature warning value when calculating the desired temperature=La valeur de reprise doit être supérieure à celle de la pause pour que la pause et la reprise liées à la chaleur fonctionnent correctement car elles sont toutes deux soustraites de la valeur d'avertissement de température du disque lors du calcul de la température souhaitée.
-The value you have specified seems unusually large as it is not an absolute value but is relative to the value specified for the drives Temperature Warning level at the unRaid level=
 This might affect array integrity=Cela peut affecter l'intégrité de l'array
-Unusually large value=
 
 ; Syslog messages (with debug logging disabled)
 
@@ -212,7 +207,6 @@ Temperature monitoring switched off=Surveillance de la température désactivée
 Unscheduled array operation in progress=Opération de l'array non planifiée en cours
 using scheduled mode of %s=utilisation du mode programmé de %s
 warm=chaud
-with all array drives below temperature threshold for a Pause=
 
 ; Syslog messages (with testing logging enabled)
 ; (almost certainly not worth translating these as they are mainly of use to the plugin developer)
@@ -472,4 +466,10 @@ Method used to specify start and stop points=Méthode utilisée pour spécifier 
 > sector is displayed and whether the it was being corrected or is a parity error.
 :end
 
-; Note: March 17, 2023 - 6 missing translations
+; Note: April 28, 2023 - 6 missing translations
+Parity Check Tuning=
+below critical disk temperature threshold=
+Only read checks can be performed=
+The value you have specified seems unusually large as it is not an absolute value but is relative to the value specified for the drives Temperature Warning level at the unRaid level=
+Unusually large value=
+with all array drives below temperature threshold for a Pause=
