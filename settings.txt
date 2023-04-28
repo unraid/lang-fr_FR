@@ -813,4 +813,4 @@ Transient errors in this log can be ignored unless you are having issues=Les err
 Unraid API extra origins=Origines supplémentaires de l'Unraid API
 View Flash Backup Error Log=Voir l'historique des erreurs de sauvegarde de la clé de démarrage
 
-; Note: April 28, 2023 - 39 missing translations
+; Note: April 28, 2023 - 38 missing translations
