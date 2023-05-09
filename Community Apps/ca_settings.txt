@@ -17,6 +17,8 @@ Enable developer mode=Activer le mode développeur
 This unlocks some extra features within CA generally only used by developers Not recommended to enable=Cela débloque certaines fonctionnalités supplémentaires dans CA généralement utilisées uniquement par les développeurs Il n'est pas recommandé d'activer
 Support Thread=Fil de Support
 
-; Note: April 28, 2023 - 2 missing translations
+; Note: May 10, 2023 - 4 missing translations
 Automatically open the sidebar=
 Allows CA to automatically open the sidebar for more information when hovering over an application's icon=
+Disable Mouse Wheel Page Changes=
+This setting disables using left or right on a mouse wheel to change the page=
