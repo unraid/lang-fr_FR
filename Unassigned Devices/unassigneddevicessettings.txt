@@ -2,7 +2,7 @@ Add=Ajouter
 Auto Mount USB Devices=Montage automatique Périphériques USB
 Change Disk UUID=Changer l'UUID du disque
 Change UUID=Changer UUID
-Change the disk UUID=Changer l'UUID du disque
+Change Disk UUID=Changer l'UUID du disque
 Common Script=Script commun
 Common Settings=Paramètres communs
 Destructive Mode=Mode destructeur
@@ -15,7 +15,6 @@ Mount SSDs with discard option=Monter les disques SSD avec l'option défausse
 NFS Security=Sécurité NFS
 NFS Settings=Paramètres NFS
 Rule=Règle
-SMB Security=Sécurité SMB
 Select Disk=Sélectionner disque
 Set Encrypted Disk Password=Définir le mot de passe du disque crypté
 Set Password=Définir le mot de passe
@@ -55,6 +54,11 @@ Unassigned Devices=Unassigned Devices
 > You are encouraged to change your mappings to the /mnt/remotes/ mount point.
 >
 > If you do not need the backwards compatibility, leave it set to **No**.
+:end
+
+:ud_settings_remote_share_wait_plug:
+> This is the time in seconds to wait before mounting remote shares when the array is first started.
+>
 :end
 
 :ud_settings_specify_smb_vers_plug:
@@ -107,6 +111,10 @@ Unassigned Devices=Unassigned Devices
 > The down side is that it overrides Linux group permissions.  If you are unsure about whether or not this is necessary, leave it enabled.
 :end
 
+:ud_settings_nfs_security_plug:
+> Set to **Yes** to export Unassigned Devices with NFS sharing. Shares are exported Public with read and write access or Private with the rule you set. Access is controlled with permission settings on files and folders.
+:end
+
 :ud_settings_nfs_shares_plug:
 > Set to **Yes** to export NFS shares.  Shares are exported Public with read and write access or Private with the rule you set.  Access is controlled with permission settings on files and folders.
 :end
@@ -119,14 +127,20 @@ Unassigned Devices=Unassigned Devices
 > Select the disk that you want to change the UUID.  This is useful when a XFS formatted disk has been removed from the array and has the same UUID as an array disk.  Drive must be unmounted to change the UUID.
 :end
 
-; Note: April 28, 2023 - 10 missing translations
+; Note: June 18, 2023 - 16 missing translations
 Command times=
+Disabled=
 Enter Pool Mount Point=
 NFS must be enabled in Settings->NFS to enable NFS Export=
 NFS Version to use when Mounting Remote Shares=
+Public=
+Private=
+Private Hidden=
 Refresh and Update=
+Remote Share Mount Wait Time=
+SMB Settings=
 Set Pool Mount Point=
 Set the Pool Mount Point for this disk=
 Udev and Hotplug=
 Unraid 6.10 or later is required for NFSv4 support=
-Use only when directed for support=
+Use only when directed for support because the messages can flood the log=
