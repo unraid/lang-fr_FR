@@ -63,7 +63,7 @@ User Shares=Dossiers Partagés
 Write=Écriture
 You cannot use the following within share names=Vous ne pouvez pas utiliser ce qui suit dans un nom de dossier partagé
 
-; Note: April 29, 2023 - 17 missing translations
+; Note: July 9, 2023 - 18 missing translations
 Calculated free space value=
 Clean Up=
 CLEAN UP=
@@ -80,4 +80,5 @@ Remove unused share configurations=
 Removed share configurations=
 Secondary storage to Primary storage=
 Secondary storage=
+Share name contains invalid characters for ZFS use=
 Storage=
