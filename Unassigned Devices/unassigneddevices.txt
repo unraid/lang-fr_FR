@@ -17,7 +17,6 @@ Change Disk Mount Point=Changer le point de montage du disque
 Change ISO File Mount Point=Modifier le point de montage du fichier ISO
 Change Remote Share Mount Point=Modifier le point de montage du partage distant
 Change SMB=Modifier le partage SMB
-Changing the Mount Point will also change the disk label=Changer le point de montage changera également l'étiquette du disque
 Click to select ISO file=Cliquer pour sélectionner le fichier ISO
 Click to view/hide partitions and mount points=Cliquer pour afficher/masquer les partitions et les points de montage
 Complete=Compléter
@@ -83,8 +82,6 @@ Read only=Lecture seule
 Reboot=Redémarrer
 Refresh Disks and Configuration=Actualiser les disques et la configuration
 Remember your password It cannot be recovered=Rappelez-vous de votre mot de passe Il ne peut pas être récupéré
-Remote Share is=Le partage distant est
-Remote share mounts are dependent on a solid and reliable network connection and that is difficult to achieve=Les montages de partage distant dépendent d'une connexion réseau solide et fiable et cela est difficile à réaliser
 Remove Device configuration=Supprimer la configuration de l'appareil
 Remove ISO File Share=Supprimer le partage de fichiers ISO
 Remove Partition=Supprimer la partition
@@ -111,7 +108,7 @@ Show SMB/NFS/ISO Shares=Afficher les partages SMB/NFS/ISO
 Show Disk Devices=Afficher les périphériques disque
 This is a way to gather Unraid shares into one Root Share=C'est une façon de rassembler les partages Unraid en un seul partage racine
 This will remove the ISO file share for=Cela supprimera le partage de fichiers ISO pour
-This will remove the remote=Cela supprimera l'accès distant
+This will remove the=Cela supprimera le
 This will remove the saved configuration of=Cela supprimera la configuration enregistrée de
 This will remove the=Cela supprimera le
 to confirm=pour confirmer
@@ -181,15 +178,22 @@ You will need to enter credentials to list the shares=Vous devrez entrez des ide
 > Soyez prudent en utilisant la désignation /dev/sdX car elle peut changer après un redémarrage.
 :end
 
-; Note: June 18, 2023 - 13 missing translations
+; Note: November 16, 2023 - 20 missing translations
 An XFS, BTRFS, or ZFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=
+Changing the Mount Point will also change the disk label on all disks and the pool name on a ZFS disk=
 Clear=
+Enter the server name and it will be added to the local DNS names and will then resolve by name=
 Exclusive Share files will not be accessible in a Root Share=
+failed to=
 Historical Device is=
+If the IP address of the server shows in the list after searching, your DNS server is not resolving the name=
+If shares do not show, check your credentials=
 Invalid Configuration - Remove and Re-add=
 is offline=
 Not Enabled=
-offilne=
+offline=
+Remote Server is=
+Remote share mounts are dependent on a solid and reliable network connection and that can be difficult to achieve=
 User and Pool Shares will include all files in User Shares, Cache and Pool Devices=
 User Shares will allow access to User Shares, but the Root Share will not include Cache and Pool Device files=
 Working=
