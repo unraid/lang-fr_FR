@@ -307,17 +307,26 @@ ou si nous découvrons que le numéro de série n'est pas unique (ceci est commu
 Pour plus d'informations, veuillez [Contacter le Support](https://lime-technology.com/contact).
 :end
 
-; Note: April 28, 2023 - 24 missing translations
+; Note: December 17, 2023 - 40 missing translations
 Alert Message=
 Alerts=
 All Categories=
 Clear Log=
+Creating Flash backup=
+Creation error=
+Delete Modprobe config=
 Deprecated Only=
+Downgrade OS=
+Driver=
+Edit Modprobe config=
 Error reporting level=
 Errors Only=
+Flash backup=
+Insufficient free disk space available=
 Log file cleared=
 Log size=
 LOG size=
+Modprobed config file=Modprobe.d config file
 No filter=
 Notices Only=
 Notices=
@@ -327,7 +336,14 @@ PHP Log File=
 PHP Settings=
 Please provide diagnostics when experiencing problems=
 Post these in the forums=
+Rebuild Modules=
+Remove custom modprobed configuration=Remove custom modprobe.d configuration?
+Save Modprobe config=
+Select View=
 Show errors on screen=
+State=
+Support page=
+System Drivers=
 This will delete the selected notification files=
 View Log=
 Warnings Only=
