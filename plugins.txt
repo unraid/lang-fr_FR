@@ -37,8 +37,7 @@ Update Plugin=Mettre à jour le plug in
 Upgrade=Mettre à niveau
 View Release Notes=Voir les notes de version
 
-; Note: July 9, 2023 - 4 missing translations
-Alert Message=
-I have read the release notes=
-Remove Selected Plugins=
-Update Incompatible=
+Alert Message=Message d'alerte
+I have read the release notes=J'ai lu la note de version
+Remove Selected Plugins=Supprimer les plugins sélectionnés
+Update Incompatible=Mise à jour incompatible
