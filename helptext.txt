@@ -183,8 +183,8 @@ Et démarrer l'Array
 #### Donnée de chiffrement
 
 Lorsque l'Array est stoppée, l'utilisateur peut spécifier une nouvelle clé de chiffrement. Notez qu'une fois qu'un disque est formaté
-avec une clé en particulier, il ne peut être décrypté qu'avec cette clé. Modifier la clé de chiffrement impose
-de reformater les disques encryptés, ce qui **entraîne une suppression irréversible de toutes les données existantes sur ces disques.**
+avec une clé en particulier, il ne peut être déchiffré qu'avec cette clé. Modifier la clé de chiffrement impose
+de reformater les disques chiffré, ce qui **entraîne une suppression irréversible de toutes les données existantes sur ces disques.**
 
 #### Phrase mot de passe
 
@@ -196,13 +196,13 @@ ne fonctionnera pas avec un codage différent. Si vous voulez un mot de passe pl
 Merci de vous référer à la [foire au questions cryptsetup](https://gitlab.com/cryptsetup/cryptsetup/wikis/FrequentlyAskedQuestions#5-security-aspects)
 Pour bien comprendre comment constituer un mot de passe *sécurisé *.
 
-Vous devez impérativement vous **souvenir** de ce mot de passe. **SI VOUS LE PERDEZ, LE CONTENU CRYPTÉ NE PEUT PAS ÊTRE RÉCUPÉRÉ!**
+Vous devez impérativement vous **souvenir** de ce mot de passe. **SI VOUS LE PERDEZ, LE CONTENU CHIFFRÉ NE PEUT PAS ÊTRE RÉCUPÉRÉ!**
 
 #### Fichier clé
 
 Sélectionnez un fichier local comme clé, contenant une clé de chiffrement ou un fichier binaire. La taille maximale de ce fichier est de 8M (8388608 octets).
 
-**Sauvegardez** votre fichier clé local. **SI VOUS LE PERDEZ, LE CONTENU CRYPTÉ NE PEUT PAS ÊTRE RÉCUPÉRÉ!**
+**Sauvegardez** votre fichier clé local. **SI VOUS LE PERDEZ, LE CONTENU CHIFFRÉ NE PEUT PAS ÊTRE RÉCUPÉRÉ!**
 :end
 
 :info_warning_temp_help:

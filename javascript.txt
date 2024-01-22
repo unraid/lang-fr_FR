@@ -61,7 +61,7 @@ Stopping Recycle Bin=Arrêt de la corbeille
 Sync filesystems=Synchronisation des systèmes de fichiers
 Unmounting disks=Démontage des disques
 Autostart disabled=Démarrage automatique désactivé
-Missing encryption key=Clé de cryptage manquante
+Missing encryption key=Clé de chiffrement manquante
 Opening encrypted volumes=Ouverture des volumes chiffrés
 
 ; docker variables
@@ -71,5 +71,4 @@ Container Variable=Variable du conteneur
 Container Label=Étiquette du conteneur
 Container Device=Dispositif du conteneur
 
-; Note: April 29, 2023 - 1 missing translations
-Retry unmounting user shares=Retry unmounting user share(s)
+Retry unmounting user shares=Nouvelle tentative de démontage des partages utilisateur

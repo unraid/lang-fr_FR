@@ -30,9 +30,8 @@ Enable for Unassigned Devices=Activer pour Unassigned Devices
 :end
 
 
-; Note: April 28, 2023 - 5 missing translations
-File Activity Monitoring=
-Stop File Activity Monitoring=
-Refresh Page=
-Enable File Activity Monitoring=
-Enable for Cache and Pool Disks=
+File Activity Monitoring=Monitoring de l'Activité des Fichiers
+Stop File Activity Monitoring=Arrêter le Monitoring de l'Activité des Fichiers
+Refresh Page=Raffraichir la Page
+Enable File Activity Monitoring=Activer le monitoring de l'Activité des Fichiers
+Enable for Cache and Pool Disks=Activer pour le cache et les disques du Pool
