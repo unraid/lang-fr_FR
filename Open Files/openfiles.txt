@@ -1,8 +1,6 @@
 Process=Processus
 Kill Process=Tuer Processus
 Process ID=ID Processus
-Open Files=Fichiers Ouverts
-Files that may prevent shutdown=Fichiers pouvant empêcher l'extinction
 File Name and Path=Nom de Fichier et Chemin d'Accès
 An entry for bash means you have a terminal session open with the working directory on the array=Une occurence de bash signifie que vous avez une session terminal ouverte avec un répertoire de travail rélié à l'array
 If smbd is listed, it means that another computer has a samba share mounted=Si smbd figure dans la liste, cela signifie qu'une autre machine accède à un partage samba depuis votre serveur
@@ -20,3 +18,7 @@ Cannot get list of open files=Ne peut obtenir la liste des fichiers ouverts
 >
 >Cliquez sur **Processus**, **ID Processus**, **Fichiers pouvant empêcher l'extinction** ou **Nom de Fichier et Chemin d'Accès' pour changer l'ordre de tri.
 :end
+
+; Note: February 10, 2024 - 2 missing translations
+Open=
+May prevent shutdown=
