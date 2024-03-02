@@ -1779,7 +1779,7 @@ Démarrer une contrôle de la santé de l'Array (maintenance préventive) et not
 
 :notifications_agent_selection_help:
 Utilisez les cases à cocher ci-dessous pour sélectionner la manière dont doivent être transmise: par le navigateur, par e-mail et/ou par un agent personnalisé.
-<B> Conseil: </ b> vous pouvez utiliser des agents de notification personnalisés; il suffit de les ajouter au répertoire "/boot/config/plugins/dynamix/notification/agents" et cochez 'Agents'.
+<b>Conseil:</b> vous pouvez utiliser des agents de notification personnalisés; il suffit de les ajouter au répertoire "/boot/config/plugins/dynamix/notification/agents" et cochez 'Agents'.
 :end
 
 :notifications_classification_help:
