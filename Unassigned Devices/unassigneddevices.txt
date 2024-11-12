@@ -49,12 +49,12 @@ Historical=Historique
 Historical Devices=Historique des disques
 Identification=Identification
 If this disk was pre-cleared, you will remove the pre-clear signature=Si ce disque a été pré-formaté, vous allez supprimer la signature de pré-formatage
-If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=Si vous ajoutez le disque à l'array et que la signature de pré-libération est supprimée, Unraid devra passer par un long processus de libération du disque à nouveau.
+If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=Si vous ajoutez le disque à la baie et que la signature de pré-libération est supprimée, Unraid devra passer par un long processus de libération du disque à nouveau.
 ISO File is=Le fichier ISO est
 ISO File Shares=Partages de fichiers ISO
 If using a disk password be sure to enter the password for this disk in UD Settings so it can be mounted=Si vous utilisez un mot de passe de disque, assurez-vous d'entrer le mot de passe de ce disque dans les paramètres UD afin qu'il puisse être monté
 Device=Disque
-Leave blank to use the array passwordpassphrase=Laissez ce champ vide pour utiliser la phrase secrète du mot de passe de l'Array de disques.                                                                                                                                                                                                                            .
+Leave blank to use the array passwordpassphrase=Laissez ce champ vide pour utiliser la phrase secrète du mot de passe de la baie de disques.                                                                                                                                                                                                                            .
 Load Shares=Charge des partages
 Loading=Chargement
 Log=Journal
@@ -129,33 +129,33 @@ You WILL have problems if you do=Vous aurez des problèmes si vous le faites
 You will need to enter credentials to list the shares=Vous devrez entrez des identifiants afin d'afficher les partages
 
 :unassgned_devices_switches_plug:
-> Turn on the **Disks** switch to change the web page to show disk devices. Turn off the **Disks** switch to change the web page to hide disk devices.
+> Activez le commutateur **Disques** pour afficher les disques sur la page Web. Désactivez le commutateur **Disques** afin de masquer les disques de la page Web.
 >
-> Turn on the **Shares** switch to change the web page to show shares. Turn off the **Shares** switch to change the web page to hide shares.
+> Activez le commutateur **Shares** pour afficher les partages sur la page web. Désactivez le commutateur **Shares** pour masquer les partages sur la page web.
 >
-> Turn on the **Historical** switch to show Historical disk devices. Turn off **Historical** switch to switch back to not show Historical disk devices.
+> Activez le commutateur **Historique** pour afficher l'historique des disques. Désactivez le commutateur **Historique** pour revenir à l'affichage sans historique des disque.
 >
-> Click on the <i class="fa fa-refresh"></i> icon to refresh disks and configuration.
+> Cliquez sur l'icône <i class="fa fa-refresh"></i> pour actualiser les disques et la configuration.
 >
-> Click on the <i class="fa fa-gear"></i> icon to go to the UD Settings.
+> Cliquez sur l'icône <i class="fa fa-gear"></i> pour accéder aux paramètres de Unassigned Devices.
 >
-> You can spin a disk up or down by clicking on the disk ball <i class='fa fa-circle orb green-orb'></i>or <i class='fa fa-circle orb grey-orb'></i>indicator.  Applies to version 6.9 RC2 and later only.
+> Vous pouvez démarrer ou arrêter les plateaux d'un disque en cliquant sur la boule <i class='fa fa-circle orb green-orb'></i> ou l'indicateur <i class='fa fa-circle orb grey-orb'></i>. S'applique uniquement à la version 6.9 RC2 et versions ultérieures.
 >
-> Click on the <i class="fa fa-gears"></i> icon to go to the Device Settings configuration.  This is where you configure a device script and certain device characteristics.
+> Cliquez sur l'icône <i class="fa fa-gears"></i> pour accéder à la configuration des paramètres de disque. C'est ici que vous configurez un script et certaines caractéristiques de disque.
 > 
-> Click on the <i class="icon-nvme"></i> or <i class="fa fa-hdd-o"></i> icon to display syslog entries specific to this disk device.
+> Cliquez sur l'icône <i class="icon-nvme"></i> ou <i class="fa fa-hdd-o"></i> pour afficher les entrées syslog spécifiques à ce disque.
 >
-> **Mount Point icons:**
+> **Icônes du point de montage :**
 >
-> When the <i class='fa fa-pencil'></i> icon shows next to the mount point it indicates the mount point can be changed when the mount point is clicked.
+> Lorsque l'icône <i class='fa fa-pencil'></i> apparaît à côté du point de montage, cela indique que le point de montage peut être modifié lorsque l'on clique dessus.
 >
-> When the <i class='fa fa-external-link'></i> icon shows next to the mount point it indicates the clicking on the mount point will browse the files on that partition.
+> Lorsque l'icône i class='fa fa-external-link'></i> apparaît à côté du point de montage, cela indique qu'un clic sur le point de montage permet de parcourir les fichiers de cette partition.
 >
-> Click on the <i class="fa fa-align-left"></i> icon to display the device script log.  This is the log specific to the device script.
+> Cliquez sur l'icône <i class="fa fa-align-left"></i> pour afficher le journal du script de disque. Il s'agit du journal spécifique au script de disque.
 >
-> Click on the <i class="fa fa-check"></i> icon to perform a file system check.  BTRFS and ZFS file systems need to be mounted to do a file check.  The file check on BTRFS and ZFS file systems is a scrub.
+> Cliquez sur l'icône <i class="fa fa-check"></i> pour effectuer une vérification du système de fichiers. Les systèmes de fichiers BTRFS et ZFS doivent être montés pour effectuer un contrôle des fichiers. Le contrôle des fichiers sur les systèmes de fichiers BTRFS et ZFS est un nettoyage.
 >
-> Click on the <i class="fa fa-flash"></i> icon to run your device script as if it was hot plugged.  This only applies to disk devices.
+> Cliquez sur l'icône <i class="fa fa-flash"></i> pour exécuter le script de votre périphérique comme s'il était branché à chaud. Cela ne s'applique qu'aux périphériques de disque.
 :end
 
 :unassigned_devices_general_help_plug:
@@ -205,37 +205,37 @@ You will need to enter credentials to list the shares=Vous devrez entrez des ide
 :end
 
 ; Note: February 10, 2024 - 34 missing translations
-An XFS, BTRFS, or ZFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=
-Changing the Mount Point will also change the disk label on all disks and the pool name on a ZFS disk=
-Clear=
-Encrypt CIFS Mount=
-Enter the server name and it will be added to the local DNS names and will then resolve by name=
-Exclusive Share files will not be accessible in a Root Share=
-failed to=
-Historical Device is=
-If the IP address of the server shows in the list after searching, your DNS server is not resolving the name=
-If shares do not show, check your credentials=
-Invalid Configuration - Remove and Re-add=
-is offline=
-Not Enabled=
-offline=
-User Shares without Pools=
-Partition=
-Passed=
-Passed Through=
-Pool=
-Preclear=
-Remote Server is=
-Remote Shares=
-Remote share mounts are dependent on a solid and reliable network connection and that can be difficult to achieve=
-Search for Servers, or enter the Server name or IP address manually=
-Select the Root Share=
-Serial Number Mount Point=Serial Number (Mount Point)
-Unassigned Devices=
-Unassigned Disks=
-User Shares without Pools=
-User Shares - allow access to User Shares, including Cache and Pool files=
-User Shares without Pools - allow access to User Shares, but the Root Share will not include Cache and Pool files=
-Working=
-ZFS Pool Name=
-ZFS Volume=
+An XFS, BTRFS, or ZFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=Un disque XFS, BTRFS ou ZFS partitionné via UD est compatible avec le partitionnement des disques de la baie et peut être ajouté à la baie
+Changing the Mount Point will also change the disk label on all disks and the pool name on a ZFS disk=La modification du point de montage entraîne également la modification du nom de volume du disque sur tous les disques et du nom du pool sur un disque ZFS
+Clear=Effacer
+Encrypt CIFS Mount=Chiffrer le montage CIFS
+Enter the server name and it will be added to the local DNS names and will then resolve by name=Saisissez le nom du serveur, il sera ajouté aux noms DNS locaux et sera ensuite résolu par nom
+Exclusive Share files will not be accessible in a Root Share=Les fichiers d'un partage exclusif ne seront pas accessibles dans un partage racine
+failed to=n'a pas réussi à
+Historical Device is=L'appareil historique est
+If the IP address of the server shows in the list after searching, your DNS server is not resolving the name=Si l'adresse IP du serveur apparaît dans la liste après la recherche, alors votre serveur DNS ne résout pas le nom
+If shares do not show, check your credentials=Si les partages ne s'affichent pas, vérifiez vos informations d'identification
+Invalid Configuration - Remove and Re-add=Configuration invalide - Supprimer et ajouter à nouveau
+is offline=est hors ligne
+Not Enabled=Pas activé
+offline=hors ligne
+User Shares without Pools=Partages Utilisateur sans Pools
+Partition=Partition
+Passed=Approuvé
+Passed Through=Transféré
+Pool=Pool
+Preclear=Pré-Inistialisation
+Remote Server is=Le serveur distant est
+Remote Shares=Partages distants
+Remote share mounts are dependent on a solid and reliable network connection and that can be difficult to achieve=Les montages de partages distants dépendent d'une connexion réseau solide et fiable, ce qui peut s'avérer difficile
+Search for Servers, or enter the Server name or IP address manually=Recherche de serveurs ou saisie manuelle du nom du serveur ou de l'adresse IP
+Select the Root Share=Sélectionner le partage racine
+Serial Number Mount Point=Numéro de série (point de montage)
+Unassigned Devices=Périphériques non attribués
+Unassigned Disks=Disques non attribués
+User Shares without Pools=Partages Utilisateurs sans Pool
+User Shares - allow access to User Shares, including Cache and Pool files=Partages Utilisateurs - autorise l'accès aux partages Utilisateurs, y compris les fichiers de Cache et de Pool
+User Shares without Pools - allow access to User Shares, but the Root Share will not include Cache and Pool files=Partages Utilisateurs sans Pools - autorise l'accès aux Partages Utilisateurs, mais le partage racine ne comprendra pas les fichiers de Cache et de Pool
+Working=En cours d'exécution
+ZFS Pool Name=Nom du Pool ZFS
+ZFS Volume=Volume ZFS
