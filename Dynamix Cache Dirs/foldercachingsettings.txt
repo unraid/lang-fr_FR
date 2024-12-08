@@ -2,12 +2,10 @@ Adaptive=Adaptatif
 Cache pressure of directories on system=Pression du cache des répertoires sur le système
 Check HELP for filter example=Consultez AIDE pour un exemple de filtre
 Disk Idle Timer=Minuteur d'inactivité du disque
-Excluded folders=Dossiers exclus
 Folder caching function=Fonction de mise en cache des dossiers
 for adaptive depth=pour une profondeur adaptative
 Important - check HELP if disks spin up=Important - vérifiez l'AIDE si les disques tournent
 Included folders=Dossiers inclus
-Limit the memory available to the shell in which the script runs increase if it dies=Limiter la mémoire disponible au shell dans lequel le script s'exécute (augmenter s'il meurt)
 Logging=Journalisation
 Maximum interval between folder scans=Intervalle maximum entre les analyses de dossiers
 Maximum level depth=Profondeur de niveau maximale
@@ -15,9 +13,6 @@ Minimum interval between folder scans=Intervalle minimum entre les analyses de d
 Minimum level depth=Profondeur de niveau minimale
 or see=ou voir
 Run scan of each disk in a separate thread=Exécuter l'analyse de chaque disque dans un thread séparé
-Scan timeout for a scan during disk-idle period=Délai d'expiration de l'analyse pour une analyse pendant la période d'inactivité du disque
-Scan timeout for a scan during initial startup or less-idle period=Délai d'attente d'analyse pour une analyse lors du démarrage initial ou d'une période d'inactivité moindre
-Scan timeout for a scan when all directories have been succesfully cached=Délai d'expiration de l'analyse pour une analyse lorsque tous les répertoires ont été mis en cache avec succès
 Scan user shares mntuser=Analyser les partages utilisateur (/mnt/user)
 Suspend during Mover process=Suspendre pendant le processus « Mover »
 unlimited=illimité
@@ -148,3 +143,9 @@ User defined options=Options définies par l'utilisateur
 > <span class="strong orange-text">-a '-noleaf -name .Recycle.Bin -prune -o -name log -prune -o -name temp -prune -o -print'</span>
 > <span class="strong orange-text">-a '-noleaf -name .Recycle.Bin -prune -o -name log -prune -o -name temp -prune -o -print'</span>
 :end
+
+; Note: December 8, 2024 - 4 missing translations
+Memory available to the cache_dirs script increase if it dies=Memory available to the cache_dirs script (increase if it dies)
+Timeout during disk-idle period=
+Timeout during initial startup or less-idle period=
+Timeout when all directories have been cached=

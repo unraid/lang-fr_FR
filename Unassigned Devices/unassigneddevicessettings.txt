@@ -105,6 +105,14 @@ Unassigned Devices=Unassigned Devices
 > A value of **Forced lower** is special: the case of all incoming client filenames, not just new filenames, will be set to lower-case. In other words, no matter what mixed case name is created on the Windows side, it will be stored and accessed in all lower-case. This ensures all Windows apps will properly find any file regardless of case, but case will not be preserved in folder listings.
 :end
 
+:ud_time_machine_plug:
+> Set to **Yes** to enable Time Machine settings on the SMB shares.
+:end
+
+:ud_time_machine_vol_size_plug:
+> This limits the reported volume size, preventing Time Machine from using the entire real disk space for backup. For example, setting this value to "1024" would limit the reported disk space to 1GB.
+:end
+
 :ud_settings_force_user_plug:
 > There are times when permissions on SMB shares aren't handled as expected.  Turning this feature on can help with those permissions.
 > This applies to all devices mounted with Unassigned Devices.
@@ -115,8 +123,8 @@ Unassigned Devices=Unassigned Devices
 > Set to **Yes** to export Unassigned Devices with NFS sharing. Shares are exported Public with read and write access or Private with the rule you set. Access is controlled with permission settings on files and folders.
 :end
 
-:ud_settings_nfs_shares_plug:
-> Set to **Yes** to export NFS shares.  Shares are exported Public with read and write access or Private with the rule you set.  Access is controlled with permission settings on files and folders.
+:ud_settings_nfs_rules_plug:
+> **Note:** The normal rule used by UD is '*(rw,sec=sys,insecure,anongid=100,anonuid=99,no_root_squash)'.
 :end
 
 :ud_settings_disk_pass_plug:
@@ -131,9 +139,31 @@ Unassigned Devices=Unassigned Devices
 > Select the disk that you want to upgrade to the latest ZFS version. Drive must be mounted to upgrade ZFS.
 :end
 
-; Note: June 18, 2023 - 16 missing translations
+:ud_remote_server_test_plug:
+> Remote Servers need to have SMB and/or NFS enabled.  This will check that the SMB and/or NFS ports are open.  The 'showmount -e <server>' command on Unraid must also show NFS mounts available.
+> For SMB to be considered online, the Remote Server has to have the SMB port open.
+> For NFS to be considered online, the Remote Server has to have the NFS port open and the 'showmount -e' command has to show NFS shares.
+> There can be a case where the port is open and 'showmount -e' doesn't show NFS shares and NFS will not work.
+> If showmount does not return any NFS shares on a reachable remote server like a Synology, it generally means one of the following:
+> No NFS Shares Exported:
+> The server might not have any directories configured for NFS export. Check the NFS configuration on the Synology device and ensure that folders intended for NFS sharing are explicitly exported.
+> Access Restrictions:
+> NFS shares may be configured with IP-based access restrictions. Synology devices allow you to specify which IP addresses or networks can access each NFS share. If your IP address is not allowed, the NFS share will not appear in showmount output.
+> NFS Service Not Enabled:
+> The NFS service on the Synology might not be enabled. Verify this in the Synology DSM settings under Control Panel > File Services > NFS. Enable NFS if it is currently disabled.
+> Firewall or Network Configuration:
+> The Synology device may have firewall rules blocking the showmount request or the required RPC communication. Ensure that the firewall settings allow traffic on NFS-related ports (typically 2049 for NFS and 111 for RPC).
+> Synology Export Options:
+> The Synology NFS settings can sometimes require enabling Enable NFS at the top level and specifying Allow NFSv3 if you are using clients that expect NFSv3. Check Control Panel > File Services > NFS to ensure proper configuration.
+> By ensuring that NFS is enabled, configured with the correct permissions, and exported directories are allowed for your client IP, showmount should list the available exports.
+:end
+
+; Note: December 8, 2024 - 30 missing translations
+Case-sensitive names=
 Command times=
 Disabled=
+Enable Time Machine=
+Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the Result text area=Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the **Result** text area
 Enter Pool Mount Point=
 NFS must be enabled in Settings->NFS to enable NFS Export=
 NFS Version to use when Mounting Remote Shares=
@@ -142,9 +172,20 @@ Private=
 Private Hidden=
 Refresh and Update=
 Remote Share Mount Wait Time=
-SMB Settings=
+See Help=
 Set Pool Mount Point=
 Set the Pool Mount Point for this disk=
+SMB Settings=
+SMB Sharing=
+Test=
+Testing=
+Test the Remote Server=
+This is a tool to help troubleshoot Remote Servers ability to serve SMB and NFS shares=
+Time Machine volume size limit=
 Udev and Hotplug=
 Unraid 6.10 or later is required for NFSv4 support=
+Upgrade ZFS Pool=
 Use only when directed for support because the messages can flood the log=
+Warning=
+Windows may require a valid User to be defined even for Public shares=
+Working=

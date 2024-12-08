@@ -19,6 +19,8 @@ Cannot get list of open files=Ne peut obtenir la liste des fichiers ouverts
 >Cliquez sur **Processus**, **ID Processus**, **Fichiers pouvant empêcher l'extinction** ou **Nom de Fichier et Chemin d'Accès' pour changer l'ordre de tri.
 :end
 
-; Note: February 10, 2024 - 2 missing translations
+; Note: December 8, 2024 - 4 missing translations
+Enable Kill Button=
+Kill this Process holding files open=
 Open=
 May prevent shutdown=

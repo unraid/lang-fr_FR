@@ -13,6 +13,7 @@ Backup Server Active Some icons may not appear, and plugin installations may be 
 Debugging enabled This significantly increases the memory used by your browser=Débogage activé cela augmente considérablement la mémoire utilisée par votre navigateur
 Browser translation detected Display issues may result=Traduction par navigateur détectée Des problèmes d'affichage peuvent survenir
 Action Centre Enabled=Centre d'action activé
+Deprecated OS version No further updates to Community Applications will be issued for this OS version=Version du système d'exploitation obsolète. Aucune autre mise à jour des applications communautaires ne sera publiée pour cette version du système d'exploitation.
 
 ; Sorting Options
 Sort By=Trier par
@@ -41,6 +42,7 @@ Install Plugin Applications=Installer les Application de Plugins
 Select all on page=Sélectionner tout sur la page
 Install Application=Installer l'application
 Install Applications=Installer les applications
+Update Application=Mise à jour de l'application
 Update Applications=Mise à jour des applications
 Are you sure you want to update %s applications=Etes-vous sûr de vouloir mettre à jour %s applications
 Are you sure you want to install %s docker and %s plugin applications=Êtes-vous sûr de vouloir installer %1$s docker et %2$s plugins ?
@@ -91,6 +93,7 @@ Update Plugin=Mettre à jour le plugin
 
 Requirements not met=Configuration requise non respectée
 The requirements for this upgrade have not been met on your system=Les conditions requises pour cette mise à jour n'ont pas été remplies sur votre système
+The sidebar for the app click info will list the details=La barre latérale de l'application (cliquez sur info) affichera les détails
 
 BACK=RETOUR
 
@@ -145,8 +148,19 @@ This usually means your flash drive is corrupted or has dropped offline The rest
 Fatal Docker Image Error=Erreur fatale d'image Docker
 Your docker image or folder is either read-only or completely full Issues will result because of this You should create a new post in the Unraid forums and include your diagnostics=Votre image ou dossier docker est soit en lecture seule, soit complètement plein. Des problèmes en résulteront. Vous devez créer un nouveau message dans les forums Unraid et inclure vos diagnostics
 This template is set up to use a custom network You may have to adjust the network or IP address etc to match your system=Ce modèle est configuré pour utiliser un réseau personnalisé. Vous devrez peut-être ajuster le réseau ou l'adresse IP, etc. pour correspondre à votre système
+This template is set up to run as Privileged This is a possible security risk and usually does not need to be enabled Note that some applications require privileged in order to operate correctly=Ce modèle est configuré pour fonctionner en mode Privilégié. Il s'agit d'un risque de sécurité potentiel et il n'est généralement pas nécessaire de l'activer. Notez que certaines applications requièrent des privilèges pour fonctionner correctement
 One or more ports used by this application are already in use by another service or app running on your server You will need to adjust the host ports accordingly on the template=Un ou plusieurs ports utilisés par cette application sont déjà utilisés par un autre service ou une autre application fonctionnant sur votre serveur. Vous devrez ajuster les ports hôtes en conséquence sur le modèle
 Not Enough Memory=Pas assez de mémoire
+Community Applications and Unraid OS have a minimum required installed memory of 4G CA cannot run without those mimimums being met=Les applications communautaires (CA) et le système d'exploitation Unraid nécessitent un minimum de 4Go de mémoire installée. Community Applications ne peut pas fonctionner si ce minimum n'est pas respecté
+Run Anyways=Exécuter malgré tout
+Memory Requirements not met Problems may result=Mémoire requise non respectée. Des problèmes peuvent survenir
+Installation already in progress=L'installation est déjà en cours
+Another plugin installation or update is already in progress and this one cannot start Wait until the current installation or update is completed and try again=L'installation ou la mise à jour d'un autre plugin est déjà en cours et celle-ci ne peut pas démarrer. Attendez que l'installation ou la mise à jour en cours soit terminée et réessayez
+%s is incompatible with your OS version Please update the OS to proceed=%s est incompatible avec la version de votre système d'exploitation. Veuillez mettre à jour le système d'exploitation pour continuer
+%s is incompatible with your OS version Either uninstall %s or update the OS=%s est incompatible avec la version de votre système d'exploitation. Désinstallez %s ou mettez à jour le système d'exploitation
+Browser failed to communicate with Unraid Server=Le navigateur n'a pas réussi à communiquer avec le serveur Unraid
+For unknown reasons, your browser was unable to communicate with Community Applications running on your server=Pour des raisons inconnues, votre navigateur n'a pas pu communiquer avec Community Applications fonctionnant sur votre serveur
+Attempt to Fix Via Reload Page=Tentative de correction en rechargant la page
 
 ; CA Sections Keep the length reasonable
 Home=Accueil
@@ -221,6 +235,7 @@ Check out these newly added applications from our awesome community=Découvrer c
 Check out these up and coming apps=Découvrer ces apps à venir
 These apps have the highest percentage of new installs=Ces apps ont le pourcentage le plus élevé de nouvelles installations
 An assortment of randomly chosen apps=Un assortiment d'apps choisies au hasard
+Featured Applications=Applications en vedette
 
 ; Categories try not to be excessively long This is displayed on the left of CA screen
 
@@ -308,6 +323,7 @@ Current Version=Version Actuelle
 Min OS=SE Minimal
 Max OS=SE Maximum
 Total Downloads=Total de Téléchargements
+Popularity=Popularité
 Licence=Licence
 Ranked #%s=Coté #%s
 ; as in Trending up or down arrow
@@ -325,7 +341,6 @@ Install=Installer
 Uninstall=Désinstaller
 Project=Projet
 Read Me First=Lisez-moi d'abord
-Install second instance=Installer la deuxième instance
 Install Using The Templates Default Tag=Installer à l'aide de la balise par défaut des modèles
 Moderator Comments=Commentaires du Modérateur :
 Note not all authors keep up to date on change logs=Notez que tous les auteurs ne sont pas à jour sur les journaux de modifications
@@ -362,6 +377,7 @@ Docker Application Installation finished=Installation de l'Application Docker te
 ; Application Cards
 Actions=Actions
 Pending=En attente
+This application is a driver plugin=Cette application est un pilote (plugin)
 This is a language pack=Ceci est un pack de langue
 This application is a docker container=Cette application est un conteneur docker
 This application is a plugin=Cette application est un plugin
@@ -440,21 +456,8 @@ An error occurred - Could not determine configuration=Une erreur s'est produite 
 Click Install to download and install the Community Applications plugin=Cliquez sur **Install** pour télécharger et installer le **Community Applications** plugin
 
 
-; Note: February 10, 2024 - 17 missing translations
-Deprecated OS version No further updates to Community Applications will be issued for this OS version=Version du système d'exploitation obsolète. Aucune autre mise à jour des applications communautaires ne sera publiée pour cette version du système d'exploitation.
-Update Application=Mise à jour de l'application
-The sidebar for the app click info will list the details=La barre latérale de l'application (cliquez sur info) affichera les détails
-This template is set up to run as Privileged This is a possible security risk and usually does not need to be enabled Note that some applications require privileged in order to operate correctly=Ce modèle est configuré pour fonctionner en mode Privilégié. Il s'agit d'un risque de sécurité potentiel et il n'est généralement pas nécessaire de l'activer. Notez que certaines applications requièrent des privilèges pour fonctionner correctement
-Community Applications and Unraid OS have a minimum required installed memory of 4G CA cannot run without those mimimums being met=Les applications communautaires (CA) et le système d'exploitation Unraid nécessitent un minimum de 4Go de mémoire installée. Community Applications ne peut pas fonctionner si ce minimum n'est pas respecté
-Run Anyways=Exécuter malgré tout
-Memory Requirements not met Problems may result=Mémoire requise non respectée. Des problèmes peuvent survenir
-Installation already in progress=L'installation est déjà en cours
-Another plugin installation or update is already in progress and this one cannot start Wait until the current installation or update is completed and try again=L'installation ou la mise à jour d'un autre plugin est déjà en cours et celle-ci ne peut pas démarrer. Attendez que l'installation ou la mise à jour en cours soit terminée et réessayez
-%s is incompatible with your OS version Please update the OS to proceed=%s est incompatible avec la version de votre système d'exploitation. Veuillez mettre à jour le système d'exploitation pour continuer
-%s is incompatible with your OS version Either uninstall %s or update the OS=%s est incompatible avec la version de votre système d'exploitation. Désinstallez %s ou mettez à jour le système d'exploitation
-Browser failed to communicate with Unraid Server=Le navigateur n'a pas réussi à communiquer avec le serveur Unraid
-For unknown reasons, your browser was unable to communicate with Community Applications running on your server=Pour des raisons inconnues, votre navigateur n'a pas pu communiquer avec Community Applications fonctionnant sur votre serveur
-Attempt to Fix Via Reload Page=Tentative de correction en rechargant la page
-Featured Applications=Applications en vedette
-Popularity=Popularité
-This application is a driver plugin=Cette application est un pilote (plugin)
+; Note: December 8, 2024 - 4 missing translations
+Clear Flag=
+External Link=
+Clicking OK will take you to a 3rd party website not associated with Limetech=
+Install another instance=
