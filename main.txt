@@ -26,6 +26,7 @@ btrfs scrub status=statut du scrub btrfs
 cache - Cache Devices=cache - Disques de cache
 Canceled=Annulé
 Cannot contact key-server Please check your=Impossible de contacter le serveur de clé. Veuillez vérifier votre
+Caution=**Caution**
 Capabilities not available=Fonctionnalités non disponibles
 Capabilities=Capacités
 Check Filesystem Status=Status du contrôle du système de fichier
@@ -393,11 +394,10 @@ System in sleep mode=Système en mode veille
 This will put the system in sleep mode=Cela mettra votre système en veille
 wiki entry=entrée wiki
 
-; Note: December 8, 2024 - 15 missing translations
+; Note: December 8, 2024 - 14 missing translations
 After renaming the pool, check that your shares are assigned to the proper primary and secondary storage locations=
 After upgrading the volume may not be mountable in previous versions of Unraid=
 btrfs filesystem usage=
-Caution=**Caution**
 Dirty log detected=
 File system corruption detected=
 Fix=
