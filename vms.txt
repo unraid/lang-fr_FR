@@ -220,7 +220,7 @@ Windows 82012, newer Linux distros=Windows 8/2012, nouvelles distros Linux
 wsport for virtual console=wsport pour la console virtuelle
 XML View=Vue XML
 
-; Note: December 29, 2024 - 45 missing translations
+; Note: December 29, 2024 - 46 missing translations
 CreateModify Template=Create/Modify Template
 Discard=
 Disk devicesVolume=Disk devices/Volume
@@ -247,6 +247,7 @@ Network IO=
 No GPU=
 Other XML=
 Pop-up Blocker is enabled Please add this site to your exception list=Pop-up Blocker is enabled! Please add this site to your exception list
+Rename disabled, %s snapshots exists=Rename disabled, %s snapshot(s) exists
 Remove all files=
 Remove User Template=
 Repeat=
