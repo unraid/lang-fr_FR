@@ -80,7 +80,7 @@ User Shares=Dossiers Partagés
 Write=Écriture
 You cannot use the following within share names=Vous ne pouvez pas utiliser ce qui suit dans un nom de dossier partagé
 
-; Note: December 28, 2024 - 11 missing translations
+; Note: April 21, 2025 - 12 missing translations
 Free Space will be calculated=
 is missing=
 it references storage that does not exist=
@@ -88,6 +88,7 @@ It references storage that does not exist=
 Share is empty and is safe to delete=
 Share must be empty to be deleted=
 There are no mountable array or pool disks - cannot add shares=
+There are no mounted array or pool disks - cannot add shares=
 This share is invalid=
 Unknown cache usage=
 Unknown protection status=

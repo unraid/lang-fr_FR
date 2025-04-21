@@ -174,7 +174,7 @@ W=Semaine
 Warnings=Alertes
 ZFS=ZFS
 
-; Note: December 29, 2024 - 24 missing translations
+; Note: April 21, 2025 - 25 missing translations
 checking=
 Clock is synchronized using %s NTP servers, time offset is %s %s=
 Clock is synchronized using %s PTP server, time offset is %s %s=
@@ -191,6 +191,7 @@ master=
 Memory dump=
 No VMs running=
 RX=
+Share count %s with %s public SMB and %s public NFS=Share count: %s with %s public SMB and %s public NFS
 ShowHide All Content=Show/Hide All Content
 ShowHide Content=Show/Hide Content
 SMART errors=
