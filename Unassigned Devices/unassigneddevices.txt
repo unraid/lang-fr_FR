@@ -229,7 +229,7 @@ ZFS Volume=Volume ZFS
 > Soyez prudent en utilisant la désignation /dev/sdX car elle peut changer après un redémarrage.
 :end
 
-; Note: December 8, 2024 - 22 missing translations
+; Note: April 21, 2025 - 23 missing translations
 All Unassigned Devices configurations will be updated=
 All disks will be refreshed using udev=
 Check the syslog for details=
@@ -240,7 +240,8 @@ Historical Unassigned Devices=
 If SMB shares do not show, check your credentials=
 No script file to execute=
 Remote Shares online status will be reset=
-Script is already runningSearch For Servers=
+Script is already running=
+Search For Servers=
 Script Log=
 Serial Number Mount Point=Serial Number (Mount Point)
 Show/Hide Historical Unassigned Devices=

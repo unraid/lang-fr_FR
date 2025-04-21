@@ -16,9 +16,12 @@ Enable developer mode=Activer le mode développeur
 This unlocks some extra features within CA generally only used by developers Not recommended to enable=Cela débloque certaines fonctionnalités supplémentaires dans CA généralement utilisées uniquement par les développeurs Il n'est pas recommandé d'activer
 Support Thread=Fil de Support
 
-; Note: December 8, 2024 - 5 missing translations
-Allow installation of multiple instances=
+; Note: April 21, 2025 - 8 missing translations
+Allow install of second instance=
 Automatically open the sidebar=
 Allows CA to automatically open the sidebar for more information when hovering over an application's icon=
 Disable Mouse Wheel Page Changes=
 This setting disables using left or right on a mouse wheel to change the page=
+Mouse wheel threshold=
+If you tilt the mouse wheel left or right, the browser returned value will change Set the threshold to the value returned Note that different browsers and operating systems may return different values=
+This is a global value for all devices If it causes issues, then disable Mouse Wheel Page Changes=
