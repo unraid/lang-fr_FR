@@ -73,6 +73,7 @@ Language=Langue
 Log file cleared=Fichier journal effacé
 Log size=Taille du journal
 LOG size=Taille du journal
+Log Viewer new=Log Viewer (new)
 Missing Key File=Fichier de clé manquant
 Missing Language=Langue manquante
 Modprobed config file=Fichier de configuration Modprobe.d
@@ -346,6 +347,3 @@ ou si nous découvrons que le numéro de série n'est pas unique (ceci est commu
 
 Pour plus d'informations, veuillez [Contacter le Support](https://lime-technology.com/contact).
 :end
-
-; Note: April 21, 2025 - 1 missing translations
-Log Viewer new=Log Viewer (new)
